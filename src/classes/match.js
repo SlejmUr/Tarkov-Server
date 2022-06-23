@@ -1,4 +1,5 @@
 "use strict";
+const { AccountServer } = require('./account');
 
 class MatchServer {
     constructor() {
@@ -41,7 +42,7 @@ class MatchServer {
     }
 
     getMatch(location) {
-        return { "id": "TEST", "ip": "127.0.0.1", "port": 5000 };
+        return { "id": "TEST", "ip": "127.0.0.1", "port": 443 };
     }
 
     joinMatch(info, sessionID) {
@@ -50,7 +51,7 @@ class MatchServer {
 
         // --- LOOP (DO THIS FOR EVERY PLAYER IN GROUP)
         // get player profile
-        let account = account_f.handler.find(sessionID);
+        let account = AccountServer.find(sessionID);
         let profileID = "";
 
         if (info.savage === true) {
@@ -60,7 +61,7 @@ class MatchServer {
         }
         //match.port
         // get list of players joining into the match
-        output.push({ "profileid": profileID, "status": "busy", "sid": "", "ip": match.ip, "port": 5000, "version": "live", "location": info.location, "gamemode": "deathmatch", "shortid": match.id });
+        output.push({ "profileid": profileID, "status": "busy", "sid": "", "ip": match.ip, "port": match.port, "version": "live", "location": info.location, "gamemode": "deathmatch", "shortid": match.id });
         // ---
 
         return output;
