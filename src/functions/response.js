@@ -454,7 +454,7 @@ class Responses {
     return response_f.nullResponse();
   }
   clientGetMetricsConfig(url, info, sessionID) {
-    return response_f.getBody(_database.core.matchMetrics);
+    return response_f.getBody(global._database.core.matchMetrics); //this may fix the coop
   }
   clientGlobals(url, info, sessionID) {
     return response_f.getBody(globals_f.getGlobals(url, info, sessionID));
