@@ -208,7 +208,9 @@ class BotsController {
     bot.Info.Level = levelResult.level;
 
     if (bot.Info.Side.toLowerCase() == "usec"
-      || bot.Info.Side.toLowerCase() == "bear") {
+      || bot.Info.Side.toLowerCase() == "bear"
+      || loweredRole == "pmcbot"
+      ) {
       bot = bots_f.botHandler.generateDogtag(bot);
     }
 

@@ -1,5 +1,6 @@
 "use strict";
 const { logger } = require('../../core/util/logger');
+const { InsuranceController } = require('../Controllers/InsuranceController');
 const utility = require('./../../core/util/utility');
 
 class InraidServer {
@@ -392,7 +393,8 @@ function saveProgress(offraidData, sessionID) {
   const preRaidGear = getPlayerGear(pmcData.Inventory.items);
 
   if (insuranceEnabled) {
-    insurance_f.handler.storeLostGear(pmcData, offraidData, preRaidGear, sessionID);
+    // insurance_f.handler.storeLostGear(pmcData, offraidData, preRaidGear, sessionID);
+    InsuranceController.storeLostGear(pmcData, offraidData, preRaidGear, sessionID);
   }
   if (offraidData.exit === "survived") {
     let exfils = profile_f.handler.getProfileExfilsById(sessionID);
@@ -401,7 +403,8 @@ function saveProgress(offraidData, sessionID) {
   }
   if (offraidData.exit !== "survived" && offraidData.exit !== "runner") {
     if (insuranceEnabled) {
-      insurance_f.handler.storeDeadGear(pmcData, offraidData, preRaidGear, sessionID);
+      // insurance_f.handler.storeDeadGear(pmcData, offraidData, preRaidGear, sessionID);
+      InsuranceController.storeLostGear(pmcData, offraidData, preRaidGear, sessionID);
     }
     pmcData = deleteInventory(pmcData, sessionID);
 

@@ -13,7 +13,7 @@ class DialogueServer {
   initializeDialogue(sessionID) {
     // Check if the profile file exists
     if (!global.internal.fs.existsSync(getPath(sessionID))) {
-      logger.logError(`[CLUSTER] Dialogue file for session ID ${sessionID} not found.`);
+      logger.logError(`Dialogue file for session ID ${sessionID} not found.`);
       return false;
     }
 
@@ -24,7 +24,7 @@ class DialogueServer {
     let stats = global.internal.fs.statSync(getPath(sessionID));
     this.dialogueFileAge[sessionID] = stats.mtimeMs;
 
-    logger.logSuccess(`[CLUSTER] Loaded dialogues for AID ${sessionID} successfully.`);
+    logger.logSuccess(`Loaded dialogues for AID ${sessionID} successfully.`);
   }
 
   freeFromMemory(sessionID) {
@@ -49,7 +49,7 @@ class DialogueServer {
         // Reset the file age for the sessions dialogues.
         let stats = global.internal.fs.statSync(getPath(sessionID));
         this.dialogueFileAge[sessionID] = stats.mtimeMs;
-        logger.logWarning(`[CLUSTER] Dialogues for AID ${sessionID} were modified elsewhere. Dialogue was reloaded successfully.`)
+        logger.logWarning(`Dialogues for AID ${sessionID} were modified elsewhere. Dialogue was reloaded successfully.`)
       }
     }
   }
@@ -73,7 +73,7 @@ class DialogueServer {
             // Reset the file age for the sessions dialogues.
             let stats = global.internal.fs.statSync(getPath(sessionID));
             this.dialogueFileAge[sessionID] = stats.mtimeMs;
-            logger.logSuccess(`[CLUSTER] Dialogues for AID ${sessionID} was saved.`);
+            logger.logSuccess(`Dialogues for AID ${sessionID} was saved.`);
           }
         } else {
           //Load saved dialogues from disk.
@@ -82,7 +82,7 @@ class DialogueServer {
           // Reset the file age for the sessions dialogues.
           let stats = global.internal.fs.statSync(getPath(sessionID));
           this.dialogueFileAge[sessionID] = stats.mtimeMs;
-          logger.logWarning(`[CLUSTER] Dialogues for AID ${sessionID} were modified elsewhere. Dialogue was reloaded successfully.`)
+          logger.logWarning(`Dialogues for AID ${sessionID} were modified elsewhere. Dialogue was reloaded successfully.`)
         }
       } else {
         // Save the dialogues stored in memory to disk.
@@ -91,7 +91,7 @@ class DialogueServer {
         // Reset the file age for the sessions dialogues.
         let stats = global.internal.fs.statSync(getPath(sessionID));
         this.dialogueFileAge[sessionID] = stats.mtimeMs;
-        logger.logSuccess(`[CLUSTER] Dialogues for AID ${sessionID} was created and saved.`);
+        logger.logSuccess(`Dialogues for AID ${sessionID} was created and saved.`);
       }
     }
   }

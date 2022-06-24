@@ -31,7 +31,7 @@ class ProfileServer {
     try {
       // Check if the profile file exists
       if (!global.internal.fs.existsSync(getPmcPath(sessionID))) {
-        logger.logError(`[CLUSTER] Profile file for session ID ${sessionID} not found.`);
+        logger.logError(`Profile file for session ID ${sessionID} not found.`);
         return false;
       }
 
@@ -50,16 +50,16 @@ class ProfileServer {
     } catch (e) {
       if (e instanceof SyntaxError) {
         return logger.logError(
-          `[CLUSTER] There is a syntax error in the character.json file for AID ${sessionID}. This likely means you edited something improperly. Call stack: \n${e.stack}`
+          `There is a syntax error in the character.json file for AID ${sessionID}. This likely means you edited something improperly. Call stack: \n${e.stack}`
         );
       } else {
         logger.logData(sessionID);
-        logger.logError(`[CLUSTER] There was an issue loading the user profile with session ID ${sessionID}. Call stack:`);
+        logger.logError(`There was an issue loading the user profile with session ID ${sessionID}. Call stack:`);
         logger.logData(e);
         return;
       }
     }
-    logger.logSuccess(`[CLUSTER] Loaded profile for AID ${sessionID} successfully.`);
+    logger.logSuccess(`Loaded profile for AID ${sessionID} successfully.`);
   }
 
   /**

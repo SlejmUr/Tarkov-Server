@@ -23,7 +23,7 @@ ConfigController.rebuildFromBaseConfigs();
 
 
 // const serverBaseConfig = fs.readFileSync(process.cwd() + "/user/configs/server.json");
-const serverBaseConfig = ConfigController.Configs["server_base"];
+// const serverBaseConfig = ConfigController.Configs["server_base"];
 
 /** ======================================================================================================
  * Read in the Server Config as to whether to spin up the Http Server for NodeJS running on Cloud Services
@@ -39,14 +39,19 @@ app.set('port', port);
 //  */
 const certs = certificate.generate(serverConfig.ip);
 
-
 const httpsServer = https.createServer({
   key: certs.key,
   cert: certs.cert
 }, app);
 
-const io = require('socket.io')(server,{
+const io = require('socket.io')(httpsServer,{
   perMessageDeflate :false
+});
+io.on('connection', (socket) => {
+  console.log('a user connected');
+  socket.on('disconnect', () => {
+    console.log('user disconnected');
+  });
 });
 
 /** ======================================================================================================
@@ -61,17 +66,24 @@ if(serverConfig.runSimpleHttpServer === true) {
   server.listen(8080, ()=>{
   });
 }
-// else {
-  httpsServer.on('error', onError);
-  httpsServer.on('listening', () => { console.log("HTTPS Server listening on " + httpsServer.address().address + ":" + httpsServer.address().port) });
-  httpsServer.listen(port, serverIp, ()=>{
-  });
-// }
 
+/** ======================================================================================================
+ * Https Server running on whatever port determined by outcome above
+ */
+// const wsServer = new ws.Server({ noServer: true });
+// wsServer.on('connection', socket => {
+//   socket.on('message', message => console.log(message));
+// });
 
-
-
-
+httpsServer.on('error', onError);
+httpsServer.on('listening', () => { console.log("HTTPS Server listening on " + httpsServer.address().address + ":" + httpsServer.address().port) });
+// httpsServer.on('upgrade', (request, socket, head) => {
+//   wsServer.handleUpgrade(request, socket, head, socket => {
+//     wsServer.emit('connection', socket, request);
+//   });
+// });
+httpsServer.listen(port, serverIp, ()=>{
+});
 
 // /**
 //  * Normalize a port into a number, string, or false.

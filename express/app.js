@@ -169,6 +169,11 @@ function handleRoute(req, res, Route) {
     }
 
     if(!_responseCallbackOccurred) {
+      if(typeof(routedData) != "string" && typeof(routedData).toString() != "Byte")
+      {
+        
+      }
+
       zlib.deflate(routedData, (err, deflateData) => {
 
         // console.log(deflateData);
@@ -288,6 +293,12 @@ app.use(function(req, res, next) {
     for(const r in responseClass.dynamicResponses) {
       if (req.url.includes(r)) {
         handleRoute(req, res, responseClass.dynamicResponses[r]);
+        return;
+      }
+    }
+    for(const r in ResponseController.DynamicRoutes) {
+      if (req.url.includes(r.url)) {
+        handleRoute(req, res, r.action);
         return;
       }
     }

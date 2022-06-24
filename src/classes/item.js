@@ -1,5 +1,6 @@
 "use strict";
 
+const { InsuranceController } = require("../Controllers/InsuranceController");
 const { tradeHandler } = require("./trade");
 
 class ItemServer {
@@ -40,7 +41,8 @@ class ItemServer {
       HideoutToggleArea: hideout_f.toggleArea,
       HideoutUpgrade: hideout_f.upgrade,
       HideoutUpgradeComplete: hideout_f.upgradeComplete,
-      Insure: insurance_f.insure,
+      // Insure: insurance_f.insure,
+      Insure: InsuranceController.insure,
       Merge: move_f.mergeItem,
       Move: move_f.moveItem,
       QuestAccept: quest_f.acceptQuest,

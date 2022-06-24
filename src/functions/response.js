@@ -57,7 +57,7 @@ class Responses {
       "/client/mail/dialog/view": this.clientMailDialogView,
       "/client/match/available": this.clientMatchAvailable,
       "/client/match/exit": this.clientMatchExit,
-      "/client/match/group/create": this.clientMatchGroupCreate,
+      // "/client/match/group/create": this.clientMatchGroupCreate,
       "/client/match/group/delete": this.clientMatchGroupDelete,
       "/client/match/group/exit_from_menu": this.clientMatchGroupExit_From_Menu,
       "/client/match/group/invite/accept": this.clientMatchGroupInviteAccept,
@@ -123,14 +123,15 @@ class Responses {
       "singleplayer/settings/bot/limit": this.dynSingleplayerSettingsBotLimit,
       "singleplayer/settings/defaultRaidSettings": this.dynSingleplayerSettingsDefaultRaidSettings,
       "singleplayer/settings/weapon/durability": this.dynSingleplayerSettingsWeaponDurability,
-      "push/notifier/get": this.dynPushNotifierGet,
-      notifierBase: this.dynNotifierBase,
-      notifierServer: this.dynNotifierServer,
+      // "push/notifier/get": this.dynPushNotifierGet,
+      // notifierBase: this.dynNotifierBase,
+      // notifierServer: this.dynNotifierServer,
       "api/location": this.dynApiLocation,
       bundle: this.dynBundle,
       jpg: this.dynImageJpg,
       png: this.dynImagePng,
-      last_id: this.dynlast_id,
+      // last_id: this.dynlast_id,
+      
     };
   }
   //dynamic
@@ -193,12 +194,15 @@ class Responses {
     return "NOTIFY";
   }
   dynNotifierServer() {
+    console.log("dynNotifierServer");
     return "NOTIFY";
   }
   dynNotifierBase(url, info, sessionID) {
+    console.log("dynNotifierBase");
     return response_f.emptyArrayResponse();
   }
   dynPushNotifierGet(url, info, sessionID) {
+    console.log("dynPushNotifierGet");
     return response_f.emptyArrayResponse();
   }
   dynServerProfile(url, info, sessionID) {
