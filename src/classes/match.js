@@ -42,7 +42,7 @@ class MatchServer {
     }
 
     getMatch(location) {
-        return { "id": "TEST", "ip": "127.0.0.1", "port": 443 };
+        return { "id": "TEST", "ip": "127.0.0.1", "port": 7076 }; //Replace the IP to RADMIN or your ext public one. (Who run the EchoServer)
     }
 
     joinMatch(info, sessionID) {
@@ -61,7 +61,7 @@ class MatchServer {
         }
         //match.port
         // get list of players joining into the match
-        output.push({ "profileid": profileID, "status": "busy", "sid": "", "ip": match.ip, "port": match.port, "version": "live", "location": info.location, "gamemode": "deathmatch", "shortid": match.id });
+        output.push({ "profileid": profileID, "status": "busy", "sid": "", "ip": match.ip, "port": 7076, "version": "live", "location": info.location, "gamemode": "deathmatch", "shortid": match.id });
         // ---
 
         return output;
