@@ -7,7 +7,7 @@ xcopy "res" "Build/res/" /s/i/y
 xcopy "src" "Build/src/" /s/i/y
 xcopy "user" "Build/user/" /s/i/y
 
-
+::x
 del "Build/user/cache/" /s/q
 del "Build/user/certs/" /s/q
 del "Build/user/logs/" /s/q
