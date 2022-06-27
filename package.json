@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node bin/www.js",
     "generate-docs": "jsdoc -c jsdoc.json -r .",
-    "package": "pkg ."
+    "package": "pkg .",
+    "debug": "node bin/www.js --trace-warnings"
   },
   "dependencies": {
     "compression": "^1.7.4",
