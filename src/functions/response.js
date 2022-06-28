@@ -540,7 +540,7 @@ class Responses {
     return response_f.getBody(match_f.handler.createGroup(sessionID, info));
   }
   clientMatchGroupDelete(url, info, sessionID) {
-    return response_f.getBody(match_f.handler.createGroup(sessionID, info));
+    return response_f.getBody(match_f.handler.deleteGroup(info));
   }
   clientMatchGroupExit_From_Menu(url, info, sessionID) {
     return response_f.nullResponse();
