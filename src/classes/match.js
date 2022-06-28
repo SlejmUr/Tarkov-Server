@@ -1,4 +1,5 @@
 "use strict";
+const { AccountServer } = require('./account');
 
 class MatchServer {
     constructor() {
@@ -50,7 +51,7 @@ class MatchServer {
 
         // --- LOOP (DO THIS FOR EVERY PLAYER IN GROUP)
         // get player profile
-        let account = account_f.handler.find(sessionID);
+        let account = AccountServer.handler.find(sessionID);
         let profileID = "";
 
         if (info.savage === true) {
