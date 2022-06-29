@@ -43,3 +43,4 @@ dumpTools
 docs
 
 Build/
+pre-db/*
