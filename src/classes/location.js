@@ -1028,6 +1028,7 @@ class LocationServer {
 
     counters.push(count);
 
+    output["_SIT_DEBUG_RARITIES"] = LootController.LootRarities;
     // Loot position list for filtering the lootItem in the same position.
     if (global.serverConfig.lootDebug) {
       logger.logSuccess(

@@ -290,8 +290,9 @@ app.use(function(req, res, next) {
  * Handle "Dynamic" responses (Files, Bundles, Traders etc)
  */
 app.use(function(req, res, next) {
+  console.log(req.url);
     for(const r in responseClass.dynamicResponses) {
-      if (req.url.includes(r)) {
+      if (req.url.toLowerCase().includes(r.toLowerCase())) {
         handleRoute(req, res, responseClass.dynamicResponses[r]);
         return;
       }

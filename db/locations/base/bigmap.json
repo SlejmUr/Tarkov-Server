@@ -84,8 +84,8 @@
       "BossEscortType": "followerBully",
       "BossName": "bossBully",
       "BossPlayer": true,
-      "BossZone": "ZoneScavBase",
-      "Time": 5
+      "BossZone": "ZoneDormitory",
+      "Time": -1
     },
     {
       "BossChance": 100,
@@ -107,7 +107,7 @@
       "BossName": "pmcBot",
       "BossPlayer": true,
       "BossZone": "ZoneGasStation",
-      "Time": 5
+      "Time": 10
     },
     {
       "BossChance": 100,
@@ -118,7 +118,7 @@
       "BossName": "bossSanitar",
       "BossPlayer": false,
       "BossZone": "ZoneOldAZS",
-      "Time": 5
+      "Time": 15
     },
     {
       "BossChance": 100,
@@ -129,7 +129,18 @@
       "BossName": "bossKilla",
       "BossPlayer": false,
       "BossZone": "ZoneCustoms",
-      "Time": 5
+      "Time": 20
+    },
+    {
+      "BossChance": 100,
+      "BossDifficult": "normal",
+      "BossEscortAmount": "0", 
+      "BossEscortDifficult": "normal",
+      "BossEscortType": "pmcBot",
+      "BossName": "bossTagilla",
+      "BossPlayer": false,
+      "BossZone": "ZoneCustoms",
+      "Time": 25
     },
     {
       "BossChance": 100,
@@ -140,7 +151,18 @@
       "BossName": "bossKojaniy",
       "BossPlayer": false,
       "BossZone": "ZoneBrige",
-      "Time": 5
+      "Time": 30
+    },
+    {
+      "BossChance": 100,
+      "BossDifficult": "normal",
+      "BossEscortAmount": "0", 
+      "BossEscortDifficult": "normal",
+      "BossEscortType": "followerKojaniy",
+      "BossName": "bossGluhar",
+      "BossPlayer": false,
+      "BossZone": "ZoneBrige",
+      "Time": 35
     }
     
   ],

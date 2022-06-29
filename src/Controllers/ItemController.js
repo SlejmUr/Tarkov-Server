@@ -6,6 +6,8 @@ const utility = require('../../core/util/utility');
  */
 class ItemController
 {
+    static tplLookup = {};
+
     static getDatabaseItems() {
         const dbItems = DatabaseController.getDatabase().items;
         
@@ -102,7 +104,59 @@ class ItemController
      */
      static isItemPreset(tpl) {
         return DatabaseController.getDatabase().globals.ItemPresets[tpl] !== undefined;
-   }
+     }
+
+
+    /* A reverse lookup for templates */
+    static getTemplateLookup() {
+
+        if (ItemController.tplLookup.lookup === undefined) {
+            const lookup = {
+                items: {
+                byId: {},
+                byParent: {},
+                },
+                categories: {
+                byId: {},
+                byParent: {},
+                },
+            };
+        
+            for (let x of global._database.templates.Items) {
+                lookup.items.byId[x.Id] = x.Price;
+                lookup.items.byParent[x.ParentId] || (lookup.items.byParent[x.ParentId] = []);
+                lookup.items.byParent[x.ParentId].push(x.Id);
+            }
+        
+            for (let x of global._database.templates.Categories) {
+                lookup.categories.byId[x.Id] = x.ParentId ? x.ParentId : null;
+                if (x.ParentId) {
+                // root as no parent
+                lookup.categories.byParent[x.ParentId] || (lookup.categories.byParent[x.ParentId] = []);
+                lookup.categories.byParent[x.ParentId].push(x.Id);
+                }
+            }
+        
+            ItemController.tplLookup.lookup = lookup;
+        }
+    
+        return ItemController.tplLookup.lookup;
+    }
+  
+  /** Get template price
+   * Explore using itemPriceTable to get price instead of using tplLookup()
+   * 
+   * @param {string} x  Item ID to get price for
+   * @returns  Price of the item
+   */
+  static getTemplatePrice(x) {
+    return x in ItemController.getTemplateLookup().items.byId ? ItemController.getTemplateLookup().items.byId[x] : 1;
+  }
+
+  static isMoney(tpl) {
+    const moneyTplArray = ["569668774bdc2da2298b4568", "5696686a4bdc2da3298b456a", "5449016a4bdc2d6f028b456f"];
+    return moneyTplArray.findIndex((moneyTlp) => moneyTlp === tpl) !== -1;
+  }
 }
 
 module.exports.ItemController = ItemController;

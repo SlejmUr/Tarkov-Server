@@ -90,39 +90,67 @@ class LootController
         if(LootController.LootRarities[itemTemplate._props.Name] === undefined) {
       
           const backgroundColor = itemTemplate._props.BackgroundColor;
-          const itemExperience = itemTemplate._props.LootExperience;
-          const examineExperience = itemTemplate._props.ExamineExperience;
+          const itemExperience = itemTemplate._props.LootExperience < 10 ? 10 : itemTemplate._props.LootExperience;
+          const examineExperience = itemTemplate._props.ExamineExperience < 10 ? 10 : itemTemplate._props.ExamineExperience;
           const unlootable = itemTemplate._props.Unlootable;
       
           let itemRarityType = "COMMON";
           const itemName = itemTemplate._props !== undefined && typeof(itemTemplate._props.Name) === "string" ? itemTemplate._props.Name : "";
       
-          let item_price = helper_f.getTemplatePrice(itemTemplate._id);
+          let item_price = ItemController.getTemplatePrice(itemTemplate._id);
           if(itemTemplate._props.ammoType !== undefined) {
-            item_price = item_price * 60;
-
+            item_price = item_price * 300 * itemTemplate._props.StackMaxSize;
           }
+          // If Money
+          if(ItemController.isMoney(itemTemplate._id)) {
+            item_price = (item_price * 6000);
+          }
+
+          let itemCalculation = 
+            ((itemExperience + examineExperience + (backgroundColor == "violet" ? 20 : 10)) * 1000)
+              + (item_price * 0.01); 
+
+          // if ammo_box
+          if(itemTemplate._props.Name !== undefined && itemTemplate._props.Name.includes("ammo_box")) {
+            itemCalculation *= 1.75;
+          }
+          // If weapon part / mod
+          if(itemTemplate._props.ItemSound !== undefined && itemTemplate._props.ItemSound.includes("mod")) {
+            itemCalculation *= 1.5;
+          }
+          
+          itemCalculation = Math.round(itemCalculation / 10000);
+          itemCalculation -= 2;
+
+          itemCalculation = Math.min(10, itemCalculation);
+          itemCalculation = Math.max(1, itemCalculation);
+          // console.log(itemTemplate._props.Name);
+          // console.log(itemCalculation);
+
           try {
             if(unlootable) {
               itemRarityType = "NOT_EXIST";
             }
             else {
-              if (itemExperience >= 45
-              // violet is good shit
-              || backgroundColor == "violet"
-              // the good keys and stuff are high examine
-              || examineExperience >= 17
-              || (itemName.includes("key") || itemName.includes("Key"))
-              || item_price > 29999
+              if ( itemCalculation >= 7
+              //   itemExperience >= 45
+              // // violet is good shit
+              // || backgroundColor == "violet"
+              // // the good keys and stuff are high examine
+              // || examineExperience >= 17
+              // || (itemName.includes("key") || itemName.includes("Key"))
+              // || item_price > 29999
               ) {
                   itemRarityType = "SUPERRARE";
                   // console.log("SUPERRARE");
                   // console.log(itemTemplate);
-              } else if (itemExperience >= 16 || examineExperience >= 16) {
+              // } else if (itemExperience >= 16 || examineExperience >= 16) {
+              } else if (itemCalculation >= 5) {
                   itemRarityType = "RARE";
                   // console.log("RARE");
                   // console.log(itemTemplate);
-              } else if (itemExperience >= 13 || examineExperience >= 13 || item_price > 9499) {
+              // } else if (itemExperience >= 13 || examineExperience >= 13 || item_price > 9499) {
+              } else if (itemCalculation >= 2) {
                   itemRarityType = "UNCOMMON";
                   // console.log(itemTemplate);
               }
