@@ -1,1 +1,15 @@
-{"_id":"5fc613e10b735e7b024c76e3","_name":"Scav_2","_parent":"5fc100cf95572123ae738483","_type":"Item","_props":{"Name":"Scav_2","ShortName":"Scav_2","Description":"Scav_2","Side":["Savage"],"Prefab":"Scav_2"}}
+{
+  "_id": "5fc613e10b735e7b024c76e3",
+  "_name": "Scav_2",
+  "_parent": "5fc100cf95572123ae738483",
+  "_type": "Item",
+  "_props": {
+    "Name": "Scav_2",
+    "ShortName": "Scav_2",
+    "Description": "Scav_2",
+    "Side": [
+      "Savage"
+    ],
+    "Prefab": "Scav_2"
+  }
+}

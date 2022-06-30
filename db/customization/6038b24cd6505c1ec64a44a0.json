@@ -1,1 +1,18 @@
-{"_id":"6038b24cd6505c1ec64a44a0","_name":"usec_kit_upper_beltstaff","_parent":"5cd944ca1388ce03a44dc2a4","_type":"Item","_props":{"Name":"DefaultUsecUpperSuite","ShortName":"DefaultUsecUpperSuite","Description":"DefaultUsecUpperSuite","Side":["Usec"],"AvailableAsDefault":false,"Body":"6033a35f80ae5e2f970ba6bb","Hands":"6034d33392ec1c31037959dc"},"_proto":"5cde9ec17d6c8b04723cf479"}
+{
+  "_id": "6038b24cd6505c1ec64a44a0",
+  "_name": "usec_kit_upper_beltstaff",
+  "_parent": "5cd944ca1388ce03a44dc2a4",
+  "_type": "Item",
+  "_props": {
+    "Name": "DefaultUsecUpperSuite",
+    "ShortName": "DefaultUsecUpperSuite",
+    "Description": "DefaultUsecUpperSuite",
+    "Side": [
+      "Usec"
+    ],
+    "AvailableAsDefault": false,
+    "Body": "6033a35f80ae5e2f970ba6bb",
+    "Hands": "6034d33392ec1c31037959dc"
+  },
+  "_proto": "5cde9ec17d6c8b04723cf479"
+}

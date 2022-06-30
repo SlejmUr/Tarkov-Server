@@ -1,1 +1,18 @@
-{"_id":"5f5f46086760b4138443b358","_name":"usec_kit_upper_NightPatrol","_parent":"5cd944ca1388ce03a44dc2a4","_type":"Item","_props":{"Name":"DefaultUsecUpperSuite","ShortName":"DefaultUsecUpperSuite","Description":"DefaultUsecUpperSuite","Side":["Usec"],"AvailableAsDefault":false,"Body":"5f5e4075df4f3100376a8138","Hands":"5f5f3fc66bdad616ad46d62f"},"_proto":"5cde9ec17d6c8b04723cf479"}
+{
+  "_id": "5f5f46086760b4138443b358",
+  "_name": "usec_kit_upper_NightPatrol",
+  "_parent": "5cd944ca1388ce03a44dc2a4",
+  "_type": "Item",
+  "_props": {
+    "Name": "DefaultUsecUpperSuite",
+    "ShortName": "DefaultUsecUpperSuite",
+    "Description": "DefaultUsecUpperSuite",
+    "Side": [
+      "Usec"
+    ],
+    "AvailableAsDefault": false,
+    "Body": "5f5e4075df4f3100376a8138",
+    "Hands": "5f5f3fc66bdad616ad46d62f"
+  },
+  "_proto": "5cde9ec17d6c8b04723cf479"
+}

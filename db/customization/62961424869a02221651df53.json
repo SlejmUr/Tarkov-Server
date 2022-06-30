@@ -1,0 +1,35 @@
+{
+  "_id": "62961424869a02221651df53",
+  "_name": "bear_hands_tactical_long",
+  "_parent": "5cc086a314c02e000c6bea69",
+  "_type": "Item",
+  "_props": {
+    "Name": "DefaultBearHands",
+    "ShortName": "DefaultBearHands",
+    "Description": "DefaultBearHands",
+    "Side": [
+      "Bear"
+    ],
+    "BodyPart": "Hands",
+    "Prefab": {
+      "path": "assets/content/hands/hands_bear_tactical_long/hands_bear_tactical_long.skin.bundle",
+      "rcid": ""
+    },
+    "WatchPrefab": {
+      "path": "assets/content/hands/bear/bear_watch_traserp66.bundle",
+      "rcid": ""
+    },
+    "IntegratedArmorVest": false,
+    "WatchPosition": {
+      "x": -0.03837,
+      "y": -0.00966,
+      "z": 0.04162
+    },
+    "WatchRotation": {
+      "x": 8.221535,
+      "y": -11.41229,
+      "z": -3.496765
+    }
+  },
+  "_proto": "5cc0876314c02e000c6bea6b"
+}

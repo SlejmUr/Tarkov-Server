@@ -1,1 +1,35 @@
-{"_id":"5f68c4a7c174a17c0f4c8945","_name":"wild_head_drozd","_parent":"5cc085e214c02e000c6bea67","_type":"Item","_props":{"Name":"wild_head_drozd","ShortName":"wild_head_drozd","Description":"wild_head_drozd","Side":["Savage"],"BodyPart":"Head","Prefab":{"path":"assets/content/characters/character/prefabs/wild_head_drozd.bundle","rcid":""},"WatchPrefab":{"path":"","rcid":""},"IntegratedArmorVest":false,"WatchPosition":{"x":0,"y":0,"z":0},"WatchRotation":{"x":0,"y":0,"z":0}},"_proto":"5cde9ff17d6c8b0474535daa"}
+{
+  "_id": "5f68c4a7c174a17c0f4c8945",
+  "_name": "wild_head_drozd",
+  "_parent": "5cc085e214c02e000c6bea67",
+  "_type": "Item",
+  "_props": {
+    "Name": "wild_head_drozd",
+    "ShortName": "wild_head_drozd",
+    "Description": "wild_head_drozd",
+    "Side": [
+      "Savage"
+    ],
+    "BodyPart": "Head",
+    "Prefab": {
+      "path": "assets/content/characters/character/prefabs/wild_head_drozd.bundle",
+      "rcid": ""
+    },
+    "WatchPrefab": {
+      "path": "",
+      "rcid": ""
+    },
+    "IntegratedArmorVest": false,
+    "WatchPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "WatchRotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "_proto": "5cde9ff17d6c8b0474535daa"
+}

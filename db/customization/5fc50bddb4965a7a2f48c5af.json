@@ -1,1 +1,15 @@
-{"_id":"5fc50bddb4965a7a2f48c5af","_name":"Bear_2","_parent":"5fc100cf95572123ae738483","_type":"Item","_props":{"Name":"Bear_2","ShortName":"Bear_2","Description":"Bear_2","Side":["Bear"],"Prefab":"Bear_2"}}
+{
+  "_id": "5fc50bddb4965a7a2f48c5af",
+  "_name": "Bear_2",
+  "_parent": "5fc100cf95572123ae738483",
+  "_type": "Item",
+  "_props": {
+    "Name": "Bear_2",
+    "ShortName": "Bear_2",
+    "Description": "Bear_2",
+    "Side": [
+      "Bear"
+    ],
+    "Prefab": "Bear_2"
+  }
+}

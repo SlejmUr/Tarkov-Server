@@ -1,1 +1,35 @@
-{"_id":"5fce3e965a9f8c40685693bc","_name":"bear_lower_triarius","_parent":"5cc0869814c02e000a4cad94","_type":"Item","_props":{"Name":"DefaultBeerFeet","ShortName":"DefaultBeerFeet","Description":"DefaultBeerFeet","Side":["Bear"],"BodyPart":"Feet","Prefab":{"path":"assets/content/characters/character/prefabs/pants_bear_triarius.bundle","rcid":""},"WatchPrefab":{"path":"","rcid":""},"IntegratedArmorVest":false,"WatchPosition":{"x":0,"y":0,"z":0},"WatchRotation":{"x":0,"y":0,"z":0}},"_proto":"5cc085bb14c02e000e67a5c5"}
+{
+  "_id": "5fce3e965a9f8c40685693bc",
+  "_name": "bear_lower_triarius",
+  "_parent": "5cc0869814c02e000a4cad94",
+  "_type": "Item",
+  "_props": {
+    "Name": "DefaultBeerFeet",
+    "ShortName": "DefaultBeerFeet",
+    "Description": "DefaultBeerFeet",
+    "Side": [
+      "Bear"
+    ],
+    "BodyPart": "Feet",
+    "Prefab": {
+      "path": "assets/content/characters/character/prefabs/pants_bear_triarius.bundle",
+      "rcid": ""
+    },
+    "WatchPrefab": {
+      "path": "",
+      "rcid": ""
+    },
+    "IntegratedArmorVest": false,
+    "WatchPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "WatchRotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "_proto": "5cc085bb14c02e000e67a5c5"
+}

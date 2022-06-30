@@ -1,0 +1,17 @@
+{
+  "_id": "6295eeed13119346e55d4523",
+  "_name": "bear_kit_upper_tactical_long",
+  "_parent": "5cd944ca1388ce03a44dc2a4",
+  "_type": "Item",
+  "_props": {
+    "Name": "DefaultBearUpperSuite",
+    "ShortName": "DefaultBearUpperSuite",
+    "Description": "DefaultBearUpperSuite",
+    "Side": [
+      "Bear"
+    ],
+    "AvailableAsDefault": false,
+    "Body": "6295e698e9de5e7b3751c47a",
+    "Hands": "62961424869a02221651df53"
+  }
+}

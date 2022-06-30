@@ -1,1 +1,18 @@
-{"_id":"619bf78a64927e572d0d5855","_name":"usec_kit_upper_cereum","_parent":"5cd944ca1388ce03a44dc2a4","_type":"Item","_props":{"Name":"DefaultUsecUpperSuite","ShortName":"DefaultUsecUpperSuite","Description":"DefaultUsecUpperSuite","Side":["Usec"],"AvailableAsDefault":false,"Body":"618109c96d7ca35d076b3363","Hands":"618d1a5574bb2d036a049ea9"},"_proto":"5cde9ec17d6c8b04723cf479"}
+{
+  "_id": "619bf78a64927e572d0d5855",
+  "_name": "usec_kit_upper_cereum",
+  "_parent": "5cd944ca1388ce03a44dc2a4",
+  "_type": "Item",
+  "_props": {
+    "Name": "DefaultUsecUpperSuite",
+    "ShortName": "DefaultUsecUpperSuite",
+    "Description": "DefaultUsecUpperSuite",
+    "Side": [
+      "Usec"
+    ],
+    "AvailableAsDefault": false,
+    "Body": "618109c96d7ca35d076b3363",
+    "Hands": "618d1a5574bb2d036a049ea9"
+  },
+  "_proto": "5cde9ec17d6c8b04723cf479"
+}

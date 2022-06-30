@@ -1,1 +1,18 @@
-{"_id":"61a4a138ba63c0388e056140","_name":"SavageKitUpperBomber","_parent":"5cd944ca1388ce03a44dc2a4","_type":"Item","_props":{"Name":"SavageUpperSuite1","ShortName":"SavageUpperSuite1","Description":"SavageUpperSuite1","Side":["Savage"],"AvailableAsDefault":false,"Body":"619238266c614e6d15792bca","Hands":"618cf9540a5a59657e5f5677"},"_proto":"5cdea23c7d6c8b04723cf47b"}
+{
+  "_id": "61a4a138ba63c0388e056140",
+  "_name": "SavageKitUpperBomber",
+  "_parent": "5cd944ca1388ce03a44dc2a4",
+  "_type": "Item",
+  "_props": {
+    "Name": "SavageUpperSuite1",
+    "ShortName": "SavageUpperSuite1",
+    "Description": "SavageUpperSuite1",
+    "Side": [
+      "Savage"
+    ],
+    "AvailableAsDefault": false,
+    "Body": "619238266c614e6d15792bca",
+    "Hands": "618cf9540a5a59657e5f5677"
+  },
+  "_proto": "5cdea23c7d6c8b04723cf47b"
+}

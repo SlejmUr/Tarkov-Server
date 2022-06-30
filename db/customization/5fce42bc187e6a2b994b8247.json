@@ -1,1 +1,17 @@
-{"_id":"5fce42bc187e6a2b994b8247","_name":"bear_kit_lower_triarius","_parent":"5cd944d01388ce000a659df9","_type":"Item","_props":{"Name":"DefaultBearLowerSuite","ShortName":"DefaultBearLowerSuite","Description":"DefaultBearLowerSuite","Side":["Bear"],"AvailableAsDefault":false,"Feet":"5fce3e965a9f8c40685693bc"},"_proto":"5cd946231388ce000d572fe3"}
+{
+  "_id": "5fce42bc187e6a2b994b8247",
+  "_name": "bear_kit_lower_triarius",
+  "_parent": "5cd944d01388ce000a659df9",
+  "_type": "Item",
+  "_props": {
+    "Name": "DefaultBearLowerSuite",
+    "ShortName": "DefaultBearLowerSuite",
+    "Description": "DefaultBearLowerSuite",
+    "Side": [
+      "Bear"
+    ],
+    "AvailableAsDefault": false,
+    "Feet": "5fce3e965a9f8c40685693bc"
+  },
+  "_proto": "5cd946231388ce000d572fe3"
+}

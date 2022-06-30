@@ -1,1 +1,35 @@
-{"_id":"5fb535cf1c69e5198e234126","_name":"pants_cultist_02","_parent":"5cc0869814c02e000a4cad94","_type":"Item","_props":{"Name":"pants_cultist_02","ShortName":"pants_cultist_02","Description":"pants_cultist_02","Side":["Savage"],"BodyPart":"Feet","Prefab":{"path":"assets/content/characters/character/prefabs/pants_cultist_02.bundle","rcid":""},"WatchPrefab":{"path":"","rcid":""},"IntegratedArmorVest":false,"WatchPosition":{"x":0,"y":0,"z":0},"WatchRotation":{"x":0,"y":0,"z":0}},"_proto":"5cc2e5d014c02e15d53d9c03"}
+{
+  "_id": "5fb535cf1c69e5198e234126",
+  "_name": "pants_cultist_02",
+  "_parent": "5cc0869814c02e000a4cad94",
+  "_type": "Item",
+  "_props": {
+    "Name": "pants_cultist_02",
+    "ShortName": "pants_cultist_02",
+    "Description": "pants_cultist_02",
+    "Side": [
+      "Savage"
+    ],
+    "BodyPart": "Feet",
+    "Prefab": {
+      "path": "assets/content/characters/character/prefabs/pants_cultist_02.bundle",
+      "rcid": ""
+    },
+    "WatchPrefab": {
+      "path": "",
+      "rcid": ""
+    },
+    "IntegratedArmorVest": false,
+    "WatchPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "WatchRotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "_proto": "5cc2e5d014c02e15d53d9c03"
+}

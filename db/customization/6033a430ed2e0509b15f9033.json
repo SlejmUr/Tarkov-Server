@@ -1,1 +1,35 @@
-{"_id":"6033a430ed2e0509b15f9033","_name":"wild_feet_scavelite_taclite","_parent":"5cc0869814c02e000a4cad94","_type":"Item","_props":{"Name":"wild_feet_scavelite_taclite","ShortName":"wild_feet_scavelite_taclite","Description":"wild_feet_scavelite_taclite","Side":["Savage"],"BodyPart":"Feet","Prefab":{"path":"assets/content/characters/character/prefabs/pants_wild_scavelite_taclite.bundle","rcid":""},"WatchPrefab":{"path":"","rcid":""},"IntegratedArmorVest":false,"WatchPosition":{"x":0,"y":0,"z":0},"WatchRotation":{"x":0,"y":0,"z":0}},"_proto":"5cde9fb87d6c8b0474535da9"}
+{
+  "_id": "6033a430ed2e0509b15f9033",
+  "_name": "wild_feet_scavelite_taclite",
+  "_parent": "5cc0869814c02e000a4cad94",
+  "_type": "Item",
+  "_props": {
+    "Name": "wild_feet_scavelite_taclite",
+    "ShortName": "wild_feet_scavelite_taclite",
+    "Description": "wild_feet_scavelite_taclite",
+    "Side": [
+      "Savage"
+    ],
+    "BodyPart": "Feet",
+    "Prefab": {
+      "path": "assets/content/characters/character/prefabs/pants_wild_scavelite_taclite.bundle",
+      "rcid": ""
+    },
+    "WatchPrefab": {
+      "path": "",
+      "rcid": ""
+    },
+    "IntegratedArmorVest": false,
+    "WatchPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "WatchRotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "_proto": "5cde9fb87d6c8b0474535da9"
+}

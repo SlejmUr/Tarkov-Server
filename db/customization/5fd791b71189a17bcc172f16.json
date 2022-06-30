@@ -1,1 +1,18 @@
-{"_id":"5fd791b71189a17bcc172f16","_name":"SavageKitUpperUnderarmour","_parent":"5cd944ca1388ce03a44dc2a4","_type":"Item","_props":{"Name":"SavageUpperSuite1","ShortName":"SavageUpperSuite1","Description":"SavageUpperSuite1","Side":["Savage"],"AvailableAsDefault":false,"Body":"5fd22d311add82653b5a704c","Hands":"5fd7901bdd870108a754c0e6"},"_proto":"5cdea23c7d6c8b04723cf47b"}
+{
+  "_id": "5fd791b71189a17bcc172f16",
+  "_name": "SavageKitUpperUnderarmour",
+  "_parent": "5cd944ca1388ce03a44dc2a4",
+  "_type": "Item",
+  "_props": {
+    "Name": "SavageUpperSuite1",
+    "ShortName": "SavageUpperSuite1",
+    "Description": "SavageUpperSuite1",
+    "Side": [
+      "Savage"
+    ],
+    "AvailableAsDefault": false,
+    "Body": "5fd22d311add82653b5a704c",
+    "Hands": "5fd7901bdd870108a754c0e6"
+  },
+  "_proto": "5cdea23c7d6c8b04723cf47b"
+}

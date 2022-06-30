@@ -1,1 +1,35 @@
-{"_id":"61922589bb2cea6f7a22d964","_name":"wild_pants_yellowcoat","_parent":"5cc0869814c02e000a4cad94","_type":"Item","_props":{"Name":"wild_feet_1","ShortName":"wild_feet_1","Description":"wild_feet_1","Side":["Savage"],"BodyPart":"Feet","Prefab":{"path":"assets/content/characters/character/prefabs/pants_wild_yellowcoat.bundle","rcid":""},"WatchPrefab":{"path":"","rcid":""},"IntegratedArmorVest":false,"WatchPosition":{"x":0,"y":0,"z":0},"WatchRotation":{"x":0,"y":0,"z":0}},"_proto":"5cde9fb87d6c8b0474535da9"}
+{
+  "_id": "61922589bb2cea6f7a22d964",
+  "_name": "wild_pants_yellowcoat",
+  "_parent": "5cc0869814c02e000a4cad94",
+  "_type": "Item",
+  "_props": {
+    "Name": "wild_feet_1",
+    "ShortName": "wild_feet_1",
+    "Description": "wild_feet_1",
+    "Side": [
+      "Savage"
+    ],
+    "BodyPart": "Feet",
+    "Prefab": {
+      "path": "assets/content/characters/character/prefabs/pants_wild_yellowcoat.bundle",
+      "rcid": ""
+    },
+    "WatchPrefab": {
+      "path": "",
+      "rcid": ""
+    },
+    "IntegratedArmorVest": false,
+    "WatchPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "WatchRotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "_proto": "5cde9fb87d6c8b0474535da9"
+}

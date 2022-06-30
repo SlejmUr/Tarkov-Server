@@ -1,1 +1,18 @@
-{"_id":"5fd3e8e5bdd50d684f73a51d","_name":"bear_kit_upper_termo","_parent":"5cd944ca1388ce03a44dc2a4","_type":"Item","_props":{"Name":"DefaultBearLowerSuite","ShortName":"DefaultBearLowerSuite","Description":"DefaultBearLowerSuite","Side":["Bear"],"AvailableAsDefault":false,"Body":"5fce3e0cfe40296c1d5fd782","Hands":"5fd75289b1f9ad0f60509d25"},"_proto":"5cd946231388ce000d572fe3"}
+{
+  "_id": "5fd3e8e5bdd50d684f73a51d",
+  "_name": "bear_kit_upper_termo",
+  "_parent": "5cd944ca1388ce03a44dc2a4",
+  "_type": "Item",
+  "_props": {
+    "Name": "DefaultBearLowerSuite",
+    "ShortName": "DefaultBearLowerSuite",
+    "Description": "DefaultBearLowerSuite",
+    "Side": [
+      "Bear"
+    ],
+    "AvailableAsDefault": false,
+    "Body": "5fce3e0cfe40296c1d5fd782",
+    "Hands": "5fd75289b1f9ad0f60509d25"
+  },
+  "_proto": "5cd946231388ce000d572fe3"
+}

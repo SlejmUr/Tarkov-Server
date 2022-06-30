@@ -1,1 +1,35 @@
-{"_id":"609e86c09776a947754429b2","_name":"pants_boss_tagilla","_parent":"5cc0869814c02e000a4cad94","_type":"Item","_props":{"Name":"Pants_BOSS_Shturman","ShortName":"Pants_BOSS_Shturman","Description":"Pants_BOSS_Shturman","Side":["Savage"],"BodyPart":"Feet","Prefab":{"path":"assets/content/characters/character/prefabs/pants_boss_tagilla.bundle","rcid":""},"WatchPrefab":{"path":"","rcid":""},"IntegratedArmorVest":false,"WatchPosition":{"x":0,"y":0,"z":0},"WatchRotation":{"x":0,"y":0,"z":0}},"_proto":"5cdea3c47d6c8b0475341734"}
+{
+  "_id": "609e86c09776a947754429b2",
+  "_name": "pants_boss_tagilla",
+  "_parent": "5cc0869814c02e000a4cad94",
+  "_type": "Item",
+  "_props": {
+    "Name": "Pants_BOSS_Shturman",
+    "ShortName": "Pants_BOSS_Shturman",
+    "Description": "Pants_BOSS_Shturman",
+    "Side": [
+      "Savage"
+    ],
+    "BodyPart": "Feet",
+    "Prefab": {
+      "path": "assets/content/characters/character/prefabs/pants_boss_tagilla.bundle",
+      "rcid": ""
+    },
+    "WatchPrefab": {
+      "path": "",
+      "rcid": ""
+    },
+    "IntegratedArmorVest": false,
+    "WatchPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "WatchRotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "_proto": "5cdea3c47d6c8b0475341734"
+}

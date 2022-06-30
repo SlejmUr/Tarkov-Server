@@ -1,0 +1,35 @@
+{
+  "_id": "628771f70828252c7a28b961",
+  "_name": "Pants_BOSS_Blackknight",
+  "_parent": "5cc0869814c02e000a4cad94",
+  "_type": "Item",
+  "_props": {
+    "Name": "Pants_BOSS_Blackknight",
+    "ShortName": "Pants_BOSS_Blackknight",
+    "Description": "Pants_BOSS_Blackknight",
+    "Side": [
+      "Savage"
+    ],
+    "BodyPart": "Feet",
+    "Prefab": {
+      "path": "assets/content/characters/character/prefabs/pants_boss_blackknight.bundle",
+      "rcid": ""
+    },
+    "WatchPrefab": {
+      "path": "",
+      "rcid": ""
+    },
+    "IntegratedArmorVest": false,
+    "WatchPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "WatchRotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "_proto": "5cdea3c47d6c8b0475341734"
+}

@@ -1,1 +1,17 @@
-{"_id":"619b99ad604fcc392676806c","_name":"bear_kit_lower_sumrak","_parent":"5cd944d01388ce000a659df9","_type":"Item","_props":{"Name":"DefaultBearLowerSuite","ShortName":"DefaultBearLowerSuite","Description":"DefaultBearLowerSuite","Side":["Bear"],"AvailableAsDefault":false,"Feet":"617be9e4e02b3b3fa50fa8f2"},"_proto":"5cd946231388ce000d572fe3"}
+{
+  "_id": "619b99ad604fcc392676806c",
+  "_name": "bear_kit_lower_sumrak",
+  "_parent": "5cd944d01388ce000a659df9",
+  "_type": "Item",
+  "_props": {
+    "Name": "DefaultBearLowerSuite",
+    "ShortName": "DefaultBearLowerSuite",
+    "Description": "DefaultBearLowerSuite",
+    "Side": [
+      "Bear"
+    ],
+    "AvailableAsDefault": false,
+    "Feet": "617be9e4e02b3b3fa50fa8f2"
+  },
+  "_proto": "5cd946231388ce000d572fe3"
+}

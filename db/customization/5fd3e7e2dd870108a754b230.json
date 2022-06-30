@@ -1,1 +1,18 @@
-{"_id":"5fd3e7e2dd870108a754b230","_name":"bear_kit_upper_borey","_parent":"5cd944ca1388ce03a44dc2a4","_type":"Item","_props":{"Name":"DefaultBearLowerSuite","ShortName":"DefaultBearLowerSuite","Description":"DefaultBearLowerSuite","Side":["Bear"],"AvailableAsDefault":false,"Body":"5fce3e47fe40296c1d5fd784","Hands":"5fd760001189a17bcc172b85"},"_proto":"5cd946231388ce000d572fe3"}
+{
+  "_id": "5fd3e7e2dd870108a754b230",
+  "_name": "bear_kit_upper_borey",
+  "_parent": "5cd944ca1388ce03a44dc2a4",
+  "_type": "Item",
+  "_props": {
+    "Name": "DefaultBearLowerSuite",
+    "ShortName": "DefaultBearLowerSuite",
+    "Description": "DefaultBearLowerSuite",
+    "Side": [
+      "Bear"
+    ],
+    "AvailableAsDefault": false,
+    "Body": "5fce3e47fe40296c1d5fd784",
+    "Hands": "5fd760001189a17bcc172b85"
+  },
+  "_proto": "5cd946231388ce000d572fe3"
+}

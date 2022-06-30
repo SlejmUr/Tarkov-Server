@@ -1,1 +1,13 @@
-{"_id":"5fc100cf95572123ae738483","_name":"Voice","_parent":"5cbdb4a2e2b501000d352ae2","_type":"Node","_props":{"Name":"Voice","ShortName":"Voice","Description":"Voice","Side":[],"Prefab":""}}
+{
+  "_id": "5fc100cf95572123ae738483",
+  "_name": "Voice",
+  "_parent": "5cbdb4a2e2b501000d352ae2",
+  "_type": "Node",
+  "_props": {
+    "Name": "Voice",
+    "ShortName": "Voice",
+    "Description": "Voice",
+    "Side": [],
+    "Prefab": ""
+  }
+}

@@ -1,1 +1,15 @@
-{"_id":"5fc614f40b735e7b024c76e9","_name":"Usec_2","_parent":"5fc100cf95572123ae738483","_type":"Item","_props":{"Name":"Usec_2","ShortName":"Usec_2","Description":"Usec_2","Side":["Usec"],"Prefab":"Usec_2"}}
+{
+  "_id": "5fc614f40b735e7b024c76e9",
+  "_name": "Usec_2",
+  "_parent": "5fc100cf95572123ae738483",
+  "_type": "Item",
+  "_props": {
+    "Name": "Usec_2",
+    "ShortName": "Usec_2",
+    "Description": "Usec_2",
+    "Side": [
+      "Usec"
+    ],
+    "Prefab": "Usec_2"
+  }
+}

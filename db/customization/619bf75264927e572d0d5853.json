@@ -1,1 +1,18 @@
-{"_id":"619bf75264927e572d0d5853","_name":"bear_kit_upper_sumrak","_parent":"5cd944ca1388ce03a44dc2a4","_type":"Item","_props":{"Name":"DefaultBearLowerSuite","ShortName":"DefaultBearLowerSuite","Description":"DefaultBearLowerSuite","Side":["Bear"],"AvailableAsDefault":false,"Body":"617bca4b4013b06b0b78df2a","Hands":"618aeee10a5a59657e5f55ed"},"_proto":"5cd946231388ce000d572fe3"}
+{
+  "_id": "619bf75264927e572d0d5853",
+  "_name": "bear_kit_upper_sumrak",
+  "_parent": "5cd944ca1388ce03a44dc2a4",
+  "_type": "Item",
+  "_props": {
+    "Name": "DefaultBearLowerSuite",
+    "ShortName": "DefaultBearLowerSuite",
+    "Description": "DefaultBearLowerSuite",
+    "Side": [
+      "Bear"
+    ],
+    "AvailableAsDefault": false,
+    "Body": "617bca4b4013b06b0b78df2a",
+    "Hands": "618aeee10a5a59657e5f55ed"
+  },
+  "_proto": "5cd946231388ce000d572fe3"
+}

@@ -1,1 +1,35 @@
-{"_id":"5fb53d0b7b5d1342ee24bd64","_name":"top_cultist_02","_parent":"5cc0868e14c02e000c6bea68","_type":"Item","_props":{"Name":"top_cultist_02","ShortName":"top_cultist_02","Description":"top_cultist_02","Side":["Savage"],"BodyPart":"Body","Prefab":{"path":"assets/content/characters/character/prefabs/top_cultist_02.bundle","rcid":""},"WatchPrefab":{"path":"","rcid":""},"IntegratedArmorVest":false,"WatchPosition":{"x":0,"y":0,"z":0},"WatchRotation":{"x":0,"y":0,"z":0}},"_proto":"5cde9f337d6c8b0474535da8"}
+{
+  "_id": "5fb53d0b7b5d1342ee24bd64",
+  "_name": "top_cultist_02",
+  "_parent": "5cc0868e14c02e000c6bea68",
+  "_type": "Item",
+  "_props": {
+    "Name": "top_cultist_02",
+    "ShortName": "top_cultist_02",
+    "Description": "top_cultist_02",
+    "Side": [
+      "Savage"
+    ],
+    "BodyPart": "Body",
+    "Prefab": {
+      "path": "assets/content/characters/character/prefabs/top_cultist_02.bundle",
+      "rcid": ""
+    },
+    "WatchPrefab": {
+      "path": "",
+      "rcid": ""
+    },
+    "IntegratedArmorVest": false,
+    "WatchPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "WatchRotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "_proto": "5cde9f337d6c8b0474535da8"
+}

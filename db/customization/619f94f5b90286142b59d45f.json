@@ -1,1 +1,35 @@
-{"_id":"619f94f5b90286142b59d45f","_name":"bear_head_5","_parent":"5cc085e214c02e000c6bea67","_type":"Item","_props":{"Name":"BearHead1","ShortName":"BearHead1","Description":"BearHead1","Side":["Bear"],"BodyPart":"Head","Prefab":{"path":"assets/content/characters/character/prefabs/bear_head_slava.bundle","rcid":""},"WatchPrefab":{"path":"","rcid":""},"IntegratedArmorVest":false,"WatchPosition":{"x":0,"y":0,"z":0},"WatchRotation":{"x":0,"y":0,"z":0}},"_proto":"5cc084dd14c02e000b0550a3"}
+{
+  "_id": "619f94f5b90286142b59d45f",
+  "_name": "bear_head_5",
+  "_parent": "5cc085e214c02e000c6bea67",
+  "_type": "Item",
+  "_props": {
+    "Name": "BearHead1",
+    "ShortName": "BearHead1",
+    "Description": "BearHead1",
+    "Side": [
+      "Bear"
+    ],
+    "BodyPart": "Head",
+    "Prefab": {
+      "path": "assets/content/characters/character/prefabs/bear_head_slava.bundle",
+      "rcid": ""
+    },
+    "WatchPrefab": {
+      "path": "",
+      "rcid": ""
+    },
+    "IntegratedArmorVest": false,
+    "WatchPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "WatchRotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "_proto": "5cc084dd14c02e000b0550a3"
+}

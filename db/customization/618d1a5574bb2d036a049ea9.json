@@ -1,1 +1,35 @@
-{"_id":"618d1a5574bb2d036a049ea9","_name":"usec_hands_cereum","_parent":"5cc086a314c02e000c6bea69","_type":"Item","_props":{"Name":"DefaultUsecHands","ShortName":"DefaultUsecHands","Description":"DefaultUsecHands","Side":["Usec"],"BodyPart":"Hands","Prefab":{"path":"assets/content/hands/hands_usec_cereum/hands_usec_cereum.bundle","rcid":""},"WatchPrefab":{"path":"assets/content/hands/usec/usec_watch_garmintactix.bundle","rcid":""},"IntegratedArmorVest":false,"WatchPosition":{"x":-0.0805,"y":-0.00675,"z":-0.04166},"WatchRotation":{"x":4.175096,"y":-172.2915,"z":-178.331}},"_proto":"5cde95fa7d6c8b04737c2d13"}
+{
+  "_id": "618d1a5574bb2d036a049ea9",
+  "_name": "usec_hands_cereum",
+  "_parent": "5cc086a314c02e000c6bea69",
+  "_type": "Item",
+  "_props": {
+    "Name": "DefaultUsecHands",
+    "ShortName": "DefaultUsecHands",
+    "Description": "DefaultUsecHands",
+    "Side": [
+      "Usec"
+    ],
+    "BodyPart": "Hands",
+    "Prefab": {
+      "path": "assets/content/hands/hands_usec_cereum/hands_usec_cereum.bundle",
+      "rcid": ""
+    },
+    "WatchPrefab": {
+      "path": "assets/content/hands/usec/usec_watch_garmintactix.bundle",
+      "rcid": ""
+    },
+    "IntegratedArmorVest": false,
+    "WatchPosition": {
+      "x": -0.0805,
+      "y": -0.00675,
+      "z": -0.04166
+    },
+    "WatchRotation": {
+      "x": 4.175096,
+      "y": -172.2915,
+      "z": -178.331
+    }
+  },
+  "_proto": "5cde95fa7d6c8b04737c2d13"
+}

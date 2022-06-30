@@ -1,0 +1,18 @@
+{
+  "_id": "6295eb15869a02221651d318",
+  "_name": "usec_kit_upper_chameleon_softshell",
+  "_parent": "5cd944ca1388ce03a44dc2a4",
+  "_type": "Item",
+  "_props": {
+    "Name": "DefaultUsecUpperSuite",
+    "ShortName": "DefaultUsecUpperSuite",
+    "Description": "DefaultUsecUpperSuite",
+    "Side": [
+      "Usec"
+    ],
+    "AvailableAsDefault": false,
+    "Body": "6295e8c3e08ed747e64aea00",
+    "Hands": "6295e95e2ff06264a71c7c1f"
+  },
+  "_proto": "5cde9ec17d6c8b04723cf479"
+}

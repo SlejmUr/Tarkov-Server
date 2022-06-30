@@ -1,0 +1,15 @@
+{
+  "_id": "6284d6a28e4092597733b7a6",
+  "_name": "Usec_4",
+  "_parent": "5fc100cf95572123ae738483",
+  "_type": "Item",
+  "_props": {
+    "Name": "Usec_4",
+    "ShortName": "Usec_4",
+    "Description": "Usec_4",
+    "Side": [
+      "Usec"
+    ],
+    "Prefab": "Usec_4"
+  }
+}

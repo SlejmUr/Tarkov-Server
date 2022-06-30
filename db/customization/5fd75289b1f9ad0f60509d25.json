@@ -1,1 +1,35 @@
-{"_id":"5fd75289b1f9ad0f60509d25","_name":"bear_hands_termo","_parent":"5cc086a314c02e000c6bea69","_type":"Item","_props":{"Name":"DefaultBearHands","ShortName":"DefaultBearHands","Description":"DefaultBearHands","Side":["Bear"],"BodyPart":"Hands","Prefab":{"path":"assets/content/hands/hands_bear_termo/hands_bear_termo.skin.bundle","rcid":""},"WatchPrefab":{"path":"assets/content/hands/bear/bear_watch.bundle","rcid":""},"IntegratedArmorVest":false,"WatchPosition":{"x":-0.03812,"y":0.00547,"z":0.03744},"WatchRotation":{"x":-12.7442,"y":-16.46252,"z":6.630653}},"_proto":"5cc0876314c02e000c6bea6b"}
+{
+  "_id": "5fd75289b1f9ad0f60509d25",
+  "_name": "bear_hands_termo",
+  "_parent": "5cc086a314c02e000c6bea69",
+  "_type": "Item",
+  "_props": {
+    "Name": "DefaultBearHands",
+    "ShortName": "DefaultBearHands",
+    "Description": "DefaultBearHands",
+    "Side": [
+      "Bear"
+    ],
+    "BodyPart": "Hands",
+    "Prefab": {
+      "path": "assets/content/hands/hands_bear_termo/hands_bear_termo.skin.bundle",
+      "rcid": ""
+    },
+    "WatchPrefab": {
+      "path": "assets/content/hands/bear/bear_watch.bundle",
+      "rcid": ""
+    },
+    "IntegratedArmorVest": false,
+    "WatchPosition": {
+      "x": -0.03812,
+      "y": 0.00547,
+      "z": 0.03744
+    },
+    "WatchRotation": {
+      "x": -12.7442,
+      "y": -16.46252,
+      "z": 6.630653
+    }
+  },
+  "_proto": "5cc0876314c02e000c6bea6b"
+}

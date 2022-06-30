@@ -1,1 +1,18 @@
-{"_id":"6038b228af2e28262649af14","_name":"bear_kit_upper_voin","_parent":"5cd944ca1388ce03a44dc2a4","_type":"Item","_props":{"Name":"DefaultBearLowerSuite","ShortName":"DefaultBearLowerSuite","Description":"DefaultBearLowerSuite","Side":["Bear"],"AvailableAsDefault":false,"Body":"6033a31e9ec839204e6a2f3e","Hands":"6034d3053903bc73173b0d35"},"_proto":"5cd946231388ce000d572fe3"}
+{
+  "_id": "6038b228af2e28262649af14",
+  "_name": "bear_kit_upper_voin",
+  "_parent": "5cd944ca1388ce03a44dc2a4",
+  "_type": "Item",
+  "_props": {
+    "Name": "DefaultBearLowerSuite",
+    "ShortName": "DefaultBearLowerSuite",
+    "Description": "DefaultBearLowerSuite",
+    "Side": [
+      "Bear"
+    ],
+    "AvailableAsDefault": false,
+    "Body": "6033a31e9ec839204e6a2f3e",
+    "Hands": "6034d3053903bc73173b0d35"
+  },
+  "_proto": "5cd946231388ce000d572fe3"
+}

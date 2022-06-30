@@ -1,1 +1,17 @@
-{"_id":"603d01b9d10cbf667352dd4a","_name":"usec_kit_lower_beltstaff","_parent":"5cd944d01388ce000a659df9","_type":"Item","_props":{"Name":"DefaultBearLowerSuite","ShortName":"DefaultBearLowerSuite","Description":"DefaultBearLowerSuite","Side":["Usec"],"AvailableAsDefault":false,"Feet":"6033a3fee29c9f6c9b14e74e"},"_proto":"5cd946231388ce000d572fe3"}
+{
+  "_id": "603d01b9d10cbf667352dd4a",
+  "_name": "usec_kit_lower_beltstaff",
+  "_parent": "5cd944d01388ce000a659df9",
+  "_type": "Item",
+  "_props": {
+    "Name": "DefaultBearLowerSuite",
+    "ShortName": "DefaultBearLowerSuite",
+    "Description": "DefaultBearLowerSuite",
+    "Side": [
+      "Usec"
+    ],
+    "AvailableAsDefault": false,
+    "Feet": "6033a3fee29c9f6c9b14e74e"
+  },
+  "_proto": "5cd946231388ce000d572fe3"
+}

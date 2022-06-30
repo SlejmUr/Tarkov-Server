@@ -1,1 +1,35 @@
-{"_id":"618aeee10a5a59657e5f55ed","_name":"bear_hands_sumrak","_parent":"5cc086a314c02e000c6bea69","_type":"Item","_props":{"Name":"DefaultBearHands","ShortName":"DefaultBearHands","Description":"DefaultBearHands","Side":["Bear"],"BodyPart":"Hands","Prefab":{"path":"assets/content/hands/hands_bear_sumrak/hands_bear_sumrak.skin.bundle","rcid":""},"WatchPrefab":{"path":"assets/content/hands/bear/bear_watch_traserp66.bundle","rcid":""},"IntegratedArmorVest":false,"WatchPosition":{"x":-0.05769,"y":0.00035,"z":0.0414},"WatchRotation":{"x":1.214923,"y":6.277458,"z":2.686083}},"_proto":"5cc0876314c02e000c6bea6b"}
+{
+  "_id": "618aeee10a5a59657e5f55ed",
+  "_name": "bear_hands_sumrak",
+  "_parent": "5cc086a314c02e000c6bea69",
+  "_type": "Item",
+  "_props": {
+    "Name": "DefaultBearHands",
+    "ShortName": "DefaultBearHands",
+    "Description": "DefaultBearHands",
+    "Side": [
+      "Bear"
+    ],
+    "BodyPart": "Hands",
+    "Prefab": {
+      "path": "assets/content/hands/hands_bear_sumrak/hands_bear_sumrak.skin.bundle",
+      "rcid": ""
+    },
+    "WatchPrefab": {
+      "path": "assets/content/hands/bear/bear_watch_traserp66.bundle",
+      "rcid": ""
+    },
+    "IntegratedArmorVest": false,
+    "WatchPosition": {
+      "x": -0.05769,
+      "y": 0.00035,
+      "z": 0.0414
+    },
+    "WatchRotation": {
+      "x": 1.214923,
+      "y": 6.277458,
+      "z": 2.686083
+    }
+  },
+  "_proto": "5cc0876314c02e000c6bea6b"
+}

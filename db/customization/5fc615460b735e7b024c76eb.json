@@ -1,1 +1,15 @@
-{"_id":"5fc615460b735e7b024c76eb","_name":"BossBully","_parent":"5fc100cf95572123ae738483","_type":"Item","_props":{"Name":"BossBully","ShortName":"BossBully","Description":"BossBully","Side":["Savage"],"Prefab":"BossBully"}}
+{
+  "_id": "5fc615460b735e7b024c76eb",
+  "_name": "BossBully",
+  "_parent": "5fc100cf95572123ae738483",
+  "_type": "Item",
+  "_props": {
+    "Name": "BossBully",
+    "ShortName": "BossBully",
+    "Description": "BossBully",
+    "Side": [
+      "Savage"
+    ],
+    "Prefab": "BossBully"
+  }
+}

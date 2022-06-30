@@ -1,0 +1,35 @@
+{
+  "_id": "628796f2af0a053a6672c29a",
+  "_name": "Top_BOSS_Blackknight",
+  "_parent": "5cc0868e14c02e000c6bea68",
+  "_type": "Item",
+  "_props": {
+    "Name": "Top_BOSS_Blackknight",
+    "ShortName": "Top_BOSS_Blackknight",
+    "Description": "Top_BOSS_Blackknight",
+    "Side": [
+      "Savage"
+    ],
+    "BodyPart": "Body",
+    "Prefab": {
+      "path": "assets/content/characters/character/prefabs/top_boss_blackknight.bundle",
+      "rcid": ""
+    },
+    "WatchPrefab": {
+      "path": "",
+      "rcid": ""
+    },
+    "IntegratedArmorVest": false,
+    "WatchPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "WatchRotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "_proto": "5cdea33e7d6c8b0474535dac"
+}

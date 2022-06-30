@@ -1,1 +1,18 @@
-{"_id":"5fd7910ae3bfcf6cab4c9f55","_name":"SavageKitUpperRainparka","_parent":"5cd944ca1388ce03a44dc2a4","_type":"Item","_props":{"Name":"SavageUpperSuite1","ShortName":"SavageUpperSuite1","Description":"SavageUpperSuite1","Side":["Savage"],"AvailableAsDefault":false,"Body":"5fd1eb3fbe3b7107d66cb645","Hands":"5fd78fe9e3bfcf6cab4c9f54"},"_proto":"5cdea23c7d6c8b04723cf47b"}
+{
+  "_id": "5fd7910ae3bfcf6cab4c9f55",
+  "_name": "SavageKitUpperRainparka",
+  "_parent": "5cd944ca1388ce03a44dc2a4",
+  "_type": "Item",
+  "_props": {
+    "Name": "SavageUpperSuite1",
+    "ShortName": "SavageUpperSuite1",
+    "Description": "SavageUpperSuite1",
+    "Side": [
+      "Savage"
+    ],
+    "AvailableAsDefault": false,
+    "Body": "5fd1eb3fbe3b7107d66cb645",
+    "Hands": "5fd78fe9e3bfcf6cab4c9f54"
+  },
+  "_proto": "5cdea23c7d6c8b04723cf47b"
+}
