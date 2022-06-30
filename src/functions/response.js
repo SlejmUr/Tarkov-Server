@@ -619,24 +619,26 @@ class Responses {
   //   });
   // }
   clientProfileStatus(url, info, sessionID) {
-    return response_f.getBody([
-      {
-        profileid: "scav" + sessionID,
-        profileToken: null,
-        status: "Free",
-        sid: "",
-        ip: "",
-        port: 0,
-      },
-      {
-        profileid: "pmc" + sessionID,
-        profileToken: null,
-        status: "Free",
-        sid: "",
-        ip: "",
-        port: 0,
-      },
-    ]);
+    return response_f.getBody({
+        maxPveCountExceeded: false,
+        profiles:[
+        {
+          profileid: "scav" + sessionID,
+          profileToken: null,
+          status: "Free",
+          sid: "",
+          ip: "",
+          port: 0,
+        },
+        {
+          profileid: "pmc" + sessionID,
+          profileToken: null,
+          status: "Free",
+          sid: "",
+          ip: "",
+          port: 0,
+        }]
+      });
   }
   clientPutMetrics(url, info, sessionID) {
     return response_f.nullResponse();
