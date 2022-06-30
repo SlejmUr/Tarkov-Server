@@ -1,5 +1,12 @@
 [
 	{
+		"_id": "627a137bf21bc425b06ab944",
+		"_name": "SpringDrivenCylinder",
+		"_parent": "610720f290b75a49ff2e5e25",
+		"_type": "Node",
+		"_props": {}
+	},
+	{
 		"_id": "60dc519adf4c47305f6d410d",
 		"_name": "mag_mc255_ckib_mc255_cylinder_std_12g_5",
 		"_parent": "610720f290b75a49ff2e5e25",
@@ -53,6 +60,8 @@
 			"DiscardingBlock": false,
 			"RagFairCommissionModifier": 1,
 			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
 			"Grids": [],
 			"Slots": [
 				{
@@ -340,6 +349,8 @@
 			"DiscardingBlock": false,
 			"RagFairCommissionModifier": 1,
 			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
 			"Grids": [],
 			"Slots": [
 				{
@@ -604,6 +615,8 @@
 			"DiscardingBlock": false,
 			"RagFairCommissionModifier": 1,
 			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
 			"Grids": [],
 			"Slots": [
 				{
@@ -840,6 +853,8 @@
 			"DiscardingBlock": false,
 			"RagFairCommissionModifier": 1,
 			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
 			"Grids": [],
 			"Slots": [
 				{

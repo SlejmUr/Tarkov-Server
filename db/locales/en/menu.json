@@ -35,10 +35,10 @@
 			"BATTLEYE_ANTICHEAT_GlobalBan": "The player has been banned by BE",
 			"BATTLEYE_ANTICHEAT_FailedToLoadAnticheat": "Anticheat loading failed.",
 			"ASSEMBLE": "ASSEMBLE",
-			"When you leave the raid you don\u2019t get anything and also receive Left the Action exit status.": "When you leave the raid you don\u2019t get anything and also receive Left the Action exit status.",
+			"When you leave the raid you don’t get anything and also receive Left the Action exit status.": "When you leave the raid you don’t get anything and also receive Left the Action exit status.",
 			"Production completed: {0}": "Production completed: {0}",
-			"UI\/leave_game_confirmation_text": "Are you sure you want to leave?",
-			"UI\/leave_game_confirmation_caption": "Exit"
+			"UI/leave_game_confirmation_text": "Are you sure you want to leave?",
+			"UI/leave_game_confirmation_caption": "Exit"
 		}
 	},
 	"crc": 0

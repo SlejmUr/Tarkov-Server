@@ -53,6 +53,8 @@
 			"DiscardingBlock": false,
 			"RagFairCommissionModifier": 1,
 			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
 			"Grids": [],
 			"Slots": [
 				{
@@ -65,14 +67,15 @@
 								"Filter": [
 									"5447b5fc4bdc2d87278b4567",
 									"5447b5f14bdc2d61278b4567",
-									"5447bedf4bdc2d87278b4568",
+									"5e81ebcd8e146c7080625e15",
 									"5447bed64bdc2d97278b4568",
 									"5447b6194bdc2d67278b4567",
 									"60db29ce99594040e04c4a27",
 									"5447b6094bdc2dc3278b4567",
 									"5447b5e04bdc2d62278b4567",
 									"5447b6254bdc2dc3278b4568",
-									"5447bee84bdc2dc3278b4569"
+									"5447bee84bdc2dc3278b4569",
+									"6275303a9f372d6ea97f9ec7"
 								]
 							}
 						]
@@ -91,14 +94,15 @@
 								"Filter": [
 									"5447b5fc4bdc2d87278b4567",
 									"5447b5f14bdc2d61278b4567",
-									"5447bedf4bdc2d87278b4568",
+									"5e81ebcd8e146c7080625e15",
 									"5447bed64bdc2d97278b4568",
 									"5447b6194bdc2d67278b4567",
-									"60db29ce99594040e04c4a27",
 									"5447b6094bdc2dc3278b4567",
 									"5447b5e04bdc2d62278b4567",
 									"5447b6254bdc2dc3278b4568",
-									"5447bee84bdc2dc3278b4569"
+									"5447bee84bdc2dc3278b4569",
+									"60db29ce99594040e04c4a27",
+									"6275303a9f372d6ea97f9ec7"
 								]
 							}
 						]
@@ -115,6 +119,7 @@
 						"filters": [
 							{
 								"Filter": [
+									"620109578d82e67e7911abf2",
 									"5447b5cf4bdc2d65278b4567",
 									"624c2e8614da335f1e034d8c",
 									"61a4c8884f95bc3b2c5dc96f"
@@ -243,7 +248,8 @@
 									"5ca20ee186f774799474abc2",
 									"59ef13ca86f77445fd0e2483",
 									"572b7fa124597762b472f9d2",
-									"59e7708286f7742cbd762753"
+									"59e7708286f7742cbd762753",
+									"628e4dd1f477aa12234918aa"
 								]
 							}
 						]
@@ -351,7 +357,8 @@
 									"6033fa48ffd42c541047f728",
 									"5c165d832e2216398b5a7e36",
 									"5e4d34ca86f774264f758330",
-									"5f60cd6cf2bcbb675b00dac6"
+									"5f60cd6cf2bcbb675b00dac6",
+									"628e4e576d783146b124c64d"
 								]
 							}
 						]
@@ -404,23 +411,6 @@
 							{
 								"Filter": [
 									"5b3f15d486f77432d0509248"
-								]
-							}
-						]
-					},
-					"_required": false,
-					"_mergeSlotWithChildren": true,
-					"_proto": "55d721144bdc2d89028b456f"
-				},
-				{
-					"_name": "Compass",
-					"_id": "5f50f11ba5573a5ac31db431",
-					"_parent": "55d7217a4bdc2d86028b456d",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"5f4fbaaca5573a5ac31db429"
 								]
 							}
 						]
