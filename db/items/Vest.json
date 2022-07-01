@@ -1,3033 +1,5 @@
 [
 	{
-		"_id": "628dc750b910320f4c27a732",
-		"_name": "item_equipment_rig_bae_rbav_af",
-		"_parent": "5448e5284bdc2dcb718b4567",
-		"_type": "Item",
-		"_props": {
-			"Name": "tactec",
-			"ShortName": "tactec",
-			"Description": "tactec",
-			"Weight": 7.5,
-			"BackgroundColor": "default",
-			"Width": 3,
-			"Height": 4,
-			"StackMaxSize": 1,
-			"ItemSound": "gear_generic",
-			"Prefab": {
-				"path": "assets/content/items/equipment/rig_bae_rbav_af/item_equipment_rig_bae_rbav_af.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 10,
-			"HideEntrails": true,
-			"RepairCost": 550,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": false,
-			"CanSellOnRagfair": false,
-			"CanRequireOnRagfair": false,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [
-				{
-					"_name": "1",
-					"_id": "628dc750b910320f4c27a733",
-					"_parent": "628dc750b910320f4c27a732",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 3,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "2",
-					"_id": "628dc750b910320f4c27a734",
-					"_parent": "628dc750b910320f4c27a732",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 3,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "3",
-					"_id": "628dc750b910320f4c27a735",
-					"_parent": "628dc750b910320f4c27a732",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 3,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "4",
-					"_id": "628dc750b910320f4c27a736",
-					"_parent": "628dc750b910320f4c27a732",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "5",
-					"_id": "628dc750b910320f4c27a737",
-					"_parent": "628dc750b910320f4c27a732",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "6",
-					"_id": "628dc750b910320f4c27a738",
-					"_parent": "628dc750b910320f4c27a732",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "7",
-					"_id": "628dc750b910320f4c27a739",
-					"_parent": "628dc750b910320f4c27a732",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "8",
-					"_id": "628dc750b910320f4c27a73a",
-					"_parent": "628dc750b910320f4c27a732",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 2,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "9",
-					"_id": "628e251b83ec92260c0f43b9",
-					"_parent": "628dc750b910320f4c27a732",
-					"_props": {
-						"filters": [],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "10",
-					"_id": "628e254dee8bd3551830ab89",
-					"_parent": "628dc750b910320f4c27a732",
-					"_props": {
-						"filters": [],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				}
-			],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"SearchSound": "looting_body_extended",
-			"BlocksArmorVest": true,
-			"RigLayoutName": "rbaf_af",
-			"Durability": 45,
-			"MaxDurability": 45,
-			"armorZone": [
-				"Chest",
-				"Stomach"
-			],
-			"armorClass": 4,
-			"speedPenaltyPercent": -8,
-			"mousePenalty": -6,
-			"weaponErgonomicPenalty": -4,
-			"BluntThroughput": 0.188,
-			"ArmorMaterial": "Titan"
-		},
-		"_proto": "544a5caa4bdc2d1a388b4568"
-	},
-	{
-		"_id": "628d0618d1ba6e4fa07ce5a4",
-		"_name": "item_equipment_rig_bagarii",
-		"_parent": "5448e5284bdc2dcb718b4567",
-		"_type": "Item",
-		"_props": {
-			"Name": "item_equipment_rig_bagarii",
-			"ShortName": "item_equipment_rig_bagarii",
-			"Description": "item_equipment_rig_bagarii",
-			"Weight": 13,
-			"BackgroundColor": "default",
-			"Width": 4,
-			"Height": 4,
-			"StackMaxSize": 1,
-			"ItemSound": "gear_generic",
-			"Prefab": {
-				"path": "assets/content/items/equipment/rig_bagarii/rig_bagarii.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 10,
-			"HideEntrails": true,
-			"RepairCost": 700,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": false,
-			"CanSellOnRagfair": false,
-			"CanRequireOnRagfair": false,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [
-				{
-					"_name": "1",
-					"_id": "628d0618d1ba6e4fa07ce5a5",
-					"_parent": "628d0618d1ba6e4fa07ce5a4",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "2",
-					"_id": "628d0618d1ba6e4fa07ce5a6",
-					"_parent": "628d0618d1ba6e4fa07ce5a4",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "3",
-					"_id": "628d0618d1ba6e4fa07ce5a7",
-					"_parent": "628d0618d1ba6e4fa07ce5a4",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "4",
-					"_id": "628d0618d1ba6e4fa07ce5a8",
-					"_parent": "628d0618d1ba6e4fa07ce5a4",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "5",
-					"_id": "628d0618d1ba6e4fa07ce5a9",
-					"_parent": "628d0618d1ba6e4fa07ce5a4",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "6",
-					"_id": "628d0618d1ba6e4fa07ce5aa",
-					"_parent": "628d0618d1ba6e4fa07ce5a4",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "7",
-					"_id": "628d0618d1ba6e4fa07ce5ab",
-					"_parent": "628d0618d1ba6e4fa07ce5a4",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "8",
-					"_id": "628d0618d1ba6e4fa07ce5ac",
-					"_parent": "628d0618d1ba6e4fa07ce5a4",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "9",
-					"_id": "628d0618d1ba6e4fa07ce5ad",
-					"_parent": "628d0618d1ba6e4fa07ce5a4",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "10",
-					"_id": "628d0618d1ba6e4fa07ce5ae",
-					"_parent": "628d0618d1ba6e4fa07ce5a4",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "11",
-					"_id": "628d0618d1ba6e4fa07ce5af",
-					"_parent": "628d0618d1ba6e4fa07ce5a4",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 2,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "12",
-					"_id": "628d0618d1ba6e4fa07ce5b0",
-					"_parent": "628d0618d1ba6e4fa07ce5a4",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "13",
-					"_id": "628d0618d1ba6e4fa07ce5b1",
-					"_parent": "628d0618d1ba6e4fa07ce5a4",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 2,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				}
-			],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"SearchSound": "looting_body_extended",
-			"BlocksArmorVest": true,
-			"RigLayoutName": "bagarii",
-			"Durability": 55,
-			"MaxDurability": 55,
-			"armorZone": [
-				"Chest",
-				"Stomach"
-			],
-			"armorClass": 5,
-			"speedPenaltyPercent": -21,
-			"mousePenalty": -14,
-			"weaponErgonomicPenalty": -9,
-			"BluntThroughput": 0.17,
-			"ArmorMaterial": "ArmoredSteel"
-		},
-		"_proto": "544a5caa4bdc2d1a388b4568"
-	},
-	{
-		"_id": "5e4abc1f86f774069619fbaa",
-		"_name": "item_equipment_rig_bankrobber",
-		"_parent": "5448e5284bdc2dcb718b4567",
-		"_type": "Item",
-		"_props": {
-			"Name": "BEAR Rig 6h112",
-			"ShortName": "Rig 6h112",
-			"Description": "Rig 6h112",
-			"Weight": 0.7,
-			"BackgroundColor": "default",
-			"Width": 3,
-			"Height": 2,
-			"StackMaxSize": 1,
-			"ItemSound": "gear_generic",
-			"Prefab": {
-				"path": "assets/content/items/equipment/rig_bankrobber/cr_bankrobber.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 10,
-			"HideEntrails": true,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": false,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [
-				{
-					"_name": "1",
-					"_id": "5e4abc1f86f774069619fbac",
-					"_parent": "5e4abc1f86f774069619fbaa",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "2",
-					"_id": "5e4abc1f86f774069619fbad",
-					"_parent": "5e4abc1f86f774069619fbaa",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "3",
-					"_id": "5e4abc1f86f774069619fbae",
-					"_parent": "5e4abc1f86f774069619fbaa",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "4",
-					"_id": "5e4abc1f86f774069619fbaf",
-					"_parent": "5e4abc1f86f774069619fbaa",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				}
-			],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"SearchSound": "looting_body_extended",
-			"BlocksArmorVest": false,
-			"RigLayoutName": "bank_robber",
-			"Durability": 0,
-			"MaxDurability": 0,
-			"armorZone": [],
-			"armorClass": 0,
-			"speedPenaltyPercent": 0,
-			"mousePenalty": 0,
-			"weaponErgonomicPenalty": 0,
-			"BluntThroughput": 0,
-			"ArmorMaterial": "UHMWPE"
-		},
-		"_proto": "544a5caa4bdc2d1a388b4568"
-	},
-	{
-		"_id": "5e9db13186f7742f845ee9d3",
-		"_name": "item_equipment_rig_bearing",
-		"_parent": "5448e5284bdc2dcb718b4567",
-		"_type": "Item",
-		"_props": {
-			"Name": "commando",
-			"ShortName": "commando",
-			"Description": "commando",
-			"Weight": 1.36,
-			"BackgroundColor": "default",
-			"Width": 3,
-			"Height": 3,
-			"StackMaxSize": 1,
-			"ItemSound": "gear_generic",
-			"Prefab": {
-				"path": "assets/content/items/equipment/rig_bearing/item_equipment_rig_bearing.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 10,
-			"HideEntrails": true,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": false,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [
-				{
-					"_name": "1",
-					"_id": "5e9db13186f7742f845ee9d5",
-					"_parent": "5e9db13186f7742f845ee9d3",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 2,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "2",
-					"_id": "5e9db13186f7742f845ee9d6",
-					"_parent": "5e9db13186f7742f845ee9d3",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 2,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "3",
-					"_id": "5e9db13186f7742f845ee9d7",
-					"_parent": "5e9db13186f7742f845ee9d3",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "4",
-					"_id": "5e9db13186f7742f845ee9d8",
-					"_parent": "5e9db13186f7742f845ee9d3",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "5",
-					"_id": "5e9db13186f7742f845ee9d9",
-					"_parent": "5e9db13186f7742f845ee9d3",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "6",
-					"_id": "5e9db13186f7742f845ee9da",
-					"_parent": "5e9db13186f7742f845ee9d3",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "7",
-					"_id": "5e9db13186f7742f845ee9db",
-					"_parent": "5e9db13186f7742f845ee9d3",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "8",
-					"_id": "5e9db13186f7742f845ee9dc",
-					"_parent": "5e9db13186f7742f845ee9d3",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				}
-			],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"SearchSound": "looting_body_extended",
-			"BlocksArmorVest": false,
-			"RigLayoutName": "Bearing",
-			"Durability": 0,
-			"MaxDurability": 0,
-			"armorZone": [],
-			"armorClass": 0,
-			"speedPenaltyPercent": 0,
-			"mousePenalty": 0,
-			"weaponErgonomicPenalty": 0,
-			"BluntThroughput": 0,
-			"ArmorMaterial": "UHMWPE"
-		},
-		"_proto": "544a5caa4bdc2d1a388b4568"
-	},
-	{
-		"_id": "5c0e6a1586f77404597b4965",
-		"_name": "item_equipment_rig_beltab",
-		"_parent": "5448e5284bdc2dcb718b4567",
-		"_type": "Item",
-		"_props": {
-			"Name": "Wartech vest",
-			"ShortName": "Wartech vest",
-			"Description": "Wartech vest",
-			"Weight": 1.7,
-			"BackgroundColor": "default",
-			"Width": 4,
-			"Height": 4,
-			"StackMaxSize": 1,
-			"ItemSound": "gear_generic",
-			"Prefab": {
-				"path": "assets/content/items/equipment/rig_beltab/item_equipment_rig_beltab.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 10,
-			"HideEntrails": true,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": false,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [
-				{
-					"_name": "1",
-					"_id": "5c0e6a1586f77404597b4967",
-					"_parent": "5c0e6a1586f77404597b4965",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "2",
-					"_id": "5c0e6a1586f77404597b4968",
-					"_parent": "5c0e6a1586f77404597b4965",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "3",
-					"_id": "5c0e6a1586f77404597b4969",
-					"_parent": "5c0e6a1586f77404597b4965",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "4",
-					"_id": "5c0e6a1586f77404597b496a",
-					"_parent": "5c0e6a1586f77404597b4965",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "5",
-					"_id": "5c0e6a1586f77404597b496b",
-					"_parent": "5c0e6a1586f77404597b4965",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "6",
-					"_id": "5c0e7ea986f774684264bd80",
-					"_parent": "5c0e6a1586f77404597b4965",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "7",
-					"_id": "5c0e7eba86f77443a74d2973",
-					"_parent": "5c0e6a1586f77404597b4965",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "8",
-					"_id": "5c0e7ebe86f77452b35dc6e2",
-					"_parent": "5c0e6a1586f77404597b4965",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "9",
-					"_id": "5c0e7ec186f77468413cc5c8",
-					"_parent": "5c0e6a1586f77404597b4965",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "10",
-					"_id": "5c0e7ec886f774684046efa3",
-					"_parent": "5c0e6a1586f77404597b4965",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "11",
-					"_id": "5c0e7ed686f77468433e062f",
-					"_parent": "5c0e6a1586f77404597b4965",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "12",
-					"_id": "5c0e7eda86f7745dc7616602",
-					"_parent": "5c0e6a1586f77404597b4965",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "13",
-					"_id": "5c0e7edf86f774683f3dd636",
-					"_parent": "5c0e6a1586f77404597b4965",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "14",
-					"_id": "5c0e7ee386f77443a74d2974",
-					"_parent": "5c0e6a1586f77404597b4965",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "15",
-					"_id": "5c0e7ee786f77443a74d2975",
-					"_parent": "5c0e6a1586f77404597b4965",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "16",
-					"_id": "5c0e7eeb86f7745dc7616603",
-					"_parent": "5c0e6a1586f77404597b4965",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "17",
-					"_id": "5c0e7eef86f77452b35dc6e3",
-					"_parent": "5c0e6a1586f77404597b4965",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "18",
-					"_id": "5c0e7ef486f774684264bd81",
-					"_parent": "5c0e6a1586f77404597b4965",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "19",
-					"_id": "5c0e7ef886f7745dc7616604",
-					"_parent": "5c0e6a1586f77404597b4965",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				}
-			],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"SearchSound": "looting_body_extended",
-			"BlocksArmorVest": false,
-			"RigLayoutName": "Beltab",
-			"Durability": 0,
-			"MaxDurability": 0,
-			"armorZone": [],
-			"armorClass": 0,
-			"speedPenaltyPercent": -2,
-			"mousePenalty": 0,
-			"weaponErgonomicPenalty": -5,
-			"BluntThroughput": 0,
-			"ArmorMaterial": "UHMWPE"
-		},
-		"_proto": "544a5caa4bdc2d1a388b4568"
-	},
-	{
-		"_id": "628baf0b967de16aab5a4f36",
-		"_name": "item_equipment_rig_boss_birdeye",
-		"_parent": "5448e5284bdc2dcb718b4567",
-		"_type": "Item",
-		"_props": {
-			"Name": "commando",
-			"ShortName": "commando",
-			"Description": "commando",
-			"Weight": 1.36,
-			"BackgroundColor": "default",
-			"Width": 3,
-			"Height": 3,
-			"StackMaxSize": 1,
-			"ItemSound": "gear_generic",
-			"Prefab": {
-				"path": "assets/content/items/equipment/rig_boss_birdeye/item_equipment_rig_boss_birdeye.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 10,
-			"HideEntrails": true,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": false,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [
-				{
-					"_name": "1",
-					"_id": "628baf0b967de16aab5a4f38",
-					"_parent": "628baf0b967de16aab5a4f36",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 2,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "2",
-					"_id": "628baf0b967de16aab5a4f39",
-					"_parent": "628baf0b967de16aab5a4f36",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 2,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "3",
-					"_id": "628baf0b967de16aab5a4f3a",
-					"_parent": "628baf0b967de16aab5a4f36",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "4",
-					"_id": "628baf0b967de16aab5a4f3b",
-					"_parent": "628baf0b967de16aab5a4f36",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "5",
-					"_id": "628baf0b967de16aab5a4f3c",
-					"_parent": "628baf0b967de16aab5a4f36",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "6",
-					"_id": "628baf0b967de16aab5a4f3d",
-					"_parent": "628baf0b967de16aab5a4f36",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "7",
-					"_id": "628baf0b967de16aab5a4f3e",
-					"_parent": "628baf0b967de16aab5a4f36",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "8",
-					"_id": "628baf0b967de16aab5a4f3f",
-					"_parent": "628baf0b967de16aab5a4f36",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				}
-			],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"SearchSound": "looting_body_extended",
-			"BlocksArmorVest": false,
-			"RigLayoutName": "Bearing",
-			"Durability": 0,
-			"MaxDurability": 0,
-			"armorZone": [],
-			"armorClass": 0,
-			"speedPenaltyPercent": 0,
-			"mousePenalty": 0,
-			"weaponErgonomicPenalty": 0,
-			"BluntThroughput": 0,
-			"ArmorMaterial": "UHMWPE"
-		},
-		"_proto": "544a5caa4bdc2d1a388b4568"
-	},
-	{
-		"_id": "5648a69d4bdc2ded0b8b457b",
-		"_name": "bearRig",
-		"_parent": "5448e5284bdc2dcb718b4567",
-		"_type": "Item",
-		"_props": {
-			"Name": "BEAR Rig",
-			"ShortName": "BlackRock",
-			"Description": "BlackRock chest rig",
-			"Weight": 1.8,
-			"BackgroundColor": "default",
-			"Width": 3,
-			"Height": 4,
-			"StackMaxSize": 1,
-			"ItemSound": "gear_generic",
-			"Prefab": {
-				"path": "assets/content/items/equipment/rig_blackrock/item_equipment_rig_blackrock.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 10,
-			"HideEntrails": true,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": false,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [
-				{
-					"_name": "1",
-					"_id": "5648a6f44bdc2d3b4c8b4576",
-					"_parent": "5648a69d4bdc2ded0b8b457b",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "2",
-					"_id": "5648a6f74bdc2d363b8b4576",
-					"_parent": "5648a69d4bdc2ded0b8b457b",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "3",
-					"_id": "5648a6f94bdc2d16268b4577",
-					"_parent": "5648a69d4bdc2ded0b8b457b",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "4",
-					"_id": "5648a6fc4bdc2df8348b457f",
-					"_parent": "5648a69d4bdc2ded0b8b457b",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "5",
-					"_id": "5648a6ff4bdc2d91118b45a3",
-					"_parent": "5648a69d4bdc2ded0b8b457b",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 2,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "6",
-					"_id": "5648a7034bdc2d3d1c8b457c",
-					"_parent": "5648a69d4bdc2ded0b8b457b",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "7",
-					"_id": "5d67d4f786f774557749dd49",
-					"_parent": "5648a69d4bdc2ded0b8b457b",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "8",
-					"_id": "5d67d4fe86f774557326afae",
-					"_parent": "5648a69d4bdc2ded0b8b457b",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "9",
-					"_id": "5d67d50686f774557749dd4a",
-					"_parent": "5648a69d4bdc2ded0b8b457b",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "10",
-					"_id": "5d67d50e86f774557326afaf",
-					"_parent": "5648a69d4bdc2ded0b8b457b",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "11",
-					"_id": "5d67d51e86f774599657f14a",
-					"_parent": "5648a69d4bdc2ded0b8b457b",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				}
-			],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"SearchSound": "looting_body_extended",
-			"BlocksArmorVest": false,
-			"RigLayoutName": "blackrock",
-			"Durability": 0,
-			"MaxDurability": 0,
-			"armorZone": [],
-			"armorClass": 0,
-			"speedPenaltyPercent": -2,
-			"mousePenalty": -1,
-			"weaponErgonomicPenalty": -3,
-			"BluntThroughput": 0,
-			"ArmorMaterial": "UHMWPE"
-		},
-		"_proto": "544a5caa4bdc2d1a388b4568"
-	},
-	{
-		"_id": "5fd4c60f875c30179f5d04c2",
-		"_name": "item_equipment_rig_bssmk1",
-		"_parent": "5448e5284bdc2dcb718b4567",
-		"_type": "Item",
-		"_props": {
-			"Name": "commando",
-			"ShortName": "commando",
-			"Description": "commando",
-			"Weight": 1,
-			"BackgroundColor": "default",
-			"Width": 3,
-			"Height": 3,
-			"StackMaxSize": 1,
-			"ItemSound": "gear_generic",
-			"Prefab": {
-				"path": "assets/content/items/equipment/rig_bssmk1/item_equipment_rig_bssmk1.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 10,
-			"HideEntrails": true,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": false,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [
-				{
-					"_name": "1",
-					"_id": "5fd4c60f875c30179f5d04c4",
-					"_parent": "5fd4c60f875c30179f5d04c2",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "2",
-					"_id": "5fd4c60f875c30179f5d04c5",
-					"_parent": "5fd4c60f875c30179f5d04c2",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "3",
-					"_id": "5fd4c60f875c30179f5d04c6",
-					"_parent": "5fd4c60f875c30179f5d04c2",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "4",
-					"_id": "5fd4c60f875c30179f5d04c7",
-					"_parent": "5fd4c60f875c30179f5d04c2",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "5",
-					"_id": "5fd4c60f875c30179f5d04c8",
-					"_parent": "5fd4c60f875c30179f5d04c2",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "6",
-					"_id": "5fd4c60f875c30179f5d04c9",
-					"_parent": "5fd4c60f875c30179f5d04c2",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "7",
-					"_id": "5fd4c60f875c30179f5d04ca",
-					"_parent": "5fd4c60f875c30179f5d04c2",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "8",
-					"_id": "5fd4c60f875c30179f5d04cb",
-					"_parent": "5fd4c60f875c30179f5d04c2",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "9",
-					"_id": "5fd4c60f875c30179f5d04cc",
-					"_parent": "5fd4c60f875c30179f5d04c2",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "10",
-					"_id": "5fd4c60f875c30179f5d04cd",
-					"_parent": "5fd4c60f875c30179f5d04c2",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 1,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				}
-			],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"SearchSound": "looting_body_extended",
-			"BlocksArmorVest": false,
-			"RigLayoutName": "D3crx",
-			"Durability": 0,
-			"MaxDurability": 0,
-			"armorZone": [],
-			"armorClass": 0,
-			"speedPenaltyPercent": 0,
-			"mousePenalty": 0,
-			"weaponErgonomicPenalty": 0,
-			"BluntThroughput": 0,
-			"ArmorMaterial": "UHMWPE"
-		},
-		"_proto": "544a5caa4bdc2d1a388b4568"
-	},
-	{
-		"_id": "5b44c8ea86f7742d1627baf1",
-		"_name": "item_equipment_rig_commando",
-		"_parent": "5448e5284bdc2dcb718b4567",
-		"_type": "Item",
-		"_props": {
-			"Name": "commando",
-			"ShortName": "commando",
-			"Description": "commando",
-			"Weight": 1.35,
-			"BackgroundColor": "default",
-			"Width": 4,
-			"Height": 3,
-			"StackMaxSize": 1,
-			"ItemSound": "gear_generic",
-			"Prefab": {
-				"path": "assets/content/items/equipment/rig_commando/item_equipment_rig_commando.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 10,
-			"HideEntrails": true,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": false,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [
-				{
-					"_name": "1",
-					"_id": "5b44c8ea86f7742d1627baf3",
-					"_parent": "5b44c8ea86f7742d1627baf1",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "2",
-					"_id": "5b44c8ea86f7742d1627baf4",
-					"_parent": "5b44c8ea86f7742d1627baf1",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "3",
-					"_id": "5b44c8ea86f7742d1627baf5",
-					"_parent": "5b44c8ea86f7742d1627baf1",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "4",
-					"_id": "5b44c8ea86f7742d1627baf6",
-					"_parent": "5b44c8ea86f7742d1627baf1",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "5",
-					"_id": "5b44c8ea86f7742d1627baf7",
-					"_parent": "5b44c8ea86f7742d1627baf1",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "6",
-					"_id": "5b44c8ea86f7742d1627baf8",
-					"_parent": "5b44c8ea86f7742d1627baf1",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "7",
-					"_id": "5b44c8ea86f7742d1627baf9",
-					"_parent": "5b44c8ea86f7742d1627baf1",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "8",
-					"_id": "5b44c8ea86f7742d1627bafa",
-					"_parent": "5b44c8ea86f7742d1627baf1",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				}
-			],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"SearchSound": "looting_body_extended",
-			"BlocksArmorVest": false,
-			"RigLayoutName": "Commando",
-			"Durability": 0,
-			"MaxDurability": 0,
-			"armorZone": [],
-			"armorClass": 0,
-			"speedPenaltyPercent": 0,
-			"mousePenalty": 0,
-			"weaponErgonomicPenalty": 0,
-			"BluntThroughput": 0,
-			"ArmorMaterial": "UHMWPE"
-		},
-		"_proto": "544a5caa4bdc2d1a388b4568"
-	},
-	{
-		"_id": "6034d0230ca681766b6a0fb5",
-		"_name": "item_equipment_rig_cs_assault",
-		"_parent": "5448e5284bdc2dcb718b4567",
-		"_type": "Item",
-		"_props": {
-			"Name": "Wild Vest",
-			"ShortName": "Wild Vest",
-			"Description": "Wild Vest",
-			"Weight": 0.75,
-			"BackgroundColor": "default",
-			"Width": 2,
-			"Height": 3,
-			"StackMaxSize": 1,
-			"ItemSound": "gear_generic",
-			"Prefab": {
-				"path": "assets/content/items/equipment/rig_cs_assault/item_equipment_rig_cs_assault.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": true,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": false,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [
-				{
-					"_name": "1",
-					"_id": "6034d0230ca681766b6a0fb7",
-					"_parent": "6034d0230ca681766b6a0fb5",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 3,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "2",
-					"_id": "6034d0230ca681766b6a0fb8",
-					"_parent": "6034d0230ca681766b6a0fb5",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "3",
-					"_id": "6034d0230ca681766b6a0fb9",
-					"_parent": "6034d0230ca681766b6a0fb5",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "4",
-					"_id": "6034d0230ca681766b6a0fba",
-					"_parent": "6034d0230ca681766b6a0fb5",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 3,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				}
-			],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"SearchSound": "looting_body_extended",
-			"BlocksArmorVest": false,
-			"RigLayoutName": "mil_tac",
-			"Durability": 0,
-			"MaxDurability": 0,
-			"armorZone": [],
-			"armorClass": 0,
-			"speedPenaltyPercent": 0,
-			"mousePenalty": 0,
-			"weaponErgonomicPenalty": 0,
-			"BluntThroughput": 0,
-			"ArmorMaterial": "UHMWPE"
-		},
-		"_proto": "5648a69d4bdc2ded0b8b457b"
-	},
-	{
 		"_id": "5fd4c5477a8d854fa0105061",
 		"_name": "item_equipment_rig_ctactical",
 		"_parent": "5448e5284bdc2dcb718b4567",
@@ -4546,6 +1518,178 @@
 		"_proto": "544a5caa4bdc2d1a388b4568"
 	},
 	{
+		"_id": "5e4abc1f86f774069619fbaa",
+		"_name": "item_equipment_rig_bankrobber",
+		"_parent": "5448e5284bdc2dcb718b4567",
+		"_type": "Item",
+		"_props": {
+			"Name": "BEAR Rig 6h112",
+			"ShortName": "Rig 6h112",
+			"Description": "Rig 6h112",
+			"Weight": 0.7,
+			"BackgroundColor": "default",
+			"Width": 3,
+			"Height": 2,
+			"StackMaxSize": 1,
+			"ItemSound": "gear_generic",
+			"Prefab": {
+				"path": "assets/content/items/equipment/rig_bankrobber/cr_bankrobber.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 10,
+			"HideEntrails": true,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": false,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [
+				{
+					"_name": "1",
+					"_id": "5e4abc1f86f774069619fbac",
+					"_parent": "5e4abc1f86f774069619fbaa",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "2",
+					"_id": "5e4abc1f86f774069619fbad",
+					"_parent": "5e4abc1f86f774069619fbaa",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "3",
+					"_id": "5e4abc1f86f774069619fbae",
+					"_parent": "5e4abc1f86f774069619fbaa",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "4",
+					"_id": "5e4abc1f86f774069619fbaf",
+					"_parent": "5e4abc1f86f774069619fbaa",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"SearchSound": "looting_body_extended",
+			"BlocksArmorVest": false,
+			"RigLayoutName": "bank_robber",
+			"Durability": 0,
+			"MaxDurability": 0,
+			"armorZone": [],
+			"armorClass": 0,
+			"speedPenaltyPercent": 0,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0,
+			"BluntThroughput": 0,
+			"ArmorMaterial": "UHMWPE"
+		},
+		"_proto": "544a5caa4bdc2d1a388b4568"
+	},
+	{
 		"_id": "5d5d87f786f77427997cfaef",
 		"_name": "item_equipment_armor_a18",
 		"_parent": "5448e5284bdc2dcb718b4567",
@@ -6030,6 +3174,274 @@
 		"_proto": "544a5caa4bdc2d1a388b4568"
 	},
 	{
+		"_id": "5e9db13186f7742f845ee9d3",
+		"_name": "item_equipment_rig_bearing",
+		"_parent": "5448e5284bdc2dcb718b4567",
+		"_type": "Item",
+		"_props": {
+			"Name": "commando",
+			"ShortName": "commando",
+			"Description": "commando",
+			"Weight": 1.36,
+			"BackgroundColor": "default",
+			"Width": 3,
+			"Height": 3,
+			"StackMaxSize": 1,
+			"ItemSound": "gear_generic",
+			"Prefab": {
+				"path": "assets/content/items/equipment/rig_bearing/item_equipment_rig_bearing.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 10,
+			"HideEntrails": true,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": false,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [
+				{
+					"_name": "1",
+					"_id": "5e9db13186f7742f845ee9d5",
+					"_parent": "5e9db13186f7742f845ee9d3",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 2,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "2",
+					"_id": "5e9db13186f7742f845ee9d6",
+					"_parent": "5e9db13186f7742f845ee9d3",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 2,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "3",
+					"_id": "5e9db13186f7742f845ee9d7",
+					"_parent": "5e9db13186f7742f845ee9d3",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "4",
+					"_id": "5e9db13186f7742f845ee9d8",
+					"_parent": "5e9db13186f7742f845ee9d3",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "5",
+					"_id": "5e9db13186f7742f845ee9d9",
+					"_parent": "5e9db13186f7742f845ee9d3",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "6",
+					"_id": "5e9db13186f7742f845ee9da",
+					"_parent": "5e9db13186f7742f845ee9d3",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "7",
+					"_id": "5e9db13186f7742f845ee9db",
+					"_parent": "5e9db13186f7742f845ee9d3",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "8",
+					"_id": "5e9db13186f7742f845ee9dc",
+					"_parent": "5e9db13186f7742f845ee9d3",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"SearchSound": "looting_body_extended",
+			"BlocksArmorVest": false,
+			"RigLayoutName": "Bearing",
+			"Durability": 0,
+			"MaxDurability": 0,
+			"armorZone": [],
+			"armorClass": 0,
+			"speedPenaltyPercent": 0,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0,
+			"BluntThroughput": 0,
+			"ArmorMaterial": "UHMWPE"
+		},
+		"_proto": "544a5caa4bdc2d1a388b4568"
+	},
+	{
 		"_id": "592c2d1a86f7746dbe2af32a",
 		"_name": "ana_tactical",
 		"_parent": "5448e5284bdc2dcb718b4567",
@@ -6268,6 +3680,538 @@
 			"speedPenaltyPercent": 0,
 			"mousePenalty": 0,
 			"weaponErgonomicPenalty": 0,
+			"BluntThroughput": 0,
+			"ArmorMaterial": "UHMWPE"
+		},
+		"_proto": "544a5caa4bdc2d1a388b4568"
+	},
+	{
+		"_id": "5c0e6a1586f77404597b4965",
+		"_name": "item_equipment_rig_beltab",
+		"_parent": "5448e5284bdc2dcb718b4567",
+		"_type": "Item",
+		"_props": {
+			"Name": "Wartech vest",
+			"ShortName": "Wartech vest",
+			"Description": "Wartech vest",
+			"Weight": 1.7,
+			"BackgroundColor": "default",
+			"Width": 4,
+			"Height": 4,
+			"StackMaxSize": 1,
+			"ItemSound": "gear_generic",
+			"Prefab": {
+				"path": "assets/content/items/equipment/rig_beltab/item_equipment_rig_beltab.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 10,
+			"HideEntrails": true,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": false,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [
+				{
+					"_name": "1",
+					"_id": "5c0e6a1586f77404597b4967",
+					"_parent": "5c0e6a1586f77404597b4965",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "2",
+					"_id": "5c0e6a1586f77404597b4968",
+					"_parent": "5c0e6a1586f77404597b4965",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "3",
+					"_id": "5c0e6a1586f77404597b4969",
+					"_parent": "5c0e6a1586f77404597b4965",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "4",
+					"_id": "5c0e6a1586f77404597b496a",
+					"_parent": "5c0e6a1586f77404597b4965",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "5",
+					"_id": "5c0e6a1586f77404597b496b",
+					"_parent": "5c0e6a1586f77404597b4965",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "6",
+					"_id": "5c0e7ea986f774684264bd80",
+					"_parent": "5c0e6a1586f77404597b4965",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "7",
+					"_id": "5c0e7eba86f77443a74d2973",
+					"_parent": "5c0e6a1586f77404597b4965",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "8",
+					"_id": "5c0e7ebe86f77452b35dc6e2",
+					"_parent": "5c0e6a1586f77404597b4965",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "9",
+					"_id": "5c0e7ec186f77468413cc5c8",
+					"_parent": "5c0e6a1586f77404597b4965",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "10",
+					"_id": "5c0e7ec886f774684046efa3",
+					"_parent": "5c0e6a1586f77404597b4965",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "11",
+					"_id": "5c0e7ed686f77468433e062f",
+					"_parent": "5c0e6a1586f77404597b4965",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "12",
+					"_id": "5c0e7eda86f7745dc7616602",
+					"_parent": "5c0e6a1586f77404597b4965",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "13",
+					"_id": "5c0e7edf86f774683f3dd636",
+					"_parent": "5c0e6a1586f77404597b4965",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "14",
+					"_id": "5c0e7ee386f77443a74d2974",
+					"_parent": "5c0e6a1586f77404597b4965",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "15",
+					"_id": "5c0e7ee786f77443a74d2975",
+					"_parent": "5c0e6a1586f77404597b4965",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "16",
+					"_id": "5c0e7eeb86f7745dc7616603",
+					"_parent": "5c0e6a1586f77404597b4965",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "17",
+					"_id": "5c0e7eef86f77452b35dc6e3",
+					"_parent": "5c0e6a1586f77404597b4965",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "18",
+					"_id": "5c0e7ef486f774684264bd81",
+					"_parent": "5c0e6a1586f77404597b4965",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "19",
+					"_id": "5c0e7ef886f7745dc7616604",
+					"_parent": "5c0e6a1586f77404597b4965",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"SearchSound": "looting_body_extended",
+			"BlocksArmorVest": false,
+			"RigLayoutName": "Beltab",
+			"Durability": 0,
+			"MaxDurability": 0,
+			"armorZone": [],
+			"armorClass": 0,
+			"speedPenaltyPercent": -2,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": -5,
 			"BluntThroughput": 0,
 			"ArmorMaterial": "UHMWPE"
 		},
@@ -6569,6 +4513,274 @@
 		"_proto": "544a5caa4bdc2d1a388b4568"
 	},
 	{
+		"_id": "628baf0b967de16aab5a4f36",
+		"_name": "item_equipment_rig_boss_birdeye",
+		"_parent": "5448e5284bdc2dcb718b4567",
+		"_type": "Item",
+		"_props": {
+			"Name": "commando",
+			"ShortName": "commando",
+			"Description": "commando",
+			"Weight": 1.36,
+			"BackgroundColor": "default",
+			"Width": 3,
+			"Height": 3,
+			"StackMaxSize": 1,
+			"ItemSound": "gear_generic",
+			"Prefab": {
+				"path": "assets/content/items/equipment/rig_boss_birdeye/item_equipment_rig_boss_birdeye.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 10,
+			"HideEntrails": true,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": false,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [
+				{
+					"_name": "1",
+					"_id": "628baf0b967de16aab5a4f38",
+					"_parent": "628baf0b967de16aab5a4f36",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 2,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "2",
+					"_id": "628baf0b967de16aab5a4f39",
+					"_parent": "628baf0b967de16aab5a4f36",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 2,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "3",
+					"_id": "628baf0b967de16aab5a4f3a",
+					"_parent": "628baf0b967de16aab5a4f36",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "4",
+					"_id": "628baf0b967de16aab5a4f3b",
+					"_parent": "628baf0b967de16aab5a4f36",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "5",
+					"_id": "628baf0b967de16aab5a4f3c",
+					"_parent": "628baf0b967de16aab5a4f36",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "6",
+					"_id": "628baf0b967de16aab5a4f3d",
+					"_parent": "628baf0b967de16aab5a4f36",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "7",
+					"_id": "628baf0b967de16aab5a4f3e",
+					"_parent": "628baf0b967de16aab5a4f36",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "8",
+					"_id": "628baf0b967de16aab5a4f3f",
+					"_parent": "628baf0b967de16aab5a4f36",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"SearchSound": "looting_body_extended",
+			"BlocksArmorVest": false,
+			"RigLayoutName": "Bearing",
+			"Durability": 0,
+			"MaxDurability": 0,
+			"armorZone": [],
+			"armorClass": 0,
+			"speedPenaltyPercent": 0,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0,
+			"BluntThroughput": 0,
+			"ArmorMaterial": "UHMWPE"
+		},
+		"_proto": "544a5caa4bdc2d1a388b4568"
+	},
+	{
 		"_id": "61bcc89aef0f505f0c6cd0fc",
 		"_name": "item_equipment_rig_strandhogg",
 		"_parent": "5448e5284bdc2dcb718b4567",
@@ -6836,6 +5048,346 @@
 			"weaponErgonomicPenalty": -3,
 			"BluntThroughput": 0.242,
 			"ArmorMaterial": "Aluminium"
+		},
+		"_proto": "544a5caa4bdc2d1a388b4568"
+	},
+	{
+		"_id": "5648a69d4bdc2ded0b8b457b",
+		"_name": "bearRig",
+		"_parent": "5448e5284bdc2dcb718b4567",
+		"_type": "Item",
+		"_props": {
+			"Name": "BEAR Rig",
+			"ShortName": "BlackRock",
+			"Description": "BlackRock chest rig",
+			"Weight": 1.8,
+			"BackgroundColor": "default",
+			"Width": 3,
+			"Height": 4,
+			"StackMaxSize": 1,
+			"ItemSound": "gear_generic",
+			"Prefab": {
+				"path": "assets/content/items/equipment/rig_blackrock/item_equipment_rig_blackrock.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 10,
+			"HideEntrails": true,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": false,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [
+				{
+					"_name": "1",
+					"_id": "5648a6f44bdc2d3b4c8b4576",
+					"_parent": "5648a69d4bdc2ded0b8b457b",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "2",
+					"_id": "5648a6f74bdc2d363b8b4576",
+					"_parent": "5648a69d4bdc2ded0b8b457b",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "3",
+					"_id": "5648a6f94bdc2d16268b4577",
+					"_parent": "5648a69d4bdc2ded0b8b457b",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "4",
+					"_id": "5648a6fc4bdc2df8348b457f",
+					"_parent": "5648a69d4bdc2ded0b8b457b",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "5",
+					"_id": "5648a6ff4bdc2d91118b45a3",
+					"_parent": "5648a69d4bdc2ded0b8b457b",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 2,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "6",
+					"_id": "5648a7034bdc2d3d1c8b457c",
+					"_parent": "5648a69d4bdc2ded0b8b457b",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "7",
+					"_id": "5d67d4f786f774557749dd49",
+					"_parent": "5648a69d4bdc2ded0b8b457b",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "8",
+					"_id": "5d67d4fe86f774557326afae",
+					"_parent": "5648a69d4bdc2ded0b8b457b",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "9",
+					"_id": "5d67d50686f774557749dd4a",
+					"_parent": "5648a69d4bdc2ded0b8b457b",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "10",
+					"_id": "5d67d50e86f774557326afaf",
+					"_parent": "5648a69d4bdc2ded0b8b457b",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "11",
+					"_id": "5d67d51e86f774599657f14a",
+					"_parent": "5648a69d4bdc2ded0b8b457b",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"SearchSound": "looting_body_extended",
+			"BlocksArmorVest": false,
+			"RigLayoutName": "blackrock",
+			"Durability": 0,
+			"MaxDurability": 0,
+			"armorZone": [],
+			"armorClass": 0,
+			"speedPenaltyPercent": -2,
+			"mousePenalty": -1,
+			"weaponErgonomicPenalty": -3,
+			"BluntThroughput": 0,
+			"ArmorMaterial": "UHMWPE"
 		},
 		"_proto": "544a5caa4bdc2d1a388b4568"
 	},
@@ -7356,6 +5908,698 @@
 			"weaponErgonomicPenalty": -5,
 			"BluntThroughput": 0,
 			"ArmorMaterial": "UHMWPE"
+		},
+		"_proto": "544a5caa4bdc2d1a388b4568"
+	},
+	{
+		"_id": "628dc750b910320f4c27a732",
+		"_name": "item_equipment_rig_bae_rbav_af",
+		"_parent": "5448e5284bdc2dcb718b4567",
+		"_type": "Item",
+		"_props": {
+			"Name": "tactec",
+			"ShortName": "tactec",
+			"Description": "tactec",
+			"Weight": 7.5,
+			"BackgroundColor": "default",
+			"Width": 3,
+			"Height": 4,
+			"StackMaxSize": 1,
+			"ItemSound": "gear_generic",
+			"Prefab": {
+				"path": "assets/content/items/equipment/rig_bae_rbav_af/item_equipment_rig_bae_rbav_af.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 10,
+			"HideEntrails": true,
+			"RepairCost": 550,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": false,
+			"CanSellOnRagfair": false,
+			"CanRequireOnRagfair": false,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [
+				{
+					"_name": "1",
+					"_id": "628dc750b910320f4c27a733",
+					"_parent": "628dc750b910320f4c27a732",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 3,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "2",
+					"_id": "628dc750b910320f4c27a734",
+					"_parent": "628dc750b910320f4c27a732",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 3,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "3",
+					"_id": "628dc750b910320f4c27a735",
+					"_parent": "628dc750b910320f4c27a732",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 3,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "4",
+					"_id": "628dc750b910320f4c27a736",
+					"_parent": "628dc750b910320f4c27a732",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "5",
+					"_id": "628dc750b910320f4c27a737",
+					"_parent": "628dc750b910320f4c27a732",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "6",
+					"_id": "628dc750b910320f4c27a738",
+					"_parent": "628dc750b910320f4c27a732",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "7",
+					"_id": "628dc750b910320f4c27a739",
+					"_parent": "628dc750b910320f4c27a732",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "8",
+					"_id": "628dc750b910320f4c27a73a",
+					"_parent": "628dc750b910320f4c27a732",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 2,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "9",
+					"_id": "628e251b83ec92260c0f43b9",
+					"_parent": "628dc750b910320f4c27a732",
+					"_props": {
+						"filters": [],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "10",
+					"_id": "628e254dee8bd3551830ab89",
+					"_parent": "628dc750b910320f4c27a732",
+					"_props": {
+						"filters": [],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"SearchSound": "looting_body_extended",
+			"BlocksArmorVest": true,
+			"RigLayoutName": "rbaf_af",
+			"Durability": 45,
+			"MaxDurability": 45,
+			"armorZone": [
+				"Chest",
+				"Stomach"
+			],
+			"armorClass": 4,
+			"speedPenaltyPercent": -8,
+			"mousePenalty": -6,
+			"weaponErgonomicPenalty": -4,
+			"BluntThroughput": 0.188,
+			"ArmorMaterial": "Titan"
+		},
+		"_proto": "544a5caa4bdc2d1a388b4568"
+	},
+	{
+		"_id": "628d0618d1ba6e4fa07ce5a4",
+		"_name": "item_equipment_rig_bagarii",
+		"_parent": "5448e5284bdc2dcb718b4567",
+		"_type": "Item",
+		"_props": {
+			"Name": "item_equipment_rig_bagarii",
+			"ShortName": "item_equipment_rig_bagarii",
+			"Description": "item_equipment_rig_bagarii",
+			"Weight": 13,
+			"BackgroundColor": "default",
+			"Width": 4,
+			"Height": 4,
+			"StackMaxSize": 1,
+			"ItemSound": "gear_generic",
+			"Prefab": {
+				"path": "assets/content/items/equipment/rig_bagarii/rig_bagarii.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 10,
+			"HideEntrails": true,
+			"RepairCost": 700,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": false,
+			"CanSellOnRagfair": false,
+			"CanRequireOnRagfair": false,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [
+				{
+					"_name": "1",
+					"_id": "628d0618d1ba6e4fa07ce5a5",
+					"_parent": "628d0618d1ba6e4fa07ce5a4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "2",
+					"_id": "628d0618d1ba6e4fa07ce5a6",
+					"_parent": "628d0618d1ba6e4fa07ce5a4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "3",
+					"_id": "628d0618d1ba6e4fa07ce5a7",
+					"_parent": "628d0618d1ba6e4fa07ce5a4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "4",
+					"_id": "628d0618d1ba6e4fa07ce5a8",
+					"_parent": "628d0618d1ba6e4fa07ce5a4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "5",
+					"_id": "628d0618d1ba6e4fa07ce5a9",
+					"_parent": "628d0618d1ba6e4fa07ce5a4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "6",
+					"_id": "628d0618d1ba6e4fa07ce5aa",
+					"_parent": "628d0618d1ba6e4fa07ce5a4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "7",
+					"_id": "628d0618d1ba6e4fa07ce5ab",
+					"_parent": "628d0618d1ba6e4fa07ce5a4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "8",
+					"_id": "628d0618d1ba6e4fa07ce5ac",
+					"_parent": "628d0618d1ba6e4fa07ce5a4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "9",
+					"_id": "628d0618d1ba6e4fa07ce5ad",
+					"_parent": "628d0618d1ba6e4fa07ce5a4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "10",
+					"_id": "628d0618d1ba6e4fa07ce5ae",
+					"_parent": "628d0618d1ba6e4fa07ce5a4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "11",
+					"_id": "628d0618d1ba6e4fa07ce5af",
+					"_parent": "628d0618d1ba6e4fa07ce5a4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 2,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "12",
+					"_id": "628d0618d1ba6e4fa07ce5b0",
+					"_parent": "628d0618d1ba6e4fa07ce5a4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "13",
+					"_id": "628d0618d1ba6e4fa07ce5b1",
+					"_parent": "628d0618d1ba6e4fa07ce5a4",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 2,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"SearchSound": "looting_body_extended",
+			"BlocksArmorVest": true,
+			"RigLayoutName": "bagarii",
+			"Durability": 55,
+			"MaxDurability": 55,
+			"armorZone": [
+				"Chest",
+				"Stomach"
+			],
+			"armorClass": 5,
+			"speedPenaltyPercent": -21,
+			"mousePenalty": -14,
+			"weaponErgonomicPenalty": -9,
+			"BluntThroughput": 0.17,
+			"ArmorMaterial": "ArmoredSteel"
 		},
 		"_proto": "544a5caa4bdc2d1a388b4568"
 	},
@@ -8040,6 +7284,590 @@
 			"SearchSound": "looting_body_extended",
 			"BlocksArmorVest": false,
 			"RigLayoutName": "Thunder_compl",
+			"Durability": 0,
+			"MaxDurability": 0,
+			"armorZone": [],
+			"armorClass": 0,
+			"speedPenaltyPercent": 0,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0,
+			"BluntThroughput": 0,
+			"ArmorMaterial": "UHMWPE"
+		},
+		"_proto": "544a5caa4bdc2d1a388b4568"
+	},
+	{
+		"_id": "5fd4c60f875c30179f5d04c2",
+		"_name": "item_equipment_rig_bssmk1",
+		"_parent": "5448e5284bdc2dcb718b4567",
+		"_type": "Item",
+		"_props": {
+			"Name": "commando",
+			"ShortName": "commando",
+			"Description": "commando",
+			"Weight": 1,
+			"BackgroundColor": "default",
+			"Width": 3,
+			"Height": 3,
+			"StackMaxSize": 1,
+			"ItemSound": "gear_generic",
+			"Prefab": {
+				"path": "assets/content/items/equipment/rig_bssmk1/item_equipment_rig_bssmk1.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 10,
+			"HideEntrails": true,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": false,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [
+				{
+					"_name": "1",
+					"_id": "5fd4c60f875c30179f5d04c4",
+					"_parent": "5fd4c60f875c30179f5d04c2",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "2",
+					"_id": "5fd4c60f875c30179f5d04c5",
+					"_parent": "5fd4c60f875c30179f5d04c2",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "3",
+					"_id": "5fd4c60f875c30179f5d04c6",
+					"_parent": "5fd4c60f875c30179f5d04c2",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "4",
+					"_id": "5fd4c60f875c30179f5d04c7",
+					"_parent": "5fd4c60f875c30179f5d04c2",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "5",
+					"_id": "5fd4c60f875c30179f5d04c8",
+					"_parent": "5fd4c60f875c30179f5d04c2",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "6",
+					"_id": "5fd4c60f875c30179f5d04c9",
+					"_parent": "5fd4c60f875c30179f5d04c2",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "7",
+					"_id": "5fd4c60f875c30179f5d04ca",
+					"_parent": "5fd4c60f875c30179f5d04c2",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "8",
+					"_id": "5fd4c60f875c30179f5d04cb",
+					"_parent": "5fd4c60f875c30179f5d04c2",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "9",
+					"_id": "5fd4c60f875c30179f5d04cc",
+					"_parent": "5fd4c60f875c30179f5d04c2",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "10",
+					"_id": "5fd4c60f875c30179f5d04cd",
+					"_parent": "5fd4c60f875c30179f5d04c2",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 1,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"SearchSound": "looting_body_extended",
+			"BlocksArmorVest": false,
+			"RigLayoutName": "D3crx",
+			"Durability": 0,
+			"MaxDurability": 0,
+			"armorZone": [],
+			"armorClass": 0,
+			"speedPenaltyPercent": 0,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0,
+			"BluntThroughput": 0,
+			"ArmorMaterial": "UHMWPE"
+		},
+		"_proto": "544a5caa4bdc2d1a388b4568"
+	},
+	{
+		"_id": "5b44c8ea86f7742d1627baf1",
+		"_name": "item_equipment_rig_commando",
+		"_parent": "5448e5284bdc2dcb718b4567",
+		"_type": "Item",
+		"_props": {
+			"Name": "commando",
+			"ShortName": "commando",
+			"Description": "commando",
+			"Weight": 1.35,
+			"BackgroundColor": "default",
+			"Width": 4,
+			"Height": 3,
+			"StackMaxSize": 1,
+			"ItemSound": "gear_generic",
+			"Prefab": {
+				"path": "assets/content/items/equipment/rig_commando/item_equipment_rig_commando.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 10,
+			"HideEntrails": true,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": false,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [
+				{
+					"_name": "1",
+					"_id": "5b44c8ea86f7742d1627baf3",
+					"_parent": "5b44c8ea86f7742d1627baf1",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "2",
+					"_id": "5b44c8ea86f7742d1627baf4",
+					"_parent": "5b44c8ea86f7742d1627baf1",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "3",
+					"_id": "5b44c8ea86f7742d1627baf5",
+					"_parent": "5b44c8ea86f7742d1627baf1",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "4",
+					"_id": "5b44c8ea86f7742d1627baf6",
+					"_parent": "5b44c8ea86f7742d1627baf1",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "5",
+					"_id": "5b44c8ea86f7742d1627baf7",
+					"_parent": "5b44c8ea86f7742d1627baf1",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "6",
+					"_id": "5b44c8ea86f7742d1627baf8",
+					"_parent": "5b44c8ea86f7742d1627baf1",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "7",
+					"_id": "5b44c8ea86f7742d1627baf9",
+					"_parent": "5b44c8ea86f7742d1627baf1",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "8",
+					"_id": "5b44c8ea86f7742d1627bafa",
+					"_parent": "5b44c8ea86f7742d1627baf1",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"SearchSound": "looting_body_extended",
+			"BlocksArmorVest": false,
+			"RigLayoutName": "Commando",
 			"Durability": 0,
 			"MaxDurability": 0,
 			"armorZone": [],
@@ -9589,6 +9417,178 @@
 		"_proto": "544a5caa4bdc2d1a388b4568"
 	},
 	{
+		"_id": "6034d0230ca681766b6a0fb5",
+		"_name": "item_equipment_rig_cs_assault",
+		"_parent": "5448e5284bdc2dcb718b4567",
+		"_type": "Item",
+		"_props": {
+			"Name": "Wild Vest",
+			"ShortName": "Wild Vest",
+			"Description": "Wild Vest",
+			"Weight": 0.75,
+			"BackgroundColor": "default",
+			"Width": 2,
+			"Height": 3,
+			"StackMaxSize": 1,
+			"ItemSound": "gear_generic",
+			"Prefab": {
+				"path": "assets/content/items/equipment/rig_cs_assault/item_equipment_rig_cs_assault.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": true,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": false,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [
+				{
+					"_name": "1",
+					"_id": "6034d0230ca681766b6a0fb7",
+					"_parent": "6034d0230ca681766b6a0fb5",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 3,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "2",
+					"_id": "6034d0230ca681766b6a0fb8",
+					"_parent": "6034d0230ca681766b6a0fb5",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "3",
+					"_id": "6034d0230ca681766b6a0fb9",
+					"_parent": "6034d0230ca681766b6a0fb5",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 2,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_name": "4",
+					"_id": "6034d0230ca681766b6a0fba",
+					"_parent": "6034d0230ca681766b6a0fb5",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 1,
+						"cellsV": 3,
+						"minCount": 0,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"SearchSound": "looting_body_extended",
+			"BlocksArmorVest": false,
+			"RigLayoutName": "mil_tac",
+			"Durability": 0,
+			"MaxDurability": 0,
+			"armorZone": [],
+			"armorClass": 0,
+			"speedPenaltyPercent": 0,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0,
+			"BluntThroughput": 0,
+			"ArmorMaterial": "UHMWPE"
+		},
+		"_proto": "5648a69d4bdc2ded0b8b457b"
+	},
+	{
 		"_id": "5ab8dab586f77441cd04f2a2",
 		"_name": "wartech_mk3",
 		"_parent": "5448e5284bdc2dcb718b4567",
@@ -10768,30 +10768,6 @@
 				{
 					"_name": "5",
 					"_id": "628b9784bcf6e2659e09b8a8",
-					"_parent": "628b9784bcf6e2659e09b8a2",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "6",
-					"_id": "628b9784bcf6e2659e09b8a9",
 					"_parent": "628b9784bcf6e2659e09b8a2",
 					"_props": {
 						"filters": [
@@ -13340,54 +13316,6 @@
 				{
 					"_name": "4",
 					"_id": "628cd624459354321c4b7fa6",
-					"_parent": "628cd624459354321c4b7fa2",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "5",
-					"_id": "628cd624459354321c4b7fa7",
-					"_parent": "628cd624459354321c4b7fa2",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 1,
-						"cellsV": 2,
-						"minCount": 0,
-						"maxCount": 0,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				},
-				{
-					"_name": "6",
-					"_id": "628cd624459354321c4b7fa8",
 					"_parent": "628cd624459354321c4b7fa2",
 					"_props": {
 						"filters": [

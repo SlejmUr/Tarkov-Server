@@ -1,5 +1,278 @@
 [
 	{
+		"_id": "5909d76c86f77471e53d2adf",
+		"_name": "terraWBoxLongBig",
+		"_parent": "566965d44bdc2d814c8b4571",
+		"_type": "Item",
+		"_props": {
+			"Name": "Оружейный ящик",
+			"ShortName": "Оружейный ящик",
+			"Description": "Оружейный ящик",
+			"Weight": 1,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "generic",
+			"Prefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 10,
+			"HideEntrails": true,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": false,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [
+				{
+					"_name": "main",
+					"_id": "5909d76c86f77471e53d2ae0",
+					"_parent": "5909d76c86f77471e53d2adf",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 6,
+						"cellsV": 3,
+						"minCount": 1,
+						"maxCount": 6,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"SearchSound": "drawer_metal_looting",
+			"BlocksArmorVest": false,
+			"SpawnFilter": []
+		},
+		"_proto": "578f87a3245977356274f2cb"
+	},
+	{
+		"_id": "61aa1e6984ea0800645777f9",
+		"_name": "terraWBoxLongBig_adv",
+		"_parent": "566965d44bdc2d814c8b4571",
+		"_type": "Item",
+		"_props": {
+			"Name": "Оружейный ящик",
+			"ShortName": "Оружейный ящик",
+			"Description": "Оружейный ящик",
+			"Weight": 1,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "generic",
+			"Prefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 10,
+			"HideEntrails": true,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": false,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [
+				{
+					"_name": "main",
+					"_id": "61aa1e6984ea0800645777fb",
+					"_parent": "61aa1e6984ea0800645777f9",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 6,
+						"cellsV": 3,
+						"minCount": 3,
+						"maxCount": 9,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"SearchSound": "drawer_metal_looting",
+			"BlocksArmorVest": false,
+			"SpawnFilter": []
+		},
+		"_proto": "578f87a3245977356274f2cb"
+	},
+	{
+		"_id": "5909d5ef86f77467974efbd8",
+		"_name": "terraWBoxLong",
+		"_parent": "566965d44bdc2d814c8b4571",
+		"_type": "Item",
+		"_props": {
+			"Name": "Оружейный ящик",
+			"ShortName": "Оружейный ящик",
+			"Description": "Оружейный ящик",
+			"Weight": 1,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "generic",
+			"Prefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 10,
+			"HideEntrails": true,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": false,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [
+				{
+					"_name": "main",
+					"_id": "5909d5ef86f77467974efbd9",
+					"_parent": "5909d5ef86f77467974efbd8",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								]
+							}
+						],
+						"cellsH": 5,
+						"cellsV": 2,
+						"minCount": 1,
+						"maxCount": 5,
+						"maxWeight": 0,
+						"isSortingTable": false
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"SearchSound": "drawer_metal_looting",
+			"BlocksArmorVest": false,
+			"SpawnFilter": []
+		},
+		"_proto": "578f87a3245977356274f2cb"
+	},
+	{
 		"_id": "5909d89086f77472591234a0",
 		"_name": "terraWBoxSquareBig",
 		"_parent": "566965d44bdc2d814c8b4571",
@@ -347,7 +620,7 @@
 						"cellsH": 4,
 						"cellsV": 4,
 						"minCount": 1,
-						"maxCount": 5,
+						"maxCount": 9,
 						"maxWeight": 0,
 						"isSortingTable": false
 					},
@@ -3182,278 +3455,5 @@
 			"SpawnFilter": []
 		},
 		"_proto": "578f879c24597735401e6bc6"
-	},
-	{
-		"_id": "5909d5ef86f77467974efbd8",
-		"_name": "terraWBoxLong",
-		"_parent": "566965d44bdc2d814c8b4571",
-		"_type": "Item",
-		"_props": {
-			"Name": "Оружейный ящик",
-			"ShortName": "Оружейный ящик",
-			"Description": "Оружейный ящик",
-			"Weight": 1,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "generic",
-			"Prefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 10,
-			"HideEntrails": true,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": false,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [
-				{
-					"_name": "main",
-					"_id": "5909d5ef86f77467974efbd9",
-					"_parent": "5909d5ef86f77467974efbd8",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 5,
-						"cellsV": 2,
-						"minCount": 1,
-						"maxCount": 5,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				}
-			],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"SearchSound": "drawer_metal_looting",
-			"BlocksArmorVest": false,
-			"SpawnFilter": []
-		},
-		"_proto": "578f87a3245977356274f2cb"
-	},
-	{
-		"_id": "5909d76c86f77471e53d2adf",
-		"_name": "terraWBoxLongBig",
-		"_parent": "566965d44bdc2d814c8b4571",
-		"_type": "Item",
-		"_props": {
-			"Name": "Оружейный ящик",
-			"ShortName": "Оружейный ящик",
-			"Description": "Оружейный ящик",
-			"Weight": 1,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "generic",
-			"Prefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 10,
-			"HideEntrails": true,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": false,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [
-				{
-					"_name": "main",
-					"_id": "5909d76c86f77471e53d2ae0",
-					"_parent": "5909d76c86f77471e53d2adf",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 6,
-						"cellsV": 3,
-						"minCount": 1,
-						"maxCount": 6,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				}
-			],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"SearchSound": "drawer_metal_looting",
-			"BlocksArmorVest": false,
-			"SpawnFilter": []
-		},
-		"_proto": "578f87a3245977356274f2cb"
-	},
-	{
-		"_id": "61aa1e6984ea0800645777f9",
-		"_name": "terraWBoxLongBig_adv",
-		"_parent": "566965d44bdc2d814c8b4571",
-		"_type": "Item",
-		"_props": {
-			"Name": "Оружейный ящик",
-			"ShortName": "Оружейный ящик",
-			"Description": "Оружейный ящик",
-			"Weight": 1,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "generic",
-			"Prefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 10,
-			"HideEntrails": true,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": false,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [
-				{
-					"_name": "main",
-					"_id": "61aa1e6984ea0800645777fb",
-					"_parent": "61aa1e6984ea0800645777f9",
-					"_props": {
-						"filters": [
-							{
-								"Filter": [
-									"54009119af1c881c07000029"
-								],
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								]
-							}
-						],
-						"cellsH": 6,
-						"cellsV": 3,
-						"minCount": 3,
-						"maxCount": 9,
-						"maxWeight": 0,
-						"isSortingTable": false
-					},
-					"_proto": "55d329c24bdc2d892f8b4567"
-				}
-			],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"SearchSound": "drawer_metal_looting",
-			"BlocksArmorVest": false,
-			"SpawnFilter": []
-		},
-		"_proto": "578f87a3245977356274f2cb"
 	}
 ]

@@ -2885,105 +2885,6 @@
 		"_proto": "55d4af3a4bdc2d972f8b456f"
 	},
 	{
-		"_id": "619f52454c58466fe122843b",
-		"_name": "sight_front_rhino_chiappa_night_sight",
-		"_parent": "55818ac54bdc2d5b648b456e",
-		"_type": "Item",
-		"_props": {
-			"Name": "sight_front_rhino_chiappa_night_sight",
-			"ShortName": "sight_front_rhino_chiappa_night_sight",
-			"Description": "sight_front_rhino_chiappa_night_sight",
-			"Weight": 0.003,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/sights front/sight_front_rhino_chiappa_night_sight.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": 0,
-			"Velocity": 0,
-			"RaidModdable": false,
-			"ToolModdable": true,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 200,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "iron",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.65
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					25
-				]
-			]
-		},
-		"_proto": "55d4af3a4bdc2d972f8b456f"
-	},
-	{
 		"_id": "5c471ba12e221602b3137d76",
 		"_name": "sight_front_svd_izhmash_svd_s_std",
 		"_parent": "55818ac54bdc2d5b648b456e",
@@ -3081,105 +2982,6 @@
 			]
 		},
 		"_proto": "55d5f46a4bdc2d1b198b4567"
-	},
-	{
-		"_id": "6194f3286db0f2477964e67d",
-		"_name": "sight_front_usp_hk_usp_tactical",
-		"_parent": "55818ac54bdc2d5b648b456e",
-		"_type": "Item",
-		"_props": {
-			"Name": "sight_front_glock_glock_std",
-			"ShortName": "sight_front_glock_glock_std",
-			"Description": "sight_front_glock_glock_std",
-			"Weight": 0.005,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/sights front/sight_front_usp_hk_usp_tactical.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": 0,
-			"Velocity": 0,
-			"RaidModdable": false,
-			"ToolModdable": true,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 200,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "iron",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.65
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					25
-				]
-			]
-		},
-		"_proto": "55d4af3a4bdc2d972f8b456f"
 	},
 	{
 		"_id": "5e87114fe2db31558c75a120",
@@ -3284,124 +3086,6 @@
 		"_proto": "55d4af3a4bdc2d972f8b456f"
 	},
 	{
-		"_id": "5ac733a45acfc400192630e2",
-		"_name": "sight_rear_ak_izhmash_ak105_std",
-		"_parent": "55818ac54bdc2d5b648b456e",
-		"_type": "Item",
-		"_props": {
-			"Name": "Целик Ижмаш для АК-74",
-			"ShortName": "АК74 Целик",
-			"Description": "Штатный целик АК-74 производства Ижмаш.",
-			"Weight": 0.025,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/sights rear/sight_rear_ak_izhmash_ak105_std.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [
-				{
-					"_name": "mod_sight_rear",
-					"_id": "5ac733a45acfc400192630e4",
-					"_parent": "5ac733a45acfc400192630e2",
-					"_props": {
-						"filters": [
-							{
-								"Shift": 0,
-								"Filter": [
-									"5a0ed824fcdbcb0176308b0d"
-								]
-							}
-						]
-					},
-					"_required": false,
-					"_mergeSlotWithChildren": false,
-					"_proto": "55d30c4c4bdc2db4468b457e"
-				}
-			],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": 0,
-			"Velocity": 0,
-			"RaidModdable": true,
-			"ToolModdable": false,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 500,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "iron",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.65
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					100
-				]
-			]
-		},
-		"_proto": "55d5f46a4bdc2d1b198b4567"
-	},
-	{
 		"_id": "5ac72e475acfc400180ae6fe",
 		"_name": "sight_rear_ak_izhmash_ak74m_std",
 		"_parent": "55818ac54bdc2d5b648b456e",
@@ -3478,105 +3162,6 @@
 					"_proto": "55d30c4c4bdc2db4468b457e"
 				}
 			],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": 0,
-			"Velocity": 0,
-			"RaidModdable": true,
-			"ToolModdable": false,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 500,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "iron",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.65
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					100
-				]
-			]
-		},
-		"_proto": "55d5f46a4bdc2d1b198b4567"
-	},
-	{
-		"_id": "5a0eb980fcdbcb001a3b00a6",
-		"_name": "sight_rear_ak_izhmash_akmb",
-		"_parent": "55818ac54bdc2d5b648b456e",
-		"_type": "Item",
-		"_props": {
-			"Name": "sight_rear_ak_izhmash_akmb",
-			"ShortName": "sight_rear_ak_izhmash_akmb",
-			"Description": "sight_rear_ak_izhmash_akmb",
-			"Weight": 0.035,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/sights rear/sight_rear_ak_izhmash_akmb.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [],
 			"CanPutIntoDuringTheRaid": true,
 			"CantRemoveFromSlotsDuringRaid": [],
 			"Durability": 100,
@@ -3716,204 +3301,6 @@
 			]
 		},
 		"_proto": "55d5f46a4bdc2d1b198b4567"
-	},
-	{
-		"_id": "5bb20e49d4351e3bac1212de",
-		"_name": "sight_rear_all_hk_416_flip_up",
-		"_parent": "55818ac54bdc2d5b648b456e",
-		"_type": "Item",
-		"_props": {
-			"Name": "sight_rear_all_sig_mpx_std",
-			"ShortName": "sight_rear_all_sig_mpx_std",
-			"Description": "sight_rear_all_sig_mpx_std",
-			"Weight": 0.14,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/sights rear/sight_rear_all_hk_416_flip_up.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": 0,
-			"Velocity": 0,
-			"RaidModdable": true,
-			"ToolModdable": false,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 300,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "iron",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.65
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					100
-				]
-			]
-		},
-		"_proto": "55d4af3a4bdc2d972f8b456f"
-	},
-	{
-		"_id": "5fb6564947ce63734e3fa1da",
-		"_name": "sight_rear_all_kriss_defiance_low_profile_flip_up",
-		"_parent": "55818ac54bdc2d5b648b456e",
-		"_type": "Item",
-		"_props": {
-			"Name": "sight_rear_all_sig_mpx_std",
-			"ShortName": "sight_rear_all_sig_mpx_std",
-			"Description": "sight_rear_all_sig_mpx_std",
-			"Weight": 0.02,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/sights rear/sight_rear_all_kriss_defiance_low_profile_flip_up.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": 1,
-			"Velocity": 0,
-			"RaidModdable": true,
-			"ToolModdable": true,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 300,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "iron",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.65
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					100
-				]
-			]
-		},
-		"_proto": "55d4af3a4bdc2d972f8b456f"
 	},
 	{
 		"_id": "5fc0fa957283c4046c58147e",
@@ -4114,105 +3501,6 @@
 		"_proto": "55d4af3a4bdc2d972f8b456f"
 	},
 	{
-		"_id": "5aba639ed8ce8700182ece67",
-		"_name": "sight_rear_aps_molot_apb_std",
-		"_parent": "55818ac54bdc2d5b648b456e",
-		"_type": "Item",
-		"_props": {
-			"Name": "sight_rear_aps_molot_aps_std",
-			"ShortName": "sight_rear_aps_molot_aps_std",
-			"Description": "sight_rear_aps_molot_aps_std",
-			"Weight": 0.008,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/sights rear/sight_rear_aps_molot_apb_std.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": true,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": 0,
-			"Velocity": 0,
-			"RaidModdable": true,
-			"ToolModdable": true,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 200,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "iron",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.65
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					25
-				]
-			]
-		},
-		"_proto": "56d5a661d2720bd8418b456b"
-	},
-	{
 		"_id": "5a0ed824fcdbcb0176308b0d",
 		"_name": "sight_rear_ak_izhmash_akmp",
 		"_parent": "55818ac54bdc2d5b648b456e",
@@ -4310,346 +3598,6 @@
 			]
 		},
 		"_proto": "55d5f46a4bdc2d1b198b4567"
-	},
-	{
-		"_id": "5649d9a14bdc2d79388b4580",
-		"_name": "sight_rear_ak_tactica_tula_tt01",
-		"_parent": "55818ac54bdc2d5b648b456e",
-		"_type": "Item",
-		"_props": {
-			"Name": "sight_rear_ak_tactica_tula_tt01",
-			"ShortName": "sight_rear_ak_tactica_tula_tt01",
-			"Description": "sight_rear_ak_tactica_tula_tt01",
-			"Weight": 0.085,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/sights rear/sight_rear_ak_tactica_tula_tt01.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [
-				"5947db3f86f77447880cf76f",
-				"57486e672459770abd687134",
-				"576fd4ec2459777f0b518431",
-				"5a7c74b3e899ef0014332c29",
-				"5c61a40d2e2216001403158d",
-				"5c90c3622e221601da359851",
-				"5649af884bdc2d1b2b8b4589"
-			],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [
-				{
-					"_name": "mod_scope",
-					"_id": "5649daed4bdc2d3b4c8b457f",
-					"_parent": "5649d9a14bdc2d79388b4580",
-					"_props": {
-						"filters": [
-							{
-								"Shift": 0,
-								"Filter": [
-									"558022b54bdc2dac148b458d",
-									"58491f3324597764bc48fa02",
-									"584924ec24597768f12ae244",
-									"5d2da1e948f035477b1ce2ba",
-									"584984812459776a704a82a6",
-									"570fd721d2720bc5458b4596",
-									"57ae0171245977343c27bfcf",
-									"58d39d3d86f77445bb794ae7",
-									"616554fe50224f204c1da2aa",
-									"5c7d55f52e221644f31bff6a",
-									"616584766ef05c2ce828ef57",
-									"615d8d878004cc50514c3233",
-									"577d128124597739d65d0e56",
-									"58d2664f86f7747fec5834f6",
-									"5b31163c5acfc400153b71cb",
-									"5a33b652c4a28232996e407c",
-									"5a33b2c9c4a282000c5a9511"
-								]
-							}
-						]
-					},
-					"_required": false,
-					"_mergeSlotWithChildren": false,
-					"_proto": "55d30c4c4bdc2db4468b457e"
-				}
-			],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": -1,
-			"Velocity": 0,
-			"RaidModdable": true,
-			"ToolModdable": true,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 500,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "iron",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.65
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					100
-				]
-			]
-		},
-		"_proto": "5649b0544bdc2d1b2b8b458a"
-	},
-	{
-		"_id": "5ba26b17d4351e00367f9bdd",
-		"_name": "sight_rear_all_hk_mp7_std",
-		"_parent": "55818ac54bdc2d5b648b456e",
-		"_type": "Item",
-		"_props": {
-			"Name": "sight_rear_all_sig_mpx_std",
-			"ShortName": "sight_rear_all_sig_mpx_std",
-			"Description": "sight_rear_all_sig_mpx_std",
-			"Weight": 0.14,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/sights rear/sight_rear_all_hk_mp7_std.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": 0,
-			"Velocity": 0,
-			"RaidModdable": true,
-			"ToolModdable": false,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 300,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "iron",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.65
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					100
-				]
-			]
-		},
-		"_proto": "55d4af3a4bdc2d972f8b456f"
-	},
-	{
-		"_id": "5bc09a18d4351e003562b68e",
-		"_name": "sight_rear_all_magpul_mbus_gen2",
-		"_parent": "55818ac54bdc2d5b648b456e",
-		"_type": "Item",
-		"_props": {
-			"Name": "sight_rear_all_sig_mpx_std",
-			"ShortName": "sight_rear_all_sig_mpx_std",
-			"Description": "sight_rear_all_sig_mpx_std",
-			"Weight": 0.036,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": 1,
-			"Velocity": 0,
-			"RaidModdable": true,
-			"ToolModdable": true,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 300,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "iron",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.65
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					100
-				]
-			]
-		},
-		"_proto": "55d4af3a4bdc2d972f8b456f"
 	},
 	{
 		"_id": "628b9471078f94059a4b9bfb",
@@ -4751,525 +3699,6 @@
 		"_proto": "55d5f46a4bdc2d1b198b4567"
 	},
 	{
-		"_id": "5beec9450db83400970084fd",
-		"_name": "sight_rear_all_izhmash_rpk16_std",
-		"_parent": "55818ac54bdc2d5b648b456e",
-		"_type": "Item",
-		"_props": {
-			"Name": "Целик Colt A2 Rearsight для AR-15 и совместимых",
-			"ShortName": "CA2R",
-			"Description": "Съемный целик Colt A2 Rearsight. Штатно устанавливается на M4A1.",
-			"Weight": 0.05,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/sights rear/sight_rear_all_izhmash_rpk16_std.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [
-				"5b3b99265acfc4704b4a1afb"
-			],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [
-				{
-					"_name": "mod_sight_rear",
-					"_id": "5bf3f5b10db834001d2c4aaa",
-					"_parent": "5beec9450db83400970084fd",
-					"_props": {
-						"filters": [
-							{
-								"Shift": 0,
-								"Filter": [
-									"5ac733a45acfc400192630e2",
-									"5649b0544bdc2d1b2b8b458a",
-									"5ac72e475acfc400180ae6fe",
-									"5bf3f59f0db834001a6fa060"
-								]
-							}
-						]
-					},
-					"_required": false,
-					"_mergeSlotWithChildren": false,
-					"_proto": "55d30c4c4bdc2db4468b457e"
-				}
-			],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": 0,
-			"Velocity": 0,
-			"RaidModdable": true,
-			"ToolModdable": false,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 600,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "iron",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.65
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					100
-				]
-			]
-		},
-		"_proto": "55d4af3a4bdc2d972f8b456f"
-	},
-	{
-		"_id": "5c18b9192e2216398b5a8104",
-		"_name": "sight_rear_all_magpul_mbus_gen2_fde",
-		"_parent": "55818ac54bdc2d5b648b456e",
-		"_type": "Item",
-		"_props": {
-			"Name": "sight_rear_all_sig_mpx_std",
-			"ShortName": "sight_rear_all_sig_mpx_std",
-			"Description": "sight_rear_all_sig_mpx_std",
-			"Weight": 0.036,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_fde.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": 1,
-			"Velocity": 0,
-			"RaidModdable": true,
-			"ToolModdable": true,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 300,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "iron",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.65
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					100
-				]
-			]
-		},
-		"_proto": "55d4af3a4bdc2d972f8b456f"
-	},
-	{
-		"_id": "5aba637ad8ce87001773e17f",
-		"_name": "sight_rear_aps_molot_aps_std",
-		"_parent": "55818ac54bdc2d5b648b456e",
-		"_type": "Item",
-		"_props": {
-			"Name": "sight_rear_aps_molot_aps_std",
-			"ShortName": "sight_rear_aps_molot_aps_std",
-			"Description": "sight_rear_aps_molot_aps_std",
-			"Weight": 0.008,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/sights rear/sight_rear_aps_molot_aps_std.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": true,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": 0,
-			"Velocity": 0,
-			"RaidModdable": true,
-			"ToolModdable": true,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 200,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "iron",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.65
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					25
-				]
-			]
-		},
-		"_proto": "56d5a661d2720bd8418b456b"
-	},
-	{
-		"_id": "5bf3f59f0db834001a6fa060",
-		"_name": "sight_rear_ak_izhmash_rpk16_rear_sight_std",
-		"_parent": "55818ac54bdc2d5b648b456e",
-		"_type": "Item",
-		"_props": {
-			"Name": "Целик Colt A2 Rearsight для AR-15 и совместимых",
-			"ShortName": "CA2R",
-			"Description": "Съемный целик Colt A2 Rearsight. Штатно устанавливается на M4A1.",
-			"Weight": 0.15,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/sights rear/sight_rear_ak_izhmash_rpk16_rear_sight_std.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": 0,
-			"Velocity": 0,
-			"RaidModdable": true,
-			"ToolModdable": false,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 600,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "iron",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.65
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					100
-				]
-			]
-		},
-		"_proto": "55d4af3a4bdc2d972f8b456f"
-	},
-	{
-		"_id": "61817865d3a39d50044c13a4",
-		"_name": "sight_rear_all_fn_scar_rear_sight_std",
-		"_parent": "55818ac54bdc2d5b648b456e",
-		"_type": "Item",
-		"_props": {
-			"Name": "sight_rear_all_sig_mpx_std",
-			"ShortName": "sight_rear_all_sig_mpx_std",
-			"Description": "sight_rear_all_sig_mpx_std",
-			"Weight": 0.036,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/sights rear/sight_rear_all_fn_scar_rear_sight_std.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": 0,
-			"Velocity": 0,
-			"RaidModdable": true,
-			"ToolModdable": true,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 300,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "iron",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.65
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					100
-				]
-			]
-		},
-		"_proto": "55d4af3a4bdc2d972f8b456f"
-	},
-	{
 		"_id": "5c1780312e221602b66cc189",
 		"_name": "sight_rear_all_kac_folding_sight",
 		"_parent": "55818ac54bdc2d5b648b456e",
@@ -5369,501 +3798,6 @@
 		"_proto": "55d4af3a4bdc2d972f8b456f"
 	},
 	{
-		"_id": "60228a850ddce744014caf69",
-		"_name": "sight_front_pl15_izhmash_pl15_supressor_sight",
-		"_parent": "55818ac54bdc2d5b648b456e",
-		"_type": "Item",
-		"_props": {
-			"Name": "sight_front_p226_sig_p226r_std",
-			"ShortName": "sight_front_p226_sig_p226r_std",
-			"Description": "sight_front_p226_sig_p226r_std",
-			"Weight": 0.007,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/sights front/sight_front_pl15_izhmash_pl15_supressor_sight.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": 0,
-			"Velocity": 0,
-			"RaidModdable": true,
-			"ToolModdable": true,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 200,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "iron",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.65
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					25
-				]
-			]
-		},
-		"_proto": "55d4af3a4bdc2d972f8b456f"
-	},
-	{
-		"_id": "619f4d304c58466fe1228437",
-		"_name": "sight_front_rhino_chiappa_std",
-		"_parent": "55818ac54bdc2d5b648b456e",
-		"_type": "Item",
-		"_props": {
-			"Name": "sight_front_rhino_chiappa_std",
-			"ShortName": "sight_front_rhino_chiappa_std",
-			"Description": "sight_front_rhino_chiappa_std",
-			"Weight": 0.003,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/sights front/sight_front_rhino_chiappa_std.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": 0,
-			"Velocity": 0,
-			"RaidModdable": false,
-			"ToolModdable": true,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 200,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "iron",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.65
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					25
-				]
-			]
-		},
-		"_proto": "55d4af3a4bdc2d972f8b456f"
-	},
-	{
-		"_id": "6194f35c18a3974e5e7421e6",
-		"_name": "sight_front_usp_hk_usp_std_front_sight",
-		"_parent": "55818ac54bdc2d5b648b456e",
-		"_type": "Item",
-		"_props": {
-			"Name": "sight_front_glock_glock_std",
-			"ShortName": "sight_front_glock_glock_std",
-			"Description": "sight_front_glock_glock_std",
-			"Weight": 0.003,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/sights front/sight_front_usp_hk_usp_std_front_sight.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": 0,
-			"Velocity": 0,
-			"RaidModdable": false,
-			"ToolModdable": true,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 200,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "iron",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.65
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					25
-				]
-			]
-		},
-		"_proto": "55d4af3a4bdc2d972f8b456f"
-	},
-	{
-		"_id": "5d3eb4aba4b93650d64e497d",
-		"_name": "sight_rear_57_fn_five_seven_std",
-		"_parent": "55818ac54bdc2d5b648b456e",
-		"_type": "Item",
-		"_props": {
-			"Name": "sight_rear_57_fn_five_seven_std",
-			"ShortName": "sight_rear_57_fn_five_seven_std",
-			"Description": "sight_rear_57_fn_five_seven_std",
-			"Weight": 0.007,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/sights rear/sight_rear_57_fn_five_seven_std.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": 0,
-			"Velocity": 0,
-			"RaidModdable": true,
-			"ToolModdable": true,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 200,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "iron",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.65
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					25
-				]
-			]
-		},
-		"_proto": "55d4af3a4bdc2d972f8b456f"
-	},
-	{
-		"_id": "5c05295e0db834001a66acbb",
-		"_name": "sight_rear_acog_trijicon_acog_backup_rear_sight",
-		"_parent": "55818ac54bdc2d5b648b456e",
-		"_type": "Item",
-		"_props": {
-			"Name": "sight_front_all_sig_mpx_std",
-			"ShortName": "sight_front_all_sig_mpx_std",
-			"Description": "sight_front_all_sig_mpx_std",
-			"Weight": 0.034,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/sights rear/sight_rear_acog_trijicon_acog_backup_rear_sight.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": 1,
-			"Velocity": 0,
-			"RaidModdable": true,
-			"ToolModdable": true,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 300,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "iron",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.65
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					25
-				]
-			]
-		},
-		"_proto": "55d4af3a4bdc2d972f8b456f"
-	},
-	{
 		"_id": "5649b0544bdc2d1b2b8b458a",
 		"_name": "sight_rear_ak_izhmash_ak74_std",
 		"_parent": "55818ac54bdc2d5b648b456e",
@@ -5925,124 +3859,6 @@
 					"_name": "mod_sight_rear",
 					"_id": "5a0ee12cfcdbcb001912fa64",
 					"_parent": "5649b0544bdc2d1b2b8b458a",
-					"_props": {
-						"filters": [
-							{
-								"Shift": 0,
-								"Filter": [
-									"5a0ed824fcdbcb0176308b0d"
-								]
-							}
-						]
-					},
-					"_required": false,
-					"_mergeSlotWithChildren": false,
-					"_proto": "55d30c4c4bdc2db4468b457e"
-				}
-			],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": 0,
-			"Velocity": 0,
-			"RaidModdable": true,
-			"ToolModdable": false,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 500,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "iron",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.65
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					100
-				]
-			]
-		},
-		"_proto": "55d5f46a4bdc2d1b198b4567"
-	},
-	{
-		"_id": "59d650cf86f7741b846413a4",
-		"_name": "sight_rear_ak_izhmash_akm_std",
-		"_parent": "55818ac54bdc2d5b648b456e",
-		"_type": "Item",
-		"_props": {
-			"Name": "sight_rear_ak_izhmash_akm_std",
-			"ShortName": "sight_rear_ak_izhmash_akm_std",
-			"Description": "sight_rear_ak_izhmash_akm_std",
-			"Weight": 0.025,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/sights rear/sight_rear_ak_izhmash_akm_std.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [
-				{
-					"_name": "mod_sight_rear",
-					"_id": "5a0eda49fcdbcb001912fa61",
-					"_parent": "59d650cf86f7741b846413a4",
 					"_props": {
 						"filters": [
 							{
@@ -6399,105 +4215,6 @@
 		"_proto": "55d4af3a4bdc2d972f8b456f"
 	},
 	{
-		"_id": "5dfa3d7ac41b2312ea33362a",
-		"_name": "sight_rear_all_kac_folding_micro_sight",
-		"_parent": "55818ac54bdc2d5b648b456e",
-		"_type": "Item",
-		"_props": {
-			"Name": "sight_rear_all_kac_folding_micro_sight",
-			"ShortName": "sight_rear_all_kac_folding_micro_sight",
-			"Description": "sight_rear_all_kac_folding_micro_sight",
-			"Weight": 0.08,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/sights rear/sight_rear_all_kac_folding_micro_sight.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": 1,
-			"Velocity": 0,
-			"RaidModdable": true,
-			"ToolModdable": true,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 300,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "iron",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.65
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					100
-				]
-			]
-		},
-		"_proto": "55d4af3a4bdc2d972f8b456f"
-	},
-	{
 		"_id": "55d5f46a4bdc2d1b198b4567",
 		"_name": "sight_rear_ar15_colt_a2",
 		"_parent": "55818ac54bdc2d5b648b456e",
@@ -6601,6 +4318,2598 @@
 			"IsAnimated": false,
 			"HasShoulderContact": false,
 			"SightingRange": 600,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "iron",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.65
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					100
+				]
+			]
+		},
+		"_proto": "55d4af3a4bdc2d972f8b456f"
+	},
+	{
+		"_id": "5649d9a14bdc2d79388b4580",
+		"_name": "sight_rear_ak_tactica_tula_tt01",
+		"_parent": "55818ac54bdc2d5b648b456e",
+		"_type": "Item",
+		"_props": {
+			"Name": "sight_rear_ak_tactica_tula_tt01",
+			"ShortName": "sight_rear_ak_tactica_tula_tt01",
+			"Description": "sight_rear_ak_tactica_tula_tt01",
+			"Weight": 0.085,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/sights rear/sight_rear_ak_tactica_tula_tt01.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [
+				"5947db3f86f77447880cf76f",
+				"57486e672459770abd687134",
+				"576fd4ec2459777f0b518431",
+				"5a7c74b3e899ef0014332c29",
+				"5c61a40d2e2216001403158d",
+				"5c90c3622e221601da359851",
+				"5649af884bdc2d1b2b8b4589"
+			],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [],
+			"Slots": [
+				{
+					"_name": "mod_scope",
+					"_id": "5649daed4bdc2d3b4c8b457f",
+					"_parent": "5649d9a14bdc2d79388b4580",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"558022b54bdc2dac148b458d",
+									"58491f3324597764bc48fa02",
+									"584924ec24597768f12ae244",
+									"5d2da1e948f035477b1ce2ba",
+									"584984812459776a704a82a6",
+									"570fd721d2720bc5458b4596",
+									"57ae0171245977343c27bfcf",
+									"58d39d3d86f77445bb794ae7",
+									"616554fe50224f204c1da2aa",
+									"5c7d55f52e221644f31bff6a",
+									"616584766ef05c2ce828ef57",
+									"615d8d878004cc50514c3233",
+									"577d128124597739d65d0e56",
+									"58d2664f86f7747fec5834f6",
+									"5b31163c5acfc400153b71cb",
+									"5a33b652c4a28232996e407c",
+									"5a33b2c9c4a282000c5a9511"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": -1,
+			"Velocity": 0,
+			"RaidModdable": true,
+			"ToolModdable": true,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 500,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "iron",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.65
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					100
+				]
+			]
+		},
+		"_proto": "5649b0544bdc2d1b2b8b458a"
+	},
+	{
+		"_id": "5c18b9192e2216398b5a8104",
+		"_name": "sight_rear_all_magpul_mbus_gen2_fde",
+		"_parent": "55818ac54bdc2d5b648b456e",
+		"_type": "Item",
+		"_props": {
+			"Name": "sight_rear_all_sig_mpx_std",
+			"ShortName": "sight_rear_all_sig_mpx_std",
+			"Description": "sight_rear_all_sig_mpx_std",
+			"Weight": 0.036,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_fde.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": 1,
+			"Velocity": 0,
+			"RaidModdable": true,
+			"ToolModdable": true,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 300,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "iron",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.65
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					100
+				]
+			]
+		},
+		"_proto": "55d4af3a4bdc2d972f8b456f"
+	},
+	{
+		"_id": "619f4d304c58466fe1228437",
+		"_name": "sight_front_rhino_chiappa_std",
+		"_parent": "55818ac54bdc2d5b648b456e",
+		"_type": "Item",
+		"_props": {
+			"Name": "sight_front_rhino_chiappa_std",
+			"ShortName": "sight_front_rhino_chiappa_std",
+			"Description": "sight_front_rhino_chiappa_std",
+			"Weight": 0.003,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/sights front/sight_front_rhino_chiappa_std.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": 0,
+			"Velocity": 0,
+			"RaidModdable": false,
+			"ToolModdable": true,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 200,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "iron",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.65
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					25
+				]
+			]
+		},
+		"_proto": "55d4af3a4bdc2d972f8b456f"
+	},
+	{
+		"_id": "59d650cf86f7741b846413a4",
+		"_name": "sight_rear_ak_izhmash_akm_std",
+		"_parent": "55818ac54bdc2d5b648b456e",
+		"_type": "Item",
+		"_props": {
+			"Name": "sight_rear_ak_izhmash_akm_std",
+			"ShortName": "sight_rear_ak_izhmash_akm_std",
+			"Description": "sight_rear_ak_izhmash_akm_std",
+			"Weight": 0.025,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/sights rear/sight_rear_ak_izhmash_akm_std.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [],
+			"Slots": [
+				{
+					"_name": "mod_sight_rear",
+					"_id": "5a0eda49fcdbcb001912fa61",
+					"_parent": "59d650cf86f7741b846413a4",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5a0ed824fcdbcb0176308b0d"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": 0,
+			"Velocity": 0,
+			"RaidModdable": true,
+			"ToolModdable": false,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 500,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "iron",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.65
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					100
+				]
+			]
+		},
+		"_proto": "55d5f46a4bdc2d1b198b4567"
+	},
+	{
+		"_id": "5beec9450db83400970084fd",
+		"_name": "sight_rear_all_izhmash_rpk16_std",
+		"_parent": "55818ac54bdc2d5b648b456e",
+		"_type": "Item",
+		"_props": {
+			"Name": "Целик Colt A2 Rearsight для AR-15 и совместимых",
+			"ShortName": "CA2R",
+			"Description": "Съемный целик Colt A2 Rearsight. Штатно устанавливается на M4A1.",
+			"Weight": 0.05,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/sights rear/sight_rear_all_izhmash_rpk16_std.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [
+				"5b3b99265acfc4704b4a1afb"
+			],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [],
+			"Slots": [
+				{
+					"_name": "mod_sight_rear",
+					"_id": "5bf3f5b10db834001d2c4aaa",
+					"_parent": "5beec9450db83400970084fd",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5ac733a45acfc400192630e2",
+									"5649b0544bdc2d1b2b8b458a",
+									"5ac72e475acfc400180ae6fe",
+									"5bf3f59f0db834001a6fa060"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": 0,
+			"Velocity": 0,
+			"RaidModdable": true,
+			"ToolModdable": false,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 600,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "iron",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.65
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					100
+				]
+			]
+		},
+		"_proto": "55d4af3a4bdc2d972f8b456f"
+	},
+	{
+		"_id": "61817865d3a39d50044c13a4",
+		"_name": "sight_rear_all_fn_scar_rear_sight_std",
+		"_parent": "55818ac54bdc2d5b648b456e",
+		"_type": "Item",
+		"_props": {
+			"Name": "sight_rear_all_sig_mpx_std",
+			"ShortName": "sight_rear_all_sig_mpx_std",
+			"Description": "sight_rear_all_sig_mpx_std",
+			"Weight": 0.036,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/sights rear/sight_rear_all_fn_scar_rear_sight_std.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": 0,
+			"Velocity": 0,
+			"RaidModdable": true,
+			"ToolModdable": true,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 300,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "iron",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.65
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					100
+				]
+			]
+		},
+		"_proto": "55d4af3a4bdc2d972f8b456f"
+	},
+	{
+		"_id": "5d3eb4aba4b93650d64e497d",
+		"_name": "sight_rear_57_fn_five_seven_std",
+		"_parent": "55818ac54bdc2d5b648b456e",
+		"_type": "Item",
+		"_props": {
+			"Name": "sight_rear_57_fn_five_seven_std",
+			"ShortName": "sight_rear_57_fn_five_seven_std",
+			"Description": "sight_rear_57_fn_five_seven_std",
+			"Weight": 0.007,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/sights rear/sight_rear_57_fn_five_seven_std.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": 0,
+			"Velocity": 0,
+			"RaidModdable": true,
+			"ToolModdable": true,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 200,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "iron",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.65
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					25
+				]
+			]
+		},
+		"_proto": "55d4af3a4bdc2d972f8b456f"
+	},
+	{
+		"_id": "6231670f0b8aa5472d060095",
+		"_name": "sight_rear_g36_hk_std",
+		"_parent": "55818ac54bdc2d5b648b456e",
+		"_type": "Item",
+		"_props": {
+			"Name": "Целик Colt A2 Rearsight для AR-15 и совместимых",
+			"ShortName": "CA2R",
+			"Description": "Съемный целик Colt A2 Rearsight. Штатно устанавливается на M4A1.",
+			"Weight": 0.15,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/sights rear/sight_rear_g36_hk_std.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [
+				"5d2dc3e548f035404a1a4798",
+				"57adff4f24597737f373b6e6",
+				"570fd79bd2720bc7458b4583",
+				"544a3d0a4bdc2d1b388b4567",
+				"5b3b6dc75acfc47a8773fb1e",
+				"5d0a29fed7ad1a002769ad08",
+				"5b3b99265acfc4704b4a1afb",
+				"5c1cdd302e221602b3137250",
+				"59db7eed86f77461f8380365"
+			],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": 0,
+			"Velocity": 0,
+			"RaidModdable": true,
+			"ToolModdable": false,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 600,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "iron",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.65
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					100
+				]
+			]
+		},
+		"_proto": "55d4af3a4bdc2d972f8b456f"
+	},
+	{
+		"_id": "5ba26b17d4351e00367f9bdd",
+		"_name": "sight_rear_all_hk_mp7_std",
+		"_parent": "55818ac54bdc2d5b648b456e",
+		"_type": "Item",
+		"_props": {
+			"Name": "sight_rear_all_sig_mpx_std",
+			"ShortName": "sight_rear_all_sig_mpx_std",
+			"Description": "sight_rear_all_sig_mpx_std",
+			"Weight": 0.14,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/sights rear/sight_rear_all_hk_mp7_std.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": 0,
+			"Velocity": 0,
+			"RaidModdable": true,
+			"ToolModdable": false,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 300,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "iron",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.65
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					100
+				]
+			]
+		},
+		"_proto": "55d4af3a4bdc2d972f8b456f"
+	},
+	{
+		"_id": "5aba637ad8ce87001773e17f",
+		"_name": "sight_rear_aps_molot_aps_std",
+		"_parent": "55818ac54bdc2d5b648b456e",
+		"_type": "Item",
+		"_props": {
+			"Name": "sight_rear_aps_molot_aps_std",
+			"ShortName": "sight_rear_aps_molot_aps_std",
+			"Description": "sight_rear_aps_molot_aps_std",
+			"Weight": 0.008,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/sights rear/sight_rear_aps_molot_aps_std.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": true,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": 0,
+			"Velocity": 0,
+			"RaidModdable": true,
+			"ToolModdable": true,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 200,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "iron",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.65
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					25
+				]
+			]
+		},
+		"_proto": "56d5a661d2720bd8418b456b"
+	},
+	{
+		"_id": "60228a850ddce744014caf69",
+		"_name": "sight_front_pl15_izhmash_pl15_supressor_sight",
+		"_parent": "55818ac54bdc2d5b648b456e",
+		"_type": "Item",
+		"_props": {
+			"Name": "sight_front_p226_sig_p226r_std",
+			"ShortName": "sight_front_p226_sig_p226r_std",
+			"Description": "sight_front_p226_sig_p226r_std",
+			"Weight": 0.007,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/sights front/sight_front_pl15_izhmash_pl15_supressor_sight.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": 0,
+			"Velocity": 0,
+			"RaidModdable": true,
+			"ToolModdable": true,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 200,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "iron",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.65
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					25
+				]
+			]
+		},
+		"_proto": "55d4af3a4bdc2d972f8b456f"
+	},
+	{
+		"_id": "5a6f5d528dc32e00094b97d9",
+		"_name": "sight_rear_glock_glock_std",
+		"_parent": "55818ac54bdc2d5b648b456e",
+		"_type": "Item",
+		"_props": {
+			"Name": "sight_rear_p226_sig_p226r_std",
+			"ShortName": "sight_rear_p226_sig_p226r_std",
+			"Description": "sight_rear_p226_sig_p226r_std",
+			"Weight": 0.008,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/sights rear/sight_rear_glock_glock_std.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": 0,
+			"Velocity": 0,
+			"RaidModdable": true,
+			"ToolModdable": true,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 200,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "iron",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.65
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					25
+				]
+			]
+		},
+		"_proto": "56d5a661d2720bd8418b456b"
+	},
+	{
+		"_id": "619f52454c58466fe122843b",
+		"_name": "sight_front_rhino_chiappa_night_sight",
+		"_parent": "55818ac54bdc2d5b648b456e",
+		"_type": "Item",
+		"_props": {
+			"Name": "sight_front_rhino_chiappa_night_sight",
+			"ShortName": "sight_front_rhino_chiappa_night_sight",
+			"Description": "sight_front_rhino_chiappa_night_sight",
+			"Weight": 0.003,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/sights front/sight_front_rhino_chiappa_night_sight.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": 0,
+			"Velocity": 0,
+			"RaidModdable": false,
+			"ToolModdable": true,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 200,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "iron",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.65
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					25
+				]
+			]
+		},
+		"_proto": "55d4af3a4bdc2d972f8b456f"
+	},
+	{
+		"_id": "6194f3286db0f2477964e67d",
+		"_name": "sight_front_usp_hk_usp_tactical",
+		"_parent": "55818ac54bdc2d5b648b456e",
+		"_type": "Item",
+		"_props": {
+			"Name": "sight_front_glock_glock_std",
+			"ShortName": "sight_front_glock_glock_std",
+			"Description": "sight_front_glock_glock_std",
+			"Weight": 0.005,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/sights front/sight_front_usp_hk_usp_tactical.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": 0,
+			"Velocity": 0,
+			"RaidModdable": false,
+			"ToolModdable": true,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 200,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "iron",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.65
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					25
+				]
+			]
+		},
+		"_proto": "55d4af3a4bdc2d972f8b456f"
+	},
+	{
+		"_id": "5ac733a45acfc400192630e2",
+		"_name": "sight_rear_ak_izhmash_ak105_std",
+		"_parent": "55818ac54bdc2d5b648b456e",
+		"_type": "Item",
+		"_props": {
+			"Name": "Целик Ижмаш для АК-74",
+			"ShortName": "АК74 Целик",
+			"Description": "Штатный целик АК-74 производства Ижмаш.",
+			"Weight": 0.025,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/sights rear/sight_rear_ak_izhmash_ak105_std.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [],
+			"Slots": [
+				{
+					"_name": "mod_sight_rear",
+					"_id": "5ac733a45acfc400192630e4",
+					"_parent": "5ac733a45acfc400192630e2",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5a0ed824fcdbcb0176308b0d"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": 0,
+			"Velocity": 0,
+			"RaidModdable": true,
+			"ToolModdable": false,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 500,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "iron",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.65
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					100
+				]
+			]
+		},
+		"_proto": "55d5f46a4bdc2d1b198b4567"
+	},
+	{
+		"_id": "5a0eb980fcdbcb001a3b00a6",
+		"_name": "sight_rear_ak_izhmash_akmb",
+		"_parent": "55818ac54bdc2d5b648b456e",
+		"_type": "Item",
+		"_props": {
+			"Name": "sight_rear_ak_izhmash_akmb",
+			"ShortName": "sight_rear_ak_izhmash_akmb",
+			"Description": "sight_rear_ak_izhmash_akmb",
+			"Weight": 0.035,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/sights rear/sight_rear_ak_izhmash_akmb.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": 0,
+			"Velocity": 0,
+			"RaidModdable": true,
+			"ToolModdable": false,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 500,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "iron",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.65
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					100
+				]
+			]
+		},
+		"_proto": "55d5f46a4bdc2d1b198b4567"
+	},
+	{
+		"_id": "5bb20e49d4351e3bac1212de",
+		"_name": "sight_rear_all_hk_416_flip_up",
+		"_parent": "55818ac54bdc2d5b648b456e",
+		"_type": "Item",
+		"_props": {
+			"Name": "sight_rear_all_sig_mpx_std",
+			"ShortName": "sight_rear_all_sig_mpx_std",
+			"Description": "sight_rear_all_sig_mpx_std",
+			"Weight": 0.14,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/sights rear/sight_rear_all_hk_416_flip_up.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": 0,
+			"Velocity": 0,
+			"RaidModdable": true,
+			"ToolModdable": false,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 300,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "iron",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.65
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					100
+				]
+			]
+		},
+		"_proto": "55d4af3a4bdc2d972f8b456f"
+	},
+	{
+		"_id": "5fb6564947ce63734e3fa1da",
+		"_name": "sight_rear_all_kriss_defiance_low_profile_flip_up",
+		"_parent": "55818ac54bdc2d5b648b456e",
+		"_type": "Item",
+		"_props": {
+			"Name": "sight_rear_all_sig_mpx_std",
+			"ShortName": "sight_rear_all_sig_mpx_std",
+			"Description": "sight_rear_all_sig_mpx_std",
+			"Weight": 0.02,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/sights rear/sight_rear_all_kriss_defiance_low_profile_flip_up.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": 1,
+			"Velocity": 0,
+			"RaidModdable": true,
+			"ToolModdable": true,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 300,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "iron",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.65
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					100
+				]
+			]
+		},
+		"_proto": "55d4af3a4bdc2d972f8b456f"
+	},
+	{
+		"_id": "5aba639ed8ce8700182ece67",
+		"_name": "sight_rear_aps_molot_apb_std",
+		"_parent": "55818ac54bdc2d5b648b456e",
+		"_type": "Item",
+		"_props": {
+			"Name": "sight_rear_aps_molot_aps_std",
+			"ShortName": "sight_rear_aps_molot_aps_std",
+			"Description": "sight_rear_aps_molot_aps_std",
+			"Weight": 0.008,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/sights rear/sight_rear_aps_molot_apb_std.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": true,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": 0,
+			"Velocity": 0,
+			"RaidModdable": true,
+			"ToolModdable": true,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 200,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "iron",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.65
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					25
+				]
+			]
+		},
+		"_proto": "56d5a661d2720bd8418b456b"
+	},
+	{
+		"_id": "5bc09a18d4351e003562b68e",
+		"_name": "sight_rear_all_magpul_mbus_gen2",
+		"_parent": "55818ac54bdc2d5b648b456e",
+		"_type": "Item",
+		"_props": {
+			"Name": "sight_rear_all_sig_mpx_std",
+			"ShortName": "sight_rear_all_sig_mpx_std",
+			"Description": "sight_rear_all_sig_mpx_std",
+			"Weight": 0.036,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": 1,
+			"Velocity": 0,
+			"RaidModdable": true,
+			"ToolModdable": true,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 300,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "iron",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.65
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					100
+				]
+			]
+		},
+		"_proto": "55d4af3a4bdc2d972f8b456f"
+	},
+	{
+		"_id": "5bf3f59f0db834001a6fa060",
+		"_name": "sight_rear_ak_izhmash_rpk16_rear_sight_std",
+		"_parent": "55818ac54bdc2d5b648b456e",
+		"_type": "Item",
+		"_props": {
+			"Name": "Целик Colt A2 Rearsight для AR-15 и совместимых",
+			"ShortName": "CA2R",
+			"Description": "Съемный целик Colt A2 Rearsight. Штатно устанавливается на M4A1.",
+			"Weight": 0.15,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/sights rear/sight_rear_ak_izhmash_rpk16_rear_sight_std.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": 0,
+			"Velocity": 0,
+			"RaidModdable": true,
+			"ToolModdable": false,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 600,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "iron",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.65
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					100
+				]
+			]
+		},
+		"_proto": "55d4af3a4bdc2d972f8b456f"
+	},
+	{
+		"_id": "6194f35c18a3974e5e7421e6",
+		"_name": "sight_front_usp_hk_usp_std_front_sight",
+		"_parent": "55818ac54bdc2d5b648b456e",
+		"_type": "Item",
+		"_props": {
+			"Name": "sight_front_glock_glock_std",
+			"ShortName": "sight_front_glock_glock_std",
+			"Description": "sight_front_glock_glock_std",
+			"Weight": 0.003,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/sights front/sight_front_usp_hk_usp_std_front_sight.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": 0,
+			"Velocity": 0,
+			"RaidModdable": false,
+			"ToolModdable": true,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 200,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "iron",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.65
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					25
+				]
+			]
+		},
+		"_proto": "55d4af3a4bdc2d972f8b456f"
+	},
+	{
+		"_id": "5926d2be86f774134d668e4e",
+		"_name": "sight_rear_mp5_hk_drum",
+		"_parent": "55818ac54bdc2d5b648b456e",
+		"_type": "Item",
+		"_props": {
+			"Name": "sight_rear_mp5_hk_drum",
+			"ShortName": "sight_rear_mp5_hk_drum",
+			"Description": "sight_rear_mp5_hk_drum",
+			"Weight": 0.14,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/sights rear/sight_rear_mp5_hk_drum.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [
+				"5b3b99265acfc4704b4a1afb"
+			],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": 0,
+			"Velocity": 0,
+			"RaidModdable": true,
+			"ToolModdable": false,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 200,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "iron",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.65
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					25
+				]
+			]
+		},
+		"_proto": "55d4af3a4bdc2d972f8b456f"
+	},
+	{
+		"_id": "5c05295e0db834001a66acbb",
+		"_name": "sight_rear_acog_trijicon_acog_backup_rear_sight",
+		"_parent": "55818ac54bdc2d5b648b456e",
+		"_type": "Item",
+		"_props": {
+			"Name": "sight_front_all_sig_mpx_std",
+			"ShortName": "sight_front_all_sig_mpx_std",
+			"Description": "sight_front_all_sig_mpx_std",
+			"Weight": 0.034,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/sights rear/sight_rear_acog_trijicon_acog_backup_rear_sight.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": 1,
+			"Velocity": 0,
+			"RaidModdable": true,
+			"ToolModdable": true,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 300,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "iron",
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.65
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					25
+				]
+			]
+		},
+		"_proto": "55d4af3a4bdc2d972f8b456f"
+	},
+	{
+		"_id": "5dfa3d7ac41b2312ea33362a",
+		"_name": "sight_rear_all_kac_folding_micro_sight",
+		"_parent": "55818ac54bdc2d5b648b456e",
+		"_type": "Item",
+		"_props": {
+			"Name": "sight_rear_all_kac_folding_micro_sight",
+			"ShortName": "sight_rear_all_kac_folding_micro_sight",
+			"Description": "sight_rear_all_kac_folding_micro_sight",
+			"Weight": 0.08,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/sights rear/sight_rear_all_kac_folding_micro_sight.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 2,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"DiscardLimit": -1,
+			"DropSoundType": "None",
+			"Grids": [],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": 1,
+			"Velocity": 0,
+			"RaidModdable": true,
+			"ToolModdable": true,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 300,
 			"DoubleActionAccuracyPenaltyMult": 1,
 			"CustomAimPlane": "",
 			"sightModType": "iron",
@@ -6802,115 +7111,6 @@
 		"_proto": "55d4af3a4bdc2d972f8b456f"
 	},
 	{
-		"_id": "6231670f0b8aa5472d060095",
-		"_name": "sight_rear_g36_hk_std",
-		"_parent": "55818ac54bdc2d5b648b456e",
-		"_type": "Item",
-		"_props": {
-			"Name": "Целик Colt A2 Rearsight для AR-15 и совместимых",
-			"ShortName": "CA2R",
-			"Description": "Съемный целик Colt A2 Rearsight. Штатно устанавливается на M4A1.",
-			"Weight": 0.15,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/sights rear/sight_rear_g36_hk_std.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [
-				"5d2dc3e548f035404a1a4798",
-				"57adff4f24597737f373b6e6",
-				"570fd79bd2720bc7458b4583",
-				"544a3d0a4bdc2d1b388b4567",
-				"5b3b6dc75acfc47a8773fb1e",
-				"5d0a29fed7ad1a002769ad08",
-				"5b3b99265acfc4704b4a1afb",
-				"5c1cdd302e221602b3137250",
-				"59db7eed86f77461f8380365"
-			],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": 0,
-			"Velocity": 0,
-			"RaidModdable": true,
-			"ToolModdable": false,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 600,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "iron",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.65
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					100
-				]
-			]
-		},
-		"_proto": "55d4af3a4bdc2d972f8b456f"
-	},
-	{
 		"_id": "5a7d9122159bd4001438dbf4",
 		"_name": "sight_rear_glock_dead_ringer_snake_eyes_glock_sights",
 		"_parent": "55818ac54bdc2d5b648b456e",
@@ -6927,105 +7127,6 @@
 			"ItemSound": "mod",
 			"Prefab": {
 				"path": "assets/content/items/mods/sights rear/sight_rear_glock_dead_ringer_snake_eyes_glock_sights.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": 0,
-			"Velocity": 0,
-			"RaidModdable": true,
-			"ToolModdable": true,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 200,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "iron",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.65
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					25
-				]
-			]
-		},
-		"_proto": "56d5a661d2720bd8418b456b"
-	},
-	{
-		"_id": "5a6f5d528dc32e00094b97d9",
-		"_name": "sight_rear_glock_glock_std",
-		"_parent": "55818ac54bdc2d5b648b456e",
-		"_type": "Item",
-		"_props": {
-			"Name": "sight_rear_p226_sig_p226r_std",
-			"ShortName": "sight_rear_p226_sig_p226r_std",
-			"Description": "sight_rear_p226_sig_p226r_std",
-			"Weight": 0.008,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/sights rear/sight_rear_glock_glock_std.bundle",
 				"rcid": ""
 			},
 			"UsePrefab": {
@@ -8260,107 +8361,6 @@
 			"CalibrationDistances": [
 				[
 					100
-				]
-			]
-		},
-		"_proto": "55d4af3a4bdc2d972f8b456f"
-	},
-	{
-		"_id": "5926d2be86f774134d668e4e",
-		"_name": "sight_rear_mp5_hk_drum",
-		"_parent": "55818ac54bdc2d5b648b456e",
-		"_type": "Item",
-		"_props": {
-			"Name": "sight_rear_mp5_hk_drum",
-			"ShortName": "sight_rear_mp5_hk_drum",
-			"Description": "sight_rear_mp5_hk_drum",
-			"Weight": 0.14,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/sights rear/sight_rear_mp5_hk_drum.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 2,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [
-				"5b3b99265acfc4704b4a1afb"
-			],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": 0,
-			"Velocity": 0,
-			"RaidModdable": true,
-			"ToolModdable": false,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 200,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "iron",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.65
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					25
 				]
 			]
 		},
