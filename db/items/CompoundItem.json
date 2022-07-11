@@ -1,58 +1,12 @@
 [
 	{
-		"_id": "543be5f84bdc2dd4348b456a",
-		"_name": "Equipment",
+		"_id": "5795f317245977243854e041",
+		"_name": "SimpleContainer",
 		"_parent": "566162e44bdc2d3f298b4573",
 		"_type": "Node",
 		"_props": {
-			"BlocksEarpiece": false,
-			"BlocksEyewear": false,
-			"BlocksHeadwear": false,
-			"BlocksFaceCover": false
-		}
-	},
-	{
-		"_id": "55d720f24bdc2d88028b456d",
-		"_name": "Inventory",
-		"_parent": "566162e44bdc2d3f298b4573",
-		"_type": "Node",
-		"_props": {}
-	},
-	{
-		"_id": "5671435f4bdc2d96058b4569",
-		"_name": "LockableContainer",
-		"_parent": "566162e44bdc2d3f298b4573",
-		"_type": "Node",
-		"_props": {
-			"KeyIds": [
-				"543be5e94bdc2df1348b4568"
-			],
 			"TagColor": 0,
 			"TagName": ""
-		}
-	},
-	{
-		"_id": "5448fe124bdc2da5018b4567",
-		"_name": "Mod",
-		"_parent": "566162e44bdc2d3f298b4573",
-		"_type": "Node",
-		"_props": {
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": 0,
-			"Velocity": 0,
-			"RaidModdable": false,
-			"ToolModdable": false,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"MergesWithChildren": true,
-			"HasShoulderContact": false,
-			"SightingRange": 0,
-			"DoubleActionAccuracyPenaltyMult": 1
 		}
 	},
 	{
@@ -109,78 +63,12 @@
 			"DiscardingBlock": false,
 			"RagFairCommissionModifier": 1,
 			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
 			"Grids": [],
 			"Slots": [],
 			"CanPutIntoDuringTheRaid": true,
 			"CantRemoveFromSlotsDuringRaid": [],
 			"SearchSound": "cashregister_looting",
 			"BlocksArmorVest": false
-		}
-	},
-	{
-		"_id": "5795f317245977243854e041",
-		"_name": "SimpleContainer",
-		"_parent": "566162e44bdc2d3f298b4573",
-		"_type": "Node",
-		"_props": {
-			"Name": "Item",
-			"ShortName": "Item",
-			"Description": "Item",
-			"Weight": 1,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "generic",
-			"Prefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 10,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": false,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": 0,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"TagColor": 0,
-			"TagName": ""
 		}
 	},
 	{
@@ -196,6 +84,62 @@
 		"_parent": "566162e44bdc2d3f298b4573",
 		"_type": "Node",
 		"_props": {}
+	},
+	{
+		"_id": "543be5f84bdc2dd4348b456a",
+		"_name": "Equipment",
+		"_parent": "566162e44bdc2d3f298b4573",
+		"_type": "Node",
+		"_props": {
+			"BlocksEarpiece": false,
+			"BlocksEyewear": false,
+			"BlocksHeadwear": false,
+			"BlocksFaceCover": false
+		}
+	},
+	{
+		"_id": "55d720f24bdc2d88028b456d",
+		"_name": "Inventory",
+		"_parent": "566162e44bdc2d3f298b4573",
+		"_type": "Node",
+		"_props": {}
+	},
+	{
+		"_id": "5671435f4bdc2d96058b4569",
+		"_name": "LockableContainer",
+		"_parent": "566162e44bdc2d3f298b4573",
+		"_type": "Node",
+		"_props": {
+			"KeyIds": [
+				"543be5e94bdc2df1348b4568"
+			],
+			"TagColor": 0,
+			"TagName": ""
+		}
+	},
+	{
+		"_id": "5448fe124bdc2da5018b4567",
+		"_name": "Mod",
+		"_parent": "566162e44bdc2d3f298b4573",
+		"_type": "Node",
+		"_props": {
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": 0,
+			"Velocity": 0,
+			"RaidModdable": false,
+			"ToolModdable": false,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"MergesWithChildren": true,
+			"HasShoulderContact": false,
+			"SightingRange": 0,
+			"DoubleActionAccuracyPenaltyMult": 1
+		}
 	},
 	{
 		"_id": "5422acb9af1c889c16000029",
@@ -295,10 +239,7 @@
 			"DoubleActionAccuracyPenalty": 1.5,
 			"RecoilPosZMult": 1,
 			"MinRepairKitDegradation": 0,
-			"MaxRepairKitDegradation": 0,
-			"IsFlareGun": false,
-			"IsOneoff": false,
-			"IsGrenadeLauncher": false
+			"MaxRepairKitDegradation": 0
 		}
 	}
 ]

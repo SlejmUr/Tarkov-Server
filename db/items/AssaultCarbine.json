@@ -53,8 +53,6 @@
 			"DiscardingBlock": false,
 			"RagFairCommissionModifier": 1,
 			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "Rifle",
 			"Grids": [],
 			"Slots": [
 				{
@@ -259,7 +257,7 @@
 			"ManualBoltCatch": false,
 			"AimSensitivity": 0.65,
 			"BurstShotsCount": 3,
-			"BaseMalfunctionChance": 0.2024,
+			"BaseMalfunctionChance": 0.176,
 			"AllowJam": true,
 			"AllowFeed": true,
 			"AllowMisfire": true,
@@ -273,10 +271,7 @@
 			"DoubleActionAccuracyPenalty": 1.5,
 			"RecoilPosZMult": 1,
 			"MinRepairKitDegradation": 0,
-			"MaxRepairKitDegradation": 0.035,
-			"IsFlareGun": false,
-			"IsOneoff": false,
-			"IsGrenadeLauncher": false
+			"MaxRepairKitDegradation": 0.035
 		},
 		"_proto": "574d967124597745970e7c94"
 	},
@@ -334,8 +329,6 @@
 			"DiscardingBlock": false,
 			"RagFairCommissionModifier": 1,
 			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "Rifle",
 			"Grids": [],
 			"Slots": [
 				{
@@ -515,7 +508,7 @@
 			"chamberAmmoCount": 1,
 			"isBoltCatch": false,
 			"defMagType": "5c503ac82e221602b21d6e9a",
-			"defAmmo": "5e023e53d4353e3302577c4c",
+			"defAmmo": "5a6086ea4f39f99cd479502f",
 			"AdjustCollimatorsToTrajectory": false,
 			"shotgunDispersion": 0,
 			"Chambers": [
@@ -589,7 +582,7 @@
 			"ManualBoltCatch": false,
 			"AimSensitivity": 0.65,
 			"BurstShotsCount": 3,
-			"BaseMalfunctionChance": 0.221375,
+			"BaseMalfunctionChance": 0.1925,
 			"AllowJam": true,
 			"AllowFeed": true,
 			"AllowMisfire": true,
@@ -603,10 +596,7 @@
 			"DoubleActionAccuracyPenalty": 1.5,
 			"RecoilPosZMult": 1,
 			"MinRepairKitDegradation": 0,
-			"MaxRepairKitDegradation": 0.035,
-			"IsFlareGun": false,
-			"IsOneoff": false,
-			"IsGrenadeLauncher": false
+			"MaxRepairKitDegradation": 0.035
 		},
 		"_proto": "5447a9cd4bdc2dbd208b4567"
 	},
@@ -664,8 +654,6 @@
 			"DiscardingBlock": false,
 			"RagFairCommissionModifier": 1,
 			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "Rifle",
 			"Grids": [],
 			"Slots": [
 				{
@@ -846,7 +834,7 @@
 			"durabSpawnMin": 25,
 			"durabSpawnMax": 75,
 			"isFastReload": true,
-			"RecoilForceUp": 115,
+			"RecoilForceUp": 140,
 			"RecoilForceBack": 300,
 			"Convergence": 1.7,
 			"RecoilAngle": 90,
@@ -939,7 +927,7 @@
 			"ManualBoltCatch": false,
 			"AimSensitivity": 0.65,
 			"BurstShotsCount": 3,
-			"BaseMalfunctionChance": 0.1771,
+			"BaseMalfunctionChance": 0.154,
 			"AllowJam": true,
 			"AllowFeed": true,
 			"AllowMisfire": true,
@@ -953,10 +941,7 @@
 			"DoubleActionAccuracyPenalty": 1.5,
 			"RecoilPosZMult": 1,
 			"MinRepairKitDegradation": 0,
-			"MaxRepairKitDegradation": 0.045,
-			"IsFlareGun": false,
-			"IsOneoff": false,
-			"IsGrenadeLauncher": false
+			"MaxRepairKitDegradation": 0.045
 		},
 		"_proto": "57838ad32459774a17445cd2"
 	},
@@ -1014,8 +999,6 @@
 			"DiscardingBlock": false,
 			"RagFairCommissionModifier": 1,
 			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "Rifle",
 			"Grids": [],
 			"Slots": [
 				{
@@ -1202,7 +1185,7 @@
 			"ManualBoltCatch": false,
 			"AimSensitivity": 0.65,
 			"BurstShotsCount": 3,
-			"BaseMalfunctionChance": 0.2024,
+			"BaseMalfunctionChance": 0.176,
 			"AllowJam": true,
 			"AllowFeed": true,
 			"AllowMisfire": true,
@@ -1216,10 +1199,7 @@
 			"DoubleActionAccuracyPenalty": 1.5,
 			"RecoilPosZMult": 1,
 			"MinRepairKitDegradation": 0,
-			"MaxRepairKitDegradation": 0.035,
-			"IsFlareGun": false,
-			"IsOneoff": false,
-			"IsGrenadeLauncher": false
+			"MaxRepairKitDegradation": 0.035
 		}
 	}
 ]

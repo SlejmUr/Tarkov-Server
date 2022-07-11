@@ -53,8 +53,6 @@
 			"DiscardingBlock": false,
 			"RagFairCommissionModifier": 1,
 			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
 			"Grids": [],
 			"Slots": [],
 			"CanPutIntoDuringTheRaid": true,
@@ -76,6 +74,14 @@
 			"DoubleActionAccuracyPenaltyMult": 1,
 			"CustomAimPlane": "",
 			"sightModType": "iron",
+			"aimingSensitivity": 0.2,
+			"SightModesCount": 1,
+			"OpticCalibrationDistances": [
+				50,
+				100,
+				150,
+				200
+			],
 			"ScopesCount": 1,
 			"AimSensitivity": [
 				[

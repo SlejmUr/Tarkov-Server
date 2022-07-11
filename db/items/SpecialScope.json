@@ -1,24 +1,109 @@
 [
 	{
-		"_id": "5a2c3a9486f774688b05e574",
-		"_name": "NightVision",
+		"_id": "609bab8b455afd752b2e6138",
+		"_name": "scope_all_torrey_pines_logic_t12_w_30hz",
 		"_parent": "55818aeb4bdc2ddc698b456a",
-		"_type": "Node",
+		"_type": "Item",
 		"_props": {
-			"Intensity": 2.27,
-			"Mask": "Thermal",
-			"MaskSize": 1.5,
-			"NoiseIntensity": 0.02,
-			"NoiseScale": 5,
-			"Color": {
-				"r": 121,
-				"g": 233,
-				"b": 121,
-				"a": 254
+			"Name": "scope_all_torrey_pines_logic_t12_w_30hz",
+			"ShortName": "scope_all_torrey_pines_logic_t12_w_30hz",
+			"Description": "scope_all_torrey_pines_logic_t12_w_30hz",
+			"Weight": 0.063,
+			"BackgroundColor": "blue",
+			"Width": 1,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/scopes/scope_all_torrey_pines_logic_t12_w_30hz.bundle",
+				"rcid": ""
 			},
-			"DiffuseIntensity": 0,
-			"HasHinge": true
-		}
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 10,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": true,
+			"CanRequireOnRagfair": true,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"Grids": [],
+			"Slots": [],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": -1,
+			"Velocity": 0,
+			"RaidModdable": true,
+			"ToolModdable": true,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 500,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "default",
+			"sightModType": "hybrid",
+			"aimingSensitivity": 0.3,
+			"SightModesCount": 2,
+			"OpticCalibrationDistances": [
+				50,
+				100,
+				150,
+				200
+			],
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.7
+				]
+			],
+			"ModesCount": [
+				1
+			],
+			"Zooms": [
+				[
+					1
+				]
+			],
+			"CalibrationDistances": [
+				[
+					25,
+					50
+				]
+			]
+		},
+		"_proto": "5a1eaa87fcdbcb001865f75e"
 	},
 	{
 		"_id": "5d21f59b6dbe99052b54ef83",
@@ -100,8 +185,6 @@
 			"DiscardingBlock": false,
 			"RagFairCommissionModifier": 1,
 			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
 			"Grids": [],
 			"Slots": [
 				{
@@ -140,6 +223,14 @@
 			"DoubleActionAccuracyPenaltyMult": 1,
 			"CustomAimPlane": "",
 			"sightModType": "hybrid",
+			"aimingSensitivity": 0.3,
+			"SightModesCount": 2,
+			"OpticCalibrationDistances": [
+				50,
+				100,
+				150,
+				200
+			],
 			"ScopesCount": 1,
 			"AimSensitivity": [
 				[
@@ -168,104 +259,25 @@
 		"_proto": "5a1eaa87fcdbcb001865f75e"
 	},
 	{
-		"_id": "609bab8b455afd752b2e6138",
-		"_name": "scope_all_torrey_pines_logic_t12_w_30hz",
+		"_id": "5a2c3a9486f774688b05e574",
+		"_name": "NightVision",
 		"_parent": "55818aeb4bdc2ddc698b456a",
-		"_type": "Item",
+		"_type": "Node",
 		"_props": {
-			"Name": "scope_all_torrey_pines_logic_t12_w_30hz",
-			"ShortName": "scope_all_torrey_pines_logic_t12_w_30hz",
-			"Description": "scope_all_torrey_pines_logic_t12_w_30hz",
-			"Weight": 0.063,
-			"BackgroundColor": "blue",
-			"Width": 1,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/scopes/scope_all_torrey_pines_logic_t12_w_30hz.bundle",
-				"rcid": ""
+			"Intensity": 2.27,
+			"Mask": "Thermal",
+			"MaskSize": 1.5,
+			"NoiseIntensity": 0.02,
+			"NoiseScale": 5,
+			"Color": {
+				"r": 121,
+				"g": 233,
+				"b": 121,
+				"a": 254
 			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 10,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": true,
-			"CanRequireOnRagfair": true,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": -1,
-			"Velocity": 0,
-			"RaidModdable": true,
-			"ToolModdable": true,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 500,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "default",
-			"sightModType": "hybrid",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.7
-				]
-			],
-			"ModesCount": [
-				1
-			],
-			"Zooms": [
-				[
-					1
-				]
-			],
-			"CalibrationDistances": [
-				[
-					25,
-					50
-				]
-			]
-		},
-		"_proto": "5a1eaa87fcdbcb001865f75e"
+			"DiffuseIntensity": 0,
+			"HasHinge": true
+		}
 	},
 	{
 		"_id": "5b3b6e495acfc4330140bd88",
@@ -321,8 +333,6 @@
 			"DiscardingBlock": false,
 			"RagFairCommissionModifier": 1,
 			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
 			"Grids": [],
 			"Slots": [
 				{
@@ -385,6 +395,14 @@
 			"DoubleActionAccuracyPenaltyMult": 1,
 			"CustomAimPlane": "",
 			"sightModType": "optic",
+			"aimingSensitivity": 0.45,
+			"SightModesCount": 1,
+			"OpticCalibrationDistances": [
+				50,
+				100,
+				150,
+				200
+			],
 			"ScopesCount": 1,
 			"AimSensitivity": [
 				[
@@ -409,128 +427,6 @@
 			]
 		},
 		"_proto": "5a1eaa87fcdbcb001865f75e"
-	},
-	{
-		"_id": "5a1eaa87fcdbcb001865f75e",
-		"_name": "scope_base_trijicon_reap-ir",
-		"_parent": "55818aeb4bdc2ddc698b456a",
-		"_type": "Item",
-		"_props": {
-			"Name": "scope_base_trijicon_reap-ir",
-			"ShortName": "scope_base_trijicon_reap-ir",
-			"Description": "scope_base_trijicon_reap-ir",
-			"Weight": 0.58,
-			"BackgroundColor": "blue",
-			"Width": 2,
-			"Height": 1,
-			"StackMaxSize": 1,
-			"ItemSound": "mod",
-			"Prefab": {
-				"path": "assets/content/items/mods/scopes/scope_base_trijicon_reap-ir.bundle",
-				"rcid": ""
-			},
-			"UsePrefab": {
-				"path": "",
-				"rcid": ""
-			},
-			"StackObjectsCount": 1,
-			"NotShownInSlot": false,
-			"ExaminedByDefault": false,
-			"ExamineTime": 1,
-			"IsUndiscardable": false,
-			"IsUnsaleable": false,
-			"IsUnbuyable": false,
-			"IsUngivable": false,
-			"IsLockedafterEquip": false,
-			"QuestItem": false,
-			"LootExperience": 20,
-			"ExamineExperience": 10,
-			"HideEntrails": false,
-			"RepairCost": 0,
-			"RepairSpeed": 0,
-			"ExtraSizeLeft": 0,
-			"ExtraSizeRight": 0,
-			"ExtraSizeUp": 0,
-			"ExtraSizeDown": 0,
-			"ExtraSizeForceAdd": false,
-			"MergesWithChildren": true,
-			"CanSellOnRagfair": false,
-			"CanRequireOnRagfair": false,
-			"ConflictingItems": [],
-			"Unlootable": false,
-			"UnlootableFromSlot": "FirstPrimaryWeapon",
-			"UnlootableFromSide": [],
-			"AnimationVariantsNumber": 0,
-			"DiscardingBlock": false,
-			"RagFairCommissionModifier": 1,
-			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
-			"Grids": [],
-			"Slots": [
-				{
-					"_name": "mod_tactical",
-					"_id": "5a1eac63fcdbcb001a3b0108",
-					"_parent": "5a1eaa87fcdbcb001865f75e",
-					"_props": {
-						"filters": [
-							{
-								"Shift": 0,
-								"Filter": [
-									"5a1eacb3fcdbcb09800872be"
-								]
-							}
-						]
-					},
-					"_required": false,
-					"_mergeSlotWithChildren": false,
-					"_proto": "55d30c4c4bdc2db4468b457e"
-				}
-			],
-			"CanPutIntoDuringTheRaid": true,
-			"CantRemoveFromSlotsDuringRaid": [],
-			"Durability": 100,
-			"Accuracy": 0,
-			"Recoil": 0,
-			"Loudness": 0,
-			"EffectiveDistance": 0,
-			"Ergonomics": -13,
-			"Velocity": 0,
-			"RaidModdable": true,
-			"ToolModdable": true,
-			"BlocksFolding": false,
-			"BlocksCollapsible": false,
-			"IsAnimated": false,
-			"HasShoulderContact": false,
-			"SightingRange": 500,
-			"DoubleActionAccuracyPenaltyMult": 1,
-			"CustomAimPlane": "",
-			"sightModType": "hybrid",
-			"ScopesCount": 1,
-			"AimSensitivity": [
-				[
-					0.28,
-					0.28
-				]
-			],
-			"ModesCount": [
-				2
-			],
-			"Zooms": [
-				[
-					2.5,
-					2.5
-				]
-			],
-			"CalibrationDistances": [
-				[
-					50,
-					100,
-					150,
-					200
-				]
-			]
-		}
 	},
 	{
 		"_id": "5a7c74b3e899ef0014332c29",
@@ -626,8 +522,6 @@
 			"DiscardingBlock": false,
 			"RagFairCommissionModifier": 1,
 			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
 			"Grids": [],
 			"Slots": [
 				{
@@ -668,6 +562,14 @@
 			"DoubleActionAccuracyPenaltyMult": 1,
 			"CustomAimPlane": "",
 			"sightModType": "hybrid",
+			"aimingSensitivity": 0.45,
+			"SightModesCount": 1,
+			"OpticCalibrationDistances": [
+				50,
+				100,
+				150,
+				200
+			],
 			"ScopesCount": 1,
 			"AimSensitivity": [
 				[
@@ -747,8 +649,6 @@
 			"DiscardingBlock": false,
 			"RagFairCommissionModifier": 1,
 			"IsAlwaysAvailableForInsurance": false,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
 			"Grids": [],
 			"Slots": [],
 			"CanPutIntoDuringTheRaid": true,
@@ -770,6 +670,14 @@
 			"DoubleActionAccuracyPenaltyMult": 1,
 			"CustomAimPlane": "ak_thermal",
 			"sightModType": "optic",
+			"aimingSensitivity": 0.2,
+			"SightModesCount": 1,
+			"OpticCalibrationDistances": [
+				50,
+				100,
+				150,
+				200
+			],
 			"ScopesCount": 1,
 			"AimSensitivity": [
 				[
@@ -792,5 +700,133 @@
 			]
 		},
 		"_proto": "544909bb4bdc2d6f028b4577"
+	},
+	{
+		"_id": "5a1eaa87fcdbcb001865f75e",
+		"_name": "scope_base_trijicon_reap-ir",
+		"_parent": "55818aeb4bdc2ddc698b456a",
+		"_type": "Item",
+		"_props": {
+			"Name": "scope_base_trijicon_reap-ir",
+			"ShortName": "scope_base_trijicon_reap-ir",
+			"Description": "scope_base_trijicon_reap-ir",
+			"Weight": 0.58,
+			"BackgroundColor": "blue",
+			"Width": 2,
+			"Height": 1,
+			"StackMaxSize": 1,
+			"ItemSound": "mod",
+			"Prefab": {
+				"path": "assets/content/items/mods/scopes/scope_base_trijicon_reap-ir.bundle",
+				"rcid": ""
+			},
+			"UsePrefab": {
+				"path": "",
+				"rcid": ""
+			},
+			"StackObjectsCount": 1,
+			"NotShownInSlot": false,
+			"ExaminedByDefault": false,
+			"ExamineTime": 1,
+			"IsUndiscardable": false,
+			"IsUnsaleable": false,
+			"IsUnbuyable": false,
+			"IsUngivable": false,
+			"IsLockedafterEquip": false,
+			"QuestItem": false,
+			"LootExperience": 20,
+			"ExamineExperience": 10,
+			"HideEntrails": false,
+			"RepairCost": 0,
+			"RepairSpeed": 0,
+			"ExtraSizeLeft": 0,
+			"ExtraSizeRight": 0,
+			"ExtraSizeUp": 0,
+			"ExtraSizeDown": 0,
+			"ExtraSizeForceAdd": false,
+			"MergesWithChildren": true,
+			"CanSellOnRagfair": false,
+			"CanRequireOnRagfair": false,
+			"ConflictingItems": [],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
+			"AnimationVariantsNumber": 0,
+			"DiscardingBlock": false,
+			"RagFairCommissionModifier": 1,
+			"IsAlwaysAvailableForInsurance": false,
+			"Grids": [],
+			"Slots": [
+				{
+					"_name": "mod_tactical",
+					"_id": "5a1eac63fcdbcb001a3b0108",
+					"_parent": "5a1eaa87fcdbcb001865f75e",
+					"_props": {
+						"filters": [
+							{
+								"Shift": 0,
+								"Filter": [
+									"5a1eacb3fcdbcb09800872be"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			],
+			"CanPutIntoDuringTheRaid": true,
+			"CantRemoveFromSlotsDuringRaid": [],
+			"Durability": 100,
+			"Accuracy": 0,
+			"Recoil": 0,
+			"Loudness": 0,
+			"EffectiveDistance": 0,
+			"Ergonomics": -13,
+			"Velocity": 0,
+			"RaidModdable": true,
+			"ToolModdable": true,
+			"BlocksFolding": false,
+			"BlocksCollapsible": false,
+			"IsAnimated": false,
+			"HasShoulderContact": false,
+			"SightingRange": 500,
+			"DoubleActionAccuracyPenaltyMult": 1,
+			"CustomAimPlane": "",
+			"sightModType": "hybrid",
+			"aimingSensitivity": 0.45,
+			"SightModesCount": 2,
+			"OpticCalibrationDistances": [
+				50,
+				100,
+				150,
+				200
+			],
+			"ScopesCount": 1,
+			"AimSensitivity": [
+				[
+					0.28,
+					0.28
+				]
+			],
+			"ModesCount": [
+				2
+			],
+			"Zooms": [
+				[
+					2.5,
+					2.5
+				]
+			],
+			"CalibrationDistances": [
+				[
+					50,
+					100,
+					150,
+					200
+				]
+			]
+		}
 	}
 ]

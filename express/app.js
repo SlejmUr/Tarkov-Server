@@ -78,7 +78,7 @@ function inflateRequestBody(req, res, next, done) {
         if(!err && result !== undefined) {
 
           var asyncInflatedString = result.toString('utf-8');
-          // console.log(asyncInflatedString);
+          console.log(asyncInflatedString);
           if(asyncInflatedString.length > 0) {
             req.body = JSON.parse(asyncInflatedString);
           }
@@ -103,9 +103,9 @@ function inflateRequestBody(req, res, next, done) {
       return;
 
     }
-    // console.log("inflating data...");
-    // console.log(req.body);
-
+    console.log("inflating data...");
+    console.log(req.body);
+console.log("inflate end");
   }
   else  {
     req.body = JSON.parse(req.body.toString('utf-8'));
@@ -175,8 +175,11 @@ function handleRoute(req, res, Route) {
       }
 
       zlib.deflate(routedData, (err, deflateData) => {
-
-        // console.log(deflateData);
+	console.log("zipdeflate");
+        console.log(deflateData);
+const buff = Buffer.from(deflateData, 'utf-8');
+const base64 = buff.toString('base64');
+console.log(base64);
         if(req.headers["postman-token"] !== undefined)
           res.setHeader("content-encoding", "deflate");
 

@@ -44,7 +44,10 @@ class TarkovSend {
             // console.log(resp);
         }
         resp.writeHead(200, "OK", Header);
+	console.log(request);
+	console.log(resp);
         internal.zlib.deflate(output, function (err, buf) {
+console.log(buf);
             resp.end(buf);
             return true;
         });

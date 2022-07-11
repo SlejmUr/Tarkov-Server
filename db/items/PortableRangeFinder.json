@@ -9,11 +9,11 @@
 			"ShortName": "Item",
 			"Description": "Item",
 			"Weight": 0.218,
-			"BackgroundColor": "orange",
+			"BackgroundColor": "blue",
 			"Width": 1,
 			"Height": 1,
 			"StackMaxSize": 1,
-			"ItemSound": "spec_multitool",
+			"ItemSound": "gear_goggles",
 			"Prefab": {
 				"path": "assets/content/weapons/usable_items/item_ranger_1500/item_ranger_1500_container.bundle",
 				"rcid": ""
@@ -46,19 +46,13 @@
 			"CanSellOnRagfair": true,
 			"CanRequireOnRagfair": true,
 			"ConflictingItems": [],
-			"Unlootable": true,
-			"UnlootableFromSlot": "SpecialSlot",
-			"UnlootableFromSide": [
-				"Bear",
-				"Usec",
-				"Savage"
-			],
+			"Unlootable": false,
+			"UnlootableFromSlot": "FirstPrimaryWeapon",
+			"UnlootableFromSide": [],
 			"AnimationVariantsNumber": 0,
 			"DiscardingBlock": false,
 			"RagFairCommissionModifier": 1,
 			"IsAlwaysAvailableForInsurance": true,
-			"DiscardLimit": -1,
-			"DropSoundType": "None",
 			"apResource": 0,
 			"krResource": 0,
 			"MaxOpticZoom": 0
