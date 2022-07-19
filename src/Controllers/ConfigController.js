@@ -38,49 +38,6 @@ class ConfigController {
         
     }
 
-
-    /**
-     * 
-     * @param {string} configFileName Expects the exact file name within user/configs folder e.g. "server"
-     * @param {object} globalVariable Expects the exact object variable e.g. global.serverConfig
-     */
-    static rebuildFromBaseConfig(configFileName, globalVariable) {
-
-        if(configFileName === undefined)
-            return;
-        
-        if(globalVariable === undefined)
-            return;
-
-        const baseFileLocation = process.cwd() + `/user/configs/${configFileName}_base.json`; 
-
-        if(!fs.existsSync(baseFileLocation))
-          throw "Could not find " + baseFileLocation;
-    
-        const configBase = JSON.parse(fs.readFileSync(baseFileLocation));
-        if(configBase === undefined)
-          throw "Config Base data not found";
-    
-        const configFileLocation = process.cwd() + `/user/configs/${configFileName}.json`; 
-
-        if(!fs.existsSync(configFileLocation))
-          fs.writeFileSync(configFileLocation, JSON.stringify(configBase));
-    
-        globalVariable = JSON.parse(fs.readFileSync(configFileLocation));
-    
-        let changesMade = false;
-        for(let item in configBase) {
-          if(globalVariable[item] === undefined) {
-            globalVariable[item] = configBase[item];
-            logger.logInfo("Adding Config Setting " + item + " to " + configFileLocation);
-            changesMade = true;
-          }
-        }
-    
-        if(changesMade)
-          fs.writeFileSync(configFileLocation, JSON.stringify(globalVariable));
-    }
-
     static refreshServerConfigFromBase() {
         if(!fs.existsSync(process.cwd() + "/user/configs/server_base.json"))
           throw "Could not find " + process.cwd() + "/user/configs/server_base.json";
