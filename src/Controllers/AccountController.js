@@ -29,9 +29,6 @@ class AccountController
    * @returns Account_data
    */
     static find(sessionID) {
-
-
-
       AccountController.reloadAccountBySessionID(sessionID);
       for (let accountID in AccountController.accounts) {
         let account = AccountController.accounts[accountID];
@@ -120,8 +117,8 @@ class AccountController
 
         static isWiped(sessionID) {
           // AccountController needs to be at the top to check for changed accounts.
-          AccountController.reloadAccountBySessionID(sessionID);
-          return AccountController.accounts[sessionID].wipe;
+          let account = AccountController.find(sessionID);
+          return account.wipe;
         }
 
         static getReservedNickname(sessionID) {
@@ -129,6 +126,7 @@ class AccountController
           return "";
         }
       
+	//TODO (Slejm): make this function get a bool from config and use that here if/else case
         static nicknameTaken(info) {
           // AccountController will be usefull if you dont want to have same nicknames in accounts info otherwise leave it to always false
           // for (let accountID in AccountController.accounts) {
