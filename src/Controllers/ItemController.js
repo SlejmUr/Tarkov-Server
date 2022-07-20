@@ -200,21 +200,20 @@ class ItemController
       child_items.push(...children_of_child);
     }
   
-    return child_items;
-  }
+        return child_items;
+    }
 
-  static hasPreset(templateId) {
-        
-    return templateId in ItemController.lookup;
-  }
+    static hasPreset(templateId) {
+        return templateId in ItemController.lookup;
+    }
 
-  static isPreset(id) {
-    return id in global._database.globals.ItemPresets;
-}
+    static isPreset(id) {
+        return id in global._database.globals.ItemPresets;
+    }
 
-static getPresets(templateId) {
-    if (!this.hasPreset(templateId)) {
-        return [];
+    static getPresets(templateId) {
+        if (!this.hasPreset(templateId)) {
+            return [];
     }
 
     const presets = [];

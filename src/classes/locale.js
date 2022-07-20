@@ -1,4 +1,6 @@
-﻿"use strict";
+﻿//this can be deleted
+
+"use strict";
 
 const { logger } = require("../../core/util/logger");
 const { AccountController } = require('./../Controllers/AccountController')

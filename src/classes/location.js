@@ -114,6 +114,7 @@ let _LootContainerNode = [];
 5cdeb229d7f00c000e7ce174 heavy machine gun
 5d52cc5ba4b9367408500062 automatic grenade launcher
 */
+//NOT USED
 function LoadLootContainerNode() {
   if (_LootContainerNode.length == 0) _LootContainerNode = Object.values(global._database.items).filter((item) => item._parent === "566965d44bdc2d814c8b4571");
   return _LootContainerNode;

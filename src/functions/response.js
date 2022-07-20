@@ -3,6 +3,7 @@ const { logger } = require("../../core/util/logger");
 const { AccountController } = require('../../src/Controllers/AccountController');
 const { CustomizationController } = require("../Controllers/CustomizationController");
 const { DialogueController } = require('../Controllers/DialogueController');
+const { LocaleController } = require('../Controllers/LocaleController');
 
 class Responses {
   constructor() {
@@ -146,7 +147,8 @@ class Responses {
   }
   dynClientLocale(url, info, sessionID) {
     const lang = AccountController.getAccountLang(sessionID);
-    return response_f.getBody(locale_f.handler.getGlobal(lang, url, sessionID));
+    //return response_f.getBody(locale_f.handler.getGlobal(lang, url, sessionID));
+    return response_f.getBody(LocaleController.getLocale(lang, url, sessionID));
   }
   dynClientLocationGetLocalloot(url, info, sessionID) {
     let location_name = "";
@@ -161,7 +163,8 @@ class Responses {
   }
   dynClientMenuLocale(url, info, sessionID) {
     const lang = AccountController.getAccountLang(sessionID);
-    return response_f.getBody(locale_f.handler.getMenu(lang, url, sessionID));
+    //return response_f.getBody(locale_f.handler.getMenu(lang, url, sessionID));
+    return response_f.getBody(LocaleController.getMenu(lang, url, sessionID));
   }
   dynClientTradingApiGetTrader(url, info, sessionID) {
     let TraderID = url.split("/");
@@ -494,7 +497,7 @@ class Responses {
     return response_f.getBody(global._database.itemPriceTable);
   }
   clientLanguages(url, info, sessionID) {
-    return response_f.getBody(locale_f.handler.getLanguages());
+    return response_f.getBody(LocaleController.getLanguages());
   }
   clientLocations(url, info, sessionID) {
     return response_f.getBody(location_f.handler.generateAll());

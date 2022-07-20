@@ -1,6 +1,7 @@
 "use strict";
 const { ConfigController } = require('../Controllers/ConfigController');
 const { AccountController } = require('./../Controllers/AccountController')
+const { DialogueController } = require('./../Controllers/DialogueController')
 
 class SaveHandler 
 {
@@ -35,7 +36,7 @@ class SaveHandler
 
 		for (let sessionId of profile_f.handler.getOpenSessions()) {
 			profile_f.handler.saveToDisk(sessionId);
-			dialogue_f.handler.saveToDisk(sessionId);
+			DialogueController.saveToDisk(sessionId);
 		}
 	}
 }

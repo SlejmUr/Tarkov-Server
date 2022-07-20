@@ -1,19 +1,19 @@
 "use strict";
-
-let weather = undefined;
+const { DatabaseController } = require('./../Controllers/DatabaseController')
 
 function generate() {
   let output = {};
 
+  let db = DatabaseController.getDatabase();
   // set weather
-  if (global._database.gameplay.location.forceWeatherEnabled) {
-    output = global._database.weather[global._database.gameplay.location.forceWeatherId];
+  if (db.gameplay.location.forceWeatherEnabled) {
+    output = db.weather[db.gameplay.location.forceWeatherId];
   } else {
-    output = global._database.weather[utility.getRandomInt(0, global._database.weather.length - 1)];
+    output = db.weather[utility.getRandomInt(0, db.weather.length - 1)];
   }
 
   // replace date and time
-  if (global._database.gameplay.location.realTimeEnabled) {
+  if (db.gameplay.location.realTimeEnabled) {
     // Apply acceleration to time computation.
     let timeInSeconds = new Date().getTime() / 1000; // date in seconds
     let deltaSeconds = utility.getServerUptimeInSeconds() * output.acceleration;

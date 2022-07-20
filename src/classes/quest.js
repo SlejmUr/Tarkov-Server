@@ -2,6 +2,7 @@
 const { QuestEvent } = require('../Controllers/QuestController')
 const { AccountController } = require('./../Controllers/AccountController')
 const { DialogueController } = require('../Controllers/DialogueController')
+const { LocaleController } = require('../Controllers/LocaleController')
 /*
  * Quest status values
  * 0 - Locked
@@ -329,7 +330,7 @@ function acceptQuest(pmcData, body, sessionID) {
 
   const accountLang = AccountController.getAccountLang(sessionID)
 
-  const globalLocales = locale_f.handler.getGlobal(accountLang, false, sessionID);
+  const globalLocales = LocaleController.getGlobal(accountLang, sessionID);
   
   let questLocale = globalLocales.quest;
 
