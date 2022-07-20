@@ -6,6 +6,7 @@ class DialogueController {
     constructor() {}
     static Instance = new DialogueController();
     static dialogues = {};
+    static dialogueFileAge = {};
     static messageTypes = {
         npcTrader: 2,
         insuranceReturn: 8,
@@ -39,7 +40,7 @@ class DialogueController {
 
     static generateDialogueList(sessionID) {
         // Reload dialogues before continuing.
-        DialogueController.reloadDialogue(sessionID);
+        DialogueController.ReloadDialogue(sessionID);
     
         let data = [];
         for (let dialogueId in DialogueController.dialogues[sessionID]) {
@@ -76,6 +77,48 @@ class DialogueController {
     static getMessageTypeValue(messageType) {
         return DialogueController.messageTypes[messageType];
     }
+
+    static saveToDisk(sessionID) {
+        let dialogpath = GetDialoguePath(sessionID);
+        if (sessionID in DialogueController.dialogues) {
+          // Check if the dialogue file exists.
+          if (fs.existsSync(dialogpath)) {
+            // Check if the file was modified elsewhere.
+            let statsPreSave = fs.statSync(dialogpath);
+            if (statsPreSave.mtimeMs == DialogueController.dialogueFileAge[sessionID]) {
+    
+              // Compare the dialogues from server memory with the ones saved on disk.
+              let currentDialogues = DialogueController.dialogues[sessionID];
+              let savedDialogues = fileIO.readParsed(dialogpath);
+              if (JSON.stringify(currentDialogues) !== JSON.stringify(savedDialogues)) {
+                // Save the dialogues stored in memory to disk.
+                fileIO.write(dialogpath, DialogueController.dialogues[sessionID]);
+    
+                // Reset the file age for the sessions dialogues.
+                let stats = fs.statSync(dialogpath);
+                DialogueController.dialogueFileAge[sessionID] = stats.mtimeMs;
+                logger.logSuccess(`Dialogues for AID ${sessionID} was saved.`);
+              }
+            } else {
+              //Load saved dialogues from disk.
+              DialogueController.dialogues[sessionID] = fileIO.readParsed(dialogpath);
+    
+              // Reset the file age for the sessions dialogues.
+              let stats = fs.statSync(dialogpath);
+              DialogueController.dialogueFileAge[sessionID] = stats.mtimeMs;
+              logger.logWarning(`Dialogues for AID ${sessionID} were modified elsewhere. Dialogue was reloaded successfully.`)
+            }
+          } else {
+            // Save the dialogues stored in memory to disk.
+            fileIO.write(dialogpath, DialogueController.dialogues[sessionID]);
+    
+            // Reset the file age for the sessions dialogues.
+            let stats = fs.statSync(dialogpath);
+            DialogueController.dialogueFileAge[sessionID] = stats.mtimeMs;
+            logger.logSuccess(`Dialogues for AID ${sessionID} was created and saved.`);
+          }
+        }
+      }
 }
 
 module.exports.DialogueController = DialogueController;

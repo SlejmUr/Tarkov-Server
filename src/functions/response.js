@@ -100,12 +100,12 @@ class Responses {
       "/raid/map/name": this.raidMapName,
       // "/raid/profile/list": this.raidProfileList,
       // "/raid/profile/save": this.raidProfileSave,
-      "/server/config/accounts": this.serverConfigAccounts,
-      "/server/config/gameplay": this.serverConfigGameplay,
-      "/server/config/mods": this.serverConfigMods,
-      "/server/config/profiles": this.serverConfigProfiles,
-      "/server/config/server": this.serverConfigServer,
-      "/server/softreset": this.serverSoftReset,
+      // "/server/config/accounts": this.serverConfigAccounts,
+      // "/server/config/gameplay": this.serverConfigGameplay,
+      // "/server/config/mods": this.serverConfigMods,
+      // "/server/config/profiles": this.serverConfigProfiles,
+      // "/server/config/server": this.serverConfigServer,
+      // "/server/softreset": this.serverSoftReset,
       // "/singleplayer/bundles": this.singleplayerBundles,
       "/singleplayer/settings/raid/endstate": this.singleplayerSettingsRaidEndstate,
       "/singleplayer/settings/raid/menu": this.singleplayerSettingsRaidMenu,
@@ -740,6 +740,7 @@ class Responses {
   raidMapName(url, info, sessionID) {
     return offraid_f.handler.addPlayer(sessionID, info);
   }
+  /*
   serverConfigAccounts(url, body, sessionID) {
     home_f.processSaveAccountsData(body, db.user.configs.accounts);
     return home_f.RenderAccountsConfigPage("/server/config/accounts");
@@ -768,6 +769,7 @@ class Responses {
     const local = serverConfig.ip === "127.0.0.1";
     return response_f.noBody(bundles_f.handler.getBundles(local));
   }
+  */
   singleplayerSettingsRaidEndstate(url, info, sessionID) {
     return response_f.noBody(global._database.gameplay.inraid.miaOnTimerEnd);
   }

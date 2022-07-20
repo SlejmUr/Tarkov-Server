@@ -1,3 +1,5 @@
+//This whole file can be deleted!
+
 function DetectInput(data, name) {
   if (data == "true" || data == "false" || data == true || data == false) {
     let SelectedOption = data === "true" || data === true;

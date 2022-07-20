@@ -38,6 +38,7 @@ class BotsController {
 
   }
 
+  //Using profile.js&func=generateScav
   generatePlayerScav(sessionID) {
     let scavData = bots_f.botHandler.generate({ conditions: [{ Role: "playerScav", Limit: 1, Difficulty: "normal" }] }, sessionID);
     let scavItems = scavData[0].Inventory.items;
@@ -54,6 +55,7 @@ class BotsController {
     scavData[0].Info.Settings = {};
     return scavData[0];
   }
+  //This can be removed , It using dynSingleplayerSettingsBotLimit from response.js
   getBotLimit(type) {
     // if (typeof global._database.gameplay.bots.limits[type === "cursedAssault" || type === "assaultGroup" ? "assault" : type] == "undefined") return 30;
     // return global._database.gameplay.bots.limits[type === "cursedAssault" || type === "assaultGroup" ? "assault" : type];
@@ -258,6 +260,7 @@ class BotsController {
 
   }
 
+  //DEPRACTED
   //bot is a complete bot object, map is a string with the location Name (not id)
   isCustomBot(bot, map) {
     if (bot.Info.Settings.Role.toLowerCase() in botSwaps[map]) {
@@ -411,6 +414,7 @@ class BotsController {
     };
   }
 
+  //DEPRACTED , REPLACED BY BOTCONTROLLER
   generateDogtag(bot) {
     bot.Inventory.items.push({
       _id: utility.generateNewItemId(),

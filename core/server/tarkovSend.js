@@ -120,7 +120,7 @@ class TarkovSend {
         if (req.url == "/") {
             //home_f.processSaveData(body);
             // its hard to create a file `.js` in folder in windows cause it looks cancerous so we gonna write this code here
-            this.html(resp, home_f.RenderHomePage(), "");
+            //this.html(resp, home_f.RenderHomePage(), "");
             return true;
         }
         return false;

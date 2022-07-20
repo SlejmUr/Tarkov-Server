@@ -7,6 +7,7 @@ class HealthServer {
     this.effects = {};
   }
 
+  //NOT USED
   freeFromMemory(sessionID) {
     delete this.healths[sessionID];
   }

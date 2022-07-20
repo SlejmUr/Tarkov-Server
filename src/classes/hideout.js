@@ -96,6 +96,8 @@ module.exports.getHideoutSkillDecreasedConsumption = (pmcData) => {
 
   return 1 - utility.clamp(0.5 * hideoutManagementLevel, 0 ,25) / 100;
 };
+
+//NOT USED
 module.exports.checkPlayerHideoutBuffsFromSkills = (sessionID) => {
   // requires data t obe finished now is not called anywhere
   let pmcData = profile_f.getPmcProfile(sessionID);

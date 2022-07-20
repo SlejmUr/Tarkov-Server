@@ -21,6 +21,7 @@ class InsuranceServer {
      * Currently runs on every call to the server. 
      * DO a check whether to expire or return insurance items.
      */
+    //NOT USED, USE InsuranceController!
     checkExpiredInsurance() {
         // logger.logInfo("checkExpiredInsurance");
         for(const p in AccountController.profiles) {
@@ -42,6 +43,7 @@ class InsuranceServer {
         // }
     }
 
+    //USED
     /* remove insurance from an item */
     remove(pmcData, body) {
         let toDo = [body];
@@ -67,6 +69,7 @@ class InsuranceServer {
         }
     }
 
+     //USED
     /* resets items to send on flush */
     resetSession(sessionID) {
         this.insured[sessionID] = {};
@@ -107,6 +110,7 @@ class InsuranceServer {
         this.remove(pmcData, insuredItem.itemId);
     }
 
+    //NOT USED
     /* store lost pmc gear */
     storeLostGear(pmcData, offraidData, preRaidGear, sessionID) {
         // Build a hash table to reduce loops
@@ -137,6 +141,7 @@ class InsuranceServer {
         //fs.writeFileSync("./LostGear.json", JSON.stringify(gears, null, 2));
     }
 
+        //NOT USED
     /* store insured items on pmc death */
     storeDeadGear(pmcData, offraidData, preRaidGear, sessionID) {        
         let gears = [];
@@ -165,6 +170,7 @@ class InsuranceServer {
         //fs.writeFileSync("./DeadGear.json", JSON.stringify(gears, null, 2));
     }
 
+        //NOT USED
     /* sends stored insured items as message */
     sendInsuredItems(pmcData, sessionID) {
         for (let traderId in this.insured[sessionID]) {
@@ -205,6 +211,7 @@ class InsuranceServer {
         this.resetSession(sessionID);
     }
 
+    //NOT USED
     processReturn(event) {
         // chance to fail insurance
         if (!utility.getPercentRandomBool(global._database.gameplay.trading.insureReturnChance)) {
@@ -267,6 +274,7 @@ function cost(info, sessionID) {
     return output;
 }
 
+//NOT USED, USE InsuranceController!
 /* add insurance to an item */
 function insure(pmcData, body, sessionID) {
     let itemsToPay = [];

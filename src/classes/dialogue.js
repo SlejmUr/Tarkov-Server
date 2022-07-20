@@ -332,6 +332,7 @@ function getMessageTypeValue(messageType) {
   return messageTypes[messageType];
 }
 
+//DEPRACTED
 // TODO(camo1018): Coalesce all findAndReturnChildren functions.
 /* Find And Return Children (TRegular)
  * input: MessageItems, InitialItem._id

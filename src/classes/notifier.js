@@ -10,6 +10,7 @@ class NotifierService {
 		this.messageQueue = {};
 	}
 
+	//DEPRACTED
 	/* Get messageQueue for a particular sessionID. */
 	getMessageQueue(sessionID) {
 		if (!this.hasMessageQueue(sessionID)) {
@@ -83,17 +84,20 @@ class NotifierService {
 		server.sendTextJson(resp, data.join('\n'));
 	}
 
+	//DEPRACTED
 	static getServer(sessionID)
     {
         return `${Server.getHttpsUrl()}/${sessionID}`;
     }
 
+	//DEPRACTED
     static getWebSocketServer(sessionID)
     {
         // return `${Server.getWebsocketUrl()}/${sessionID}`;
         return `${Server.getWebsocketUrl()}`;
     }
 
+	//DEPRACTED
     static getChannel(sessionID)
     {
         return {

@@ -77,6 +77,18 @@ function getGlobals(url, info, sessionID) {
 	return playerGlobals;
 }
 
+/*
+//Can be moved to DatabaseController?
+//Alternative:
+const { DatabaseController } = require('../Controllers/DatabaseController');
+function getGlobals() {
+	let playerGlobals = utility.DeepCopy(DatabaseController.getDatabase().globals);
+	playerGlobals.time = utility.getTimestamp();
+	return playerGlobals;
+}
+*/
+
+  //DEPRACTED
 function boostSkillProgressionRate(playerGlobals) {
 	/*
 	 * slow leveling skills, for experience improving purposes:
