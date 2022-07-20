@@ -1,4 +1,5 @@
 "use strict";
+const { DialogueController } = require('./../Controllers/DialogueController')
 
 class DialogueServer {
   constructor() {
@@ -102,7 +103,7 @@ class DialogueServer {
       data.push(this.getDialogueInfo(dialogueId, sessionID));
     }
 
-    return `{"err":0,"errmsg":null,"data": ${fileIO.stringify(data)}}`;
+    return fileIO.stringify(data);
   }
 
   /* Get the content of a dialogue. */

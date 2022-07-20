@@ -3,7 +3,7 @@
 const { logger } = require("../../core/util/logger");
 const { AccountController } = require("../Controllers/AccountController");
 const { TradingController } = require("../Controllers/TradingController");
-
+const { DialogueController } = require("../Controllers/DialogueController");
 /**
  * 
  */
@@ -172,14 +172,14 @@ class InsuranceServer {
             let dialogueTemplates = fileIO.readParsed(db.dialogues[traderId]);
             let messageContent = {
                 "templateId": dialogueTemplates.insuranceStart[utility.getRandomInt(0, dialogueTemplates.insuranceStart.length - 1)],
-                "type": dialogue_f.getMessageTypeValue("npcTrader")
+                "type": DialogueController.getMessageTypeValue("npcTrader")
             };
 
-            dialogue_f.handler.addDialogueMessage(traderId, messageContent, sessionID);
+            DialogueController.addDialogueMessage(traderId, messageContent, sessionID);
 
             messageContent = {
                 "templateId": dialogueTemplates.insuranceFound[utility.getRandomInt(0, dialogueTemplates.insuranceFound.length - 1)],
-                "type": dialogue_f.getMessageTypeValue("insuranceReturn"),
+                "type": DialogueController.getMessageTypeValue("insuranceReturn"),
                 "maxStorageTime": trader.insurance.max_storage_time * 3600,
                 "systemData": {
                     "date": utility.getDate(),

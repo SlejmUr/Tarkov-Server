@@ -24,8 +24,16 @@
   },
   "bin": "bin/www.js",
   "pkg": {
-    "scripts": [ "core/**/*.js", "src/**/*.js" ],
-    "assets": [ "res/**/*", "db/**/*", "public/**/*", "express/views/**/*" ],
+    "scripts": [
+      "core/**/*.js",
+      "src/**/*.js"
+    ],
+    "assets": [
+      "res/**/*",
+      "db/**/*",
+      "public/**/*",
+      "express/views/**/*"
+    ],
     "targets": [
       "node16-win"
     ]

@@ -1,7 +1,7 @@
 "use strict";
 const { QuestEvent } = require('../Controllers/QuestController')
 const { AccountController } = require('./../Controllers/AccountController')
-
+const { DialogueController } = require('../Controllers/DialogueController')
 /*
  * Quest status values
  * 0 - Locked
@@ -345,18 +345,18 @@ function acceptQuest(pmcData, body, sessionID) {
 
   let messageContent = {
     templateId: globalLocales.mail[questLocale.startedMessageText],
-    type: dialogue_f.getMessageTypeValue("questStart"),
+    type: DialogueController.getMessageTypeValue("questStart"),
     maxStorageTime: global._database.gameplay.other.RedeemTime * 3600,
   }
 
   if (typeof messageContent.templateId == "undefined" || questLocale.startedMessageText === "") {
     messageContent = {
       templateId: globalLocales.mail[questLocale.description],
-      type: dialogue_f.getMessageTypeValue("questStart"),
+      type: DialogueController.getMessageTypeValue("questStart"),
       maxStorageTime: global._database.gameplay.other.RedeemTime * 3600,
     };
   }
-  dialogue_f.handler.addDialogueMessage(quest.traderId, messageContent, sessionID, questRewards);
+  DialogueController.addDialogueMessage(quest.traderId, messageContent, sessionID, questRewards);
 
   QuestEvent.emit('accepted', quest);
 
@@ -414,7 +414,7 @@ function completeQuest(pmcData, body, sessionID) {
   questLocale = questLocale[body.qid];
   let messageContent = {
     templateId: questLocale.successMessageText,
-    type: dialogue_f.getMessageTypeValue("questSuccess"),
+    type: DialogueController.getMessageTypeValue("questSuccess"),
     maxStorageTime: global._database.gameplay.other.RedeemTime * 3600,
   };
   let output = item_f.handler.getOutput(sessionID);
@@ -427,7 +427,7 @@ function completeQuest(pmcData, body, sessionID) {
 
   //output.profileChanges[pmcData._id].quests[0]["status"] = "Success"; // there is no other way to finish quest for now (if there will be then it need ot be changed to proper status)
   item_f.handler.setOutput(output);
-  dialogue_f.handler.addDialogueMessage(quest.traderId, messageContent, sessionID, questRewards);
+  DialogueController.addDialogueMessage(quest.traderId, messageContent, sessionID, questRewards);
 
   QuestEvent.emit('completed', quest);
 

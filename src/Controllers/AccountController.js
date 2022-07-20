@@ -29,9 +29,6 @@ class AccountController
    * @returns Account_data
    */
     static find(sessionID) {
-
-
-
       AccountController.reloadAccountBySessionID(sessionID);
       for (let accountID in AccountController.accounts) {
         let account = AccountController.accounts[accountID];
@@ -59,7 +56,6 @@ class AccountController
           // let ids = Object.keys(AccountController.accounts);
           // for (let i in ids) {
           for (const id of profileFolders) {
-
             AccountController.reloadAccountBySessionID(id);
             AccountController.initializeProfile(id);
 
@@ -71,8 +67,6 @@ class AccountController
                   Info: {}
               };
       
-              let profile = AccountController.getPmcProfile(character.aid);
-              
               obj.Id = character.aid;
               obj._id = character.aid;
               obj.Nickname = character.Info.Nickname;
@@ -376,11 +370,15 @@ class AccountController
       }
 
       const profilePath = AccountController.getPmcPath(sessionID);
+      if (!fs.existsSync(profilePath))
+      {
+        return;
+      }
       let prof = AccountController.getPmcProfile(sessionID);
       // prof = AccountController.FixTradersInfo(prof);
       const diskProf = JSON.stringify(JSON.parse(fs.readFileSync(profilePath)));
       if(force || diskProf !== JSON.stringify(prof)) {
-        fileIO.write(profilePath, prof);
+        fileIO.write(profilePath, AccountController.getPmcProfile(sessionID));
         logger.logSuccess(`${sessionID} Profile was saved.`);
       }
     }

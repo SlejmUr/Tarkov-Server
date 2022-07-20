@@ -236,8 +236,9 @@ class ProfileServer {
 }
 
 function getPmcPath(sessionID) {
-  let pmcPath = db.user.profiles.character;
-  return pmcPath.replace("__REPLACEME__", sessionID);
+  const path = `${process.cwd()}/user/profiles/${sessionID}/character.json`;
+  // console.log(path);
+  return path;
 }
 
 function getStashType(sessionID) {

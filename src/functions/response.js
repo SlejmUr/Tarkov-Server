@@ -2,6 +2,7 @@ const { Server } = require("../../core/server/server");
 const { logger } = require("../../core/util/logger");
 const { AccountController } = require('../../src/Controllers/AccountController');
 const { CustomizationController } = require("../Controllers/CustomizationController");
+const { DialogueController } = require('../Controllers/DialogueController');
 
 class Responses {
   constructor() {
@@ -505,7 +506,7 @@ class Responses {
     return response_f.getBody(dialogue_f.handler.getDialogueInfo(info.dialogId, sessionID));
   }
   clientMailDialogList(url, info, sessionID) {
-    return dialogue_f.handler.generateDialogueList(sessionID);
+    return response_f.getBody(dialogue_f.handler.generateDialogueList(sessionID));
   }
   clientMailDialogPin(url, info, sessionID) {
     dialogue_f.handler.setDialoguePin(info.dialogId, true, sessionID);
