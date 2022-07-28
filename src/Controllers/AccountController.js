@@ -1,6 +1,7 @@
 const fs = require('fs');
 const utility = require('./../../core/util/utility');
 const { logger } = require('../../core/util/logger');
+const dialogue = require('../classes/dialogue');
 
 /**
  * Account Controller. 
@@ -276,31 +277,26 @@ class AccountController
           return false;
         }
   
+        // --------------------------------------------------------
         //Load the PMC profile from disk.
         let loadedProfile = fileIO.readParsed(AccountController.getPmcPath(sessionID));
-        const changedIds = {};
-        for(const item of loadedProfile.Inventory.items) {
-          if(item._id.length > 24 || item._id.includes("0000")) {
-            const oldId = item._id;
-            const newId = utility.generateNewId(undefined, 3);
-            console.log(`${oldId} is becoming ${newId}`);
-            changedIds[oldId] = newId;
-            item._id = newId;
-          }
-        }
-        for(const item of loadedProfile.Inventory.items) {
-          if(changedIds[item.parentId] !== undefined) {
-            item.parentId = changedIds[item.parentId];
-          }
-        }
+        // --------------------------------------------------------
+
+        // --------------------------------------------------------
+        // Fix the GUID system used by JET and replace with MongoId
+        loadedProfile = AccountController.ChangeGuidToMongo(loadedProfile);
+        // --------------------------------------------------------
         
         // In patch 0.12.12.30 . BSG introduced "Special Slots" for PMCs.
         // To cater for old/broken accounts, we remove the old "Pockets" (557ffd194bdc2d28148b457f) and replace with the new (627a4e6b255f7527fb05a0f6)
         loadedProfile = AccountController.AddSpecialSlotPockets(loadedProfile);
+
+        // --------------------------------------------------------
+        // Add Repeatable Quests
+        loadedProfile = AccountController.AddRepeatableQuestsProperty(loadedProfile);
+        // --------------------------------------------------------
         
-        if(Object.keys(changedIds).length > 0) {
-          logger.logSuccess(`Login cleaned ${Object.keys(changedIds).length} items`);
-        }
+       
         AccountController.profiles[sessionID]["pmc"] = loadedProfile;
 
         // ---------------------------------- 
@@ -338,6 +334,7 @@ class AccountController
 
     AccountController.saveToDiskAccount(sessionID, force);
     AccountController.saveToDiskProfile(sessionID, force);
+    dialogue.handler.saveToDisk(sessionID);
     if(releaseMemory) {
       delete AccountController.accounts[sessionID];
       delete AccountController.profiles[sessionID];
@@ -436,6 +433,45 @@ class AccountController
       }
 
       return profile;
+    }
+
+    /** Fix the GUID system used by JET and replace with MongoId
+     * @param {*} profile 
+     * @returns {object} profile
+     */
+    static ChangeGuidToMongo(loadedProfile) {
+      const changedIds = {};
+        for(const item of loadedProfile.Inventory.items) {
+          if(item._id.length > 24) {
+            const oldId = item._id;
+            const newId = utility.generateNewId(undefined, 3);
+            console.log(`${oldId} is becoming ${newId}`);
+            changedIds[oldId] = newId;
+            item._id = newId;
+          }
+        }
+        for(const item of loadedProfile.Inventory.items) {
+          if(changedIds[item.parentId] !== undefined) {
+            item.parentId = changedIds[item.parentId];
+          }
+        }
+        if(Object.keys(changedIds).length > 0) {
+          logger.logSuccess(`Login cleaned ${Object.keys(changedIds).length} items`);
+        }
+        return loadedProfile;
+    }
+
+    /** Adds the "RepeatableQuests" property to the profile
+     * @param {*} pmcProfile 
+     * @returns {object} profile
+     */
+    static AddRepeatableQuestsProperty(profile)
+    {
+        if (!profile.RepeatableQuests)
+        {
+          profile.RepeatableQuests = [];
+        }
+        return profile;
     }
 
     /** Create character profile

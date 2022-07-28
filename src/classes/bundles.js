@@ -2,6 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 const { logger } = require('../../core/util/logger');
+const { ConfigController } = require('../Controllers/ConfigController');
 const { ResponseController } = require('../Controllers/ResponseController');
 
 /**
@@ -85,6 +86,7 @@ class BundlesServer {
     });
   }
 
+  if(ConfigController.Configs["server"].alwaysLoadModBundles === true) {
    const modsPath = process.cwd() + "/user/mods/";
    filewalker(modsPath, (error, data) => {
     if(data === undefined) 
@@ -121,6 +123,8 @@ class BundlesServer {
     });
     
    });
+  }
+
 
     // console.log(this.bundles);
     // console.log(this.bundleBykey);

@@ -266,6 +266,12 @@ class LootController
             }
       }
 
+      static async GenerateContainerLootAsync(in_data, in_locationLootChanceModifier, in_mapName)
+      {
+        await new Promise(function(myResolve, myReject) {
+          myResolve(LootController.GenerateContainerLoot(in_data, in_locationLootChanceModifier, in_mapName));
+        });
+      }
 
       static GenerateContainerLoot(in_data, in_locationLootChanceModifier, in_mapName) {
         const containerData = in_data;
@@ -304,16 +310,19 @@ class LootController
         }
        
 
-        if(LootListItems.length == 0) {
-            logger.logError(`EmptyContainer: ${ContainerId}`);
-            return false;
-        }
+        
 
             let parentId = _items[0]._id;
             if(parentId == null) {
-              parentId = utility.generateNewId(undefined, 3);
+              // parentId = utility.generateNewId(undefined, 3);
+              parentId = utility.generateNewId();
               _items[0]._id = parentId;
             }
+
+            if(LootListItems.length == 0) {
+              logger.logError(`EmptyContainer: ${ContainerId}`);
+              return false;
+          }
             const idPrefix = parentId.substring(0, parentId.length - 4);
             let idSuffix = parseInt(parentId.substring(parentId.length - 4), 16) + 1;
           
@@ -393,35 +402,11 @@ class LootController
                 container2D = helper_f.fillContainerMapWithItem(container2D, result.x, result.y, itemWidth, itemHeight, result.rotation);
                 let rot = result.rotation ? 1 : 0;
           
-                // if (rolledRandomItemToPlace._props.presetId) {
-                //   // Process gun preset into container items
-                //   let preset = helper_f.getPreset(rolledRandomItemToPlace._props.presetId);
-                //   if (preset == null) continue;
-                //   preset._items[0].parentId = parentId;
-                //   preset._items[0].slotId = "main";
-                //   preset._items[0].location = { x: result.x, y: result.y, r: rot };
-          
-                //   for (var p in preset._items) {
-          
-                //     _items.push(DeepCopy(preset._items[p]));
-          
-                //     if (preset._items[p].slotId === "mod_magazine") {
-                //       let mag = helper_f.getItem(preset._items[p]._tpl)[1];
-                //       let cartridges = {
-                //         // _id: utility.generateNewId(),
-                //         _id: idPrefix + idSuffix.toString(16),
-                //         _tpl: rolledRandomItemToPlace._props.defAmmo,
-                //         parentId: preset._items[p]._id,
-                //         slotId: "cartridges",
-                //         upd: { StackObjectsCount: mag._props.Cartridges[0]._max_count },
-                //       };
-          
-                //       _items.push(cartridges);
-                //       // idSuffix++;
-                //     }
-                //   }
-                //   continue;
-                // }
+                const hasP = ItemController.hasPreset(rolledRandomItemToPlace._id);
+                if(hasP) {
+                  console.log("preset in box?");
+
+                }
           
           
           
@@ -766,6 +751,12 @@ class LootController
           return count;
       }
 
+      static async GenerateDynamicLootLooseAsync(typeArray, output, locationLootChanceModifier, MapName)
+      {
+        await new Promise(function(myResolve, myReject) {
+          myResolve(GenerateDynamicLootLoose(typeArray, output, locationLootChanceModifier, MapName));
+        });
+      }
 
       /**
        * Generates the "Dynamic" loot found loose on the floor or shelves
@@ -987,7 +978,7 @@ class LootController
           if(LootController.PreviouslyGeneratedContainers.findIndex(x=>x.Id === data.Items[0]._tpl) !== -1)
             continue;
     
-          if(LootController.GenerateContainerLoot(data, locationLootChanceModifier, MapName))
+          if(LootController.GenerateContainerLootAsync(data, locationLootChanceModifier, MapName))
             count++;
     
     

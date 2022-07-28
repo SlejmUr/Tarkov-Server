@@ -63,7 +63,13 @@ const questStatus = () => {
   };
 }
 
-//Fix for new quests where previous quest already required to found in raid items as same ID
+/**
+ * Retreives the list of Quests for the player (sessionID) provided
+ * @param {*} url 
+ * @param {*} info 
+ * @param {*} sessionID 
+ * @returns {Array} list of quests
+ */
 function getQuestsForPlayer(url, info, sessionID) {
 
   let quests = [];
@@ -74,31 +80,40 @@ function getQuestsForPlayer(url, info, sessionID) {
 
   let count = 0;
 
-  for (const q in quest_database) {
+  // for (const q in quest_database) {
+  q: for (const quest of quest_database) {
 
-    let quest = quest_database[q];
+    // let quest = quest_database[q];
 
-    if (_profile.Quests.some(q => q.qid == quest._id)) {
-      quests.push(quest);
+    // if (_profile.Quests.some(q => q.qid == quest._id)) {
+    //   quests.push(quest);
+    // }
+
+    const startLevel = filterConditions(quest.conditions.AvailableForStart, "Level");
+    if (startLevel.length) {
+      if (!evaluateLevel(_profile, startLevel[0])) {
+        continue q;
+      }
     }
-
-    const level = filterConditions(quest.conditions.AvailableForStart, "Level");
-    if (level.length) {
-      if (evaluateLevel(_profile, level[0])) {
-        continue;
+    const finishLevel = filterConditions(quest.conditions.AvailableForFinish, "Level");
+    if (finishLevel.length) {
+      if (!evaluateLevel(_profile, finishLevel[0])) {
+        continue q;
       }
     }
 
     const questRequirements = filterConditions(quest.conditions.AvailableForStart, "Quest");
+    const questRequirementsFinish = filterConditions(quest.conditions.AvailableForFinish, "Quest");
     const loyaltyRequirements = filterConditions(quest.conditions.AvailableForStart, "TraderLoyalty");
+    const loyaltyRequirementsFinish = filterConditions(quest.conditions.AvailableForFinish, "TraderLoyalty");
 
-    if (questRequirements.length === 0 && loyaltyRequirements.length === 0) {
-      quests.push(quest);
-      continue;
-    }
+    // if (questRequirements.length === 0 && loyaltyRequirements.length === 0 && loyaltyRequirementsFinish.length === 0) {
+    //   quests.push(quest);
+    //   continue q;
+    // }
 
     let completedPreviousQuest = true;
-    for (const condition of questRequirements) {
+    qR: for (const condition of questRequirements) {
       const previousQuest = _profile.Quests.find(pq => pq.qid == condition._props.target);
 
       if (!previousQuest) {
@@ -107,11 +122,11 @@ function getQuestsForPlayer(url, info, sessionID) {
       }
 
       if (previousQuest.status === Object.keys(questStatus)[condition._props.status[0]]) {
-        continue;
+        continue qR;
       }
 
       completedPreviousQuest = false;
-      break;
+      continue q;
     }
 
     let loyaltyCheck = true;
@@ -120,61 +135,49 @@ function getQuestsForPlayer(url, info, sessionID) {
       const result = () => {
         const requiredLoyalty = condition._props.value;
         const operator = condition._props.compareMethod;
-        const currentLoyalty = _profile.TraderInfo[condition._props.target].loyaltyLevel;
+        if(_profile.TradersInfo && _profile.TradersInfo[condition._props.target]) {
+          const currentLoyalty = _profile.TradersInfo[condition._props.target].loyaltyLevel;
 
-        switch (operator) {
-          case ">=":
-            return currentLoyalty >= requiredLoyalty;
-          case "<=":
-            return currentLoyalty <= requiredLoyalty;
-          case "==":
-            return currentLoyalty === requiredLoyalty;
-          case "!=":
-            return currentLoyalty !== requiredLoyalty;
-          case ">":
-            return currentLoyalty > requiredLoyalty;
-          case "<":
-            return currentLoyalty < requiredLoyalty;
+          switch (operator) {
+            case ">=":
+              return currentLoyalty >= requiredLoyalty;
+            case "<=":
+              return currentLoyalty <= requiredLoyalty;
+            case "==":
+              return currentLoyalty === requiredLoyalty;
+            case "!=":
+              return currentLoyalty !== requiredLoyalty;
+            case ">":
+              return currentLoyalty > requiredLoyalty;
+            case "<":
+              return currentLoyalty < requiredLoyalty;
+          }
         }
+        return false;
       }
-      if (!result) {
+      if (!result()) {
         loyaltyCheck = false;
-        break;
+        // break;
+        continue q;
       }
 
-      const cleanQuestConditions = (quest) => {
-        quest = utility.DeepCopy(quest);
-        quest.conditions.AvailableForStart = quest.conditions.AvailableForStart.filter(q => q._parent == "Level");
-
-        return quest;
-      }
-
-      if (completedPreviousQuest && loyaltyCheck) {
-        quests.push(cleanQuestConditions(quest));
-      }
     }
 
+    const cleanQuestConditions = (quest) => {
+      quest = utility.DeepCopy(quest);
+      quest.conditions.AvailableForStart = quest.conditions.AvailableForStart.filter(q => q._parent == "Level");
 
+      return quest;
+    }
 
-    /*     //clear completed quests
-        if (getQuestStatus(_profile, quest._id) == "Success") {
-          quest.conditions.AvailableForStart = [];
-          quest.conditions.AvailableForFinish = [];
-          quest.conditions.Fail = [];
-        } 
+    if (completedPreviousQuest && loyaltyCheck) {
+      quests.push(cleanQuestConditions(quest));
+    }
 
-    //check if quest has a side field
-    if (quest.Side) {
-      //if profile side is not the same side as the quest requires, delete from array
-      if (quest.Side != side) {
-        //logger.logError("ID: "+quests[quest]._id);
-        quest_database.splice(count, 1);
-      }
-    }*/
     count++;
   }
-  //console.log(quests);
-  return quest_database;
+  console.log(quests);
+  return quests;
 }
 
 function getCachedQuest(qid) {
@@ -216,7 +219,7 @@ function processReward(reward) {
   return rewardItems;
 }
 
-/* Gets a flat list of reward items for the given quest and state
+/** Gets a flat list of reward items for the given quest and state
  * input: quest, a quest object
  * input: state, the quest status that holds the items (Started, Success, Fail)
  * output: an array of items with the correct maxStack
@@ -430,7 +433,7 @@ function completeQuest(pmcData, body, sessionID) {
   item_f.handler.setOutput(output);
   DialogueController.addDialogueMessage(quest.traderId, messageContent, sessionID, questRewards);
 
-  QuestEvent.emit('completed', quest);
+  // QuestEvent.emit('completed', quest);
 
   return output;
 }

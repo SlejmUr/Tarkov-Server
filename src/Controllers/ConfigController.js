@@ -24,8 +24,14 @@ class ConfigController {
         if(ConfigController.Configs === undefined)
             ConfigController.Configs = {};
 
-        this.refreshGameplayConfigFromBase();
-        this.refreshServerConfigFromBase();
+        global.gameplayConfig = {};
+        this.rebuildFromBaseConfig("gameplay", global.gameplayConfig)
+        // this.refreshGameplayConfigFromBase();
+        global.serverConfig = {};
+        this.rebuildFromBaseConfig("server", global.serverConfig)
+        // this.refreshServerConfigFromBase();
+        global.questConfig = {};
+        this.rebuildFromBaseConfig("quest", global.questConfig)
 
         const files = fs.readdirSync(`user/configs/`);
       
@@ -64,21 +70,15 @@ class ConfigController {
         const configFileLocation = process.cwd() + `/user/configs/${configFileName}.json`; 
 
         if(!fs.existsSync(configFileLocation))
-          fs.writeFileSync(configFileLocation, JSON.stringify(configBase));
+          fs.writeFileSync(configFileLocation, JSON.stringify(configBase, null, 1));
     
         globalVariable = JSON.parse(fs.readFileSync(configFileLocation));
     
         let changesMade = false;
-        for(let item in configBase) {
-          if(globalVariable[item] === undefined) {
-            globalVariable[item] = configBase[item];
-            logger.logInfo("Adding Config Setting " + item + " to " + configFileLocation);
-            changesMade = true;
-          }
-        }
+        changesMade = ConfigController.mergeRecursiveIgnoringExisting(globalVariable, configBase);
     
         if(changesMade)
-          fs.writeFileSync(configFileLocation, JSON.stringify(globalVariable));
+          fs.writeFileSync(configFileLocation, JSON.stringify(globalVariable, null, 1));
     }
 
     static refreshServerConfigFromBase() {
@@ -95,14 +95,6 @@ class ConfigController {
         if(fs.existsSync(process.cwd() + "/user/configs/server.json"))
           global.serverConfig = JSON.parse(fs.readFileSync(process.cwd() + "/user/configs/server.json"));
     
-        // let changesMade = false;
-        // for(let item in serverConfigBase) {
-        //   if(global.serverConfig[item] === undefined) {
-        //     global.serverConfig[item] = serverConfigBase[item];
-        //     logger.logInfo("Adding Config Setting " + item + " to server.json");
-        //     changesMade = true;
-        //   }
-        // }
         let changesMade = false;
         changesMade = ConfigController.mergeRecursiveIgnoringExisting(global.serverConfig, serverConfigBase);
     
@@ -110,7 +102,7 @@ class ConfigController {
           fs.writeFileSync(process.cwd() + "/user/configs/server.json", JSON.stringify(global.serverConfig));
       }
     
-      static  refreshGameplayConfigFromBase() {
+      static refreshGameplayConfigFromBase() {
         const configBase = JSON.parse(fs.readFileSync("user/configs/gameplay_base.json"));
         if(!fs.existsSync("user/configs/gameplay.json"))
           fs.writeFileSync("user/configs/gameplay.json", JSON.stringify(configBase));

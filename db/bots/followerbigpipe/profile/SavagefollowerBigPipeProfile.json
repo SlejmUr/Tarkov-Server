@@ -8,9 +8,9 @@
         "Info": {
             "Nickname": "Иван Любитель",
             "LowerNickname": "",
-            "Side": "Savage",
-            "Voice": "Scav_2",
-            "Level": 1,
+            "Side": "Usec",
+            "Voice": "SectantPriest",
+            "Level": 72,
             "Experience": 0,
             "RegistrationDate": 0,
             "GameVersion": "",
@@ -106,66 +106,51 @@
                     "_tpl": "55d7217a4bdc2d86028b456d"
                 },
                 {
-                    "_id": "6268022d08925704f9079868",
-                    "_tpl": "5aafa857e5b5b00018480968",
+                    "_id": "629744d002667c48a467e9ff",
+                    "_tpl": "6275303a9f372d6ea97f9ec7",
                     "parentId": "6268022d08925704f9079862",
                     "slotId": "FirstPrimaryWeapon",
                     "upd": {
-                        "Repairable": {
-                            "Durability": 90,
-                            "MaxDurability": 91
+                      "FireMode": {
+                        "FireMode": "single"
+                      },
+                      "Repairable": {
+                        "Durability": 90,
+                        "MaxDurability": 91
                         }
                     }
-                },
-                {
-                    "_id": "6268022d08925704f907986c",
-                    "_tpl": "5aaf9d53e5b5b00015042a52",
-                    "parentId": "6268022d08925704f9079868",
-                    "slotId": "mod_barrel"
-                },
-                {
-                    "_id": "6268022d08925704f907986d",
-                    "_tpl": "5aafa1c2e5b5b00015042a56",
-                    "parentId": "6268022d08925704f907986c",
-                    "slotId": "mod_muzzle"
-                },
-                {
-                    "_id": "6268022d08925704f907986e",
-                    "_tpl": "5aafa49ae5b5b00015042a58",
-                    "parentId": "6268022d08925704f907986d",
-                    "slotId": "mod_sight_front"
-                },
-                {
-                    "_id": "6268022d08925704f907986f",
-                    "_tpl": "5abcbb20d8ce87001773e258",
-                    "parentId": "6268022d08925704f9079868",
-                    "slotId": "mod_sight_rear"
-                },
-                {
-                    "_id": "6268022d08925704f9079870",
-                    "_tpl": "5addbf175acfc408fb13965b",
-                    "parentId": "6268022d08925704f9079868",
+                  },
+                  {
+                    "_id": "629744d002667c48a467ea00",
+                    "_tpl": "571659bb2459771fb2755a12",
+                    "parentId": "629744d002667c48a467e9ff",
+                    "slotId": "mod_pistol_grip"
+                  },
+                  {
+                    "_id": "629744d002667c48a467ea01",
+                    "_tpl": "55d4ae6c4bdc2d8b2f8b456e",
+                    "parentId": "629744d002667c48a467e9ff",
                     "slotId": "mod_stock"
-                },
-                {
-                    "_id": "6268022d08925704f9079871",
-                    "_tpl": "5b07dd285acfc4001754240d",
-                    "parentId": "6268022d08925704f9079870",
-                    "slotId": "mod_tactical"
-                },
-                {
-                    "_id": "6268022d08925704f9079872",
-                    "_tpl": "5addcce35acfc4001a5fc635",
-                    "parentId": "6268022d08925704f9079868",
+                  },
+                  {
+                    "_id": "629744d002667c48a467ea02",
+                    "_tpl": "627bce33f21bc425b06ab967",
+                    "parentId": "629744d002667c48a467e9ff",
                     "slotId": "mod_magazine"
-                },
+                  },
+                  {
+                    "_id": "629744d002667c48a467ea03",
+                    "_tpl": "6284bd5f95250a29bc628a30",
+                    "parentId": "629744d002667c48a467e9ff",
+                    "slotId": "mod_scope"
+                  },
                 {
                     "_id": "6268022d08925704f9079873",
-                    "_tpl": "5a608bf24f39f98ffc77720e",
-                    "parentId": "6268022d08925704f9079872",
+                    "_tpl": "5ede474b0c226a66f5402622",
+                    "parentId": "629744d002667c48a467ea03",
                     "slotId": "cartridges",
                     "upd": {
-                        "StackObjectsCount": 30
+                        "StackObjectsCount": 6
                     }
                 },
                 {

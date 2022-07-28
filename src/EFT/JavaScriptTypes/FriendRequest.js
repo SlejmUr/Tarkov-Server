@@ -69,6 +69,9 @@ class FriendRequest {
 
         let pmcProfile = AccountController.getPmcProfile(this.to);
 
+        if(pmcProfile === undefined) 
+            return undefined;
+
         let profile = {
             _id: pmcProfile._id,
             Info: {

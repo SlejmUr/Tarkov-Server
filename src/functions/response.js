@@ -9,7 +9,7 @@ class Responses {
   constructor() {
     this.staticResponses = {
       // NEW REQUESTS
-      "/client/repeatalbeQuests/activityPeriods": this.clientRepeatableQuestsActivityPeriods,
+      // "/client/repeatalbeQuests/activityPeriods": this.clientRepeatableQuestsActivityPeriods,
       "/singleplayer/settings/bot/maxCap": this.dynSingleplayerSettingsBotMaxCap,
       // CORE REQUESTS
       "/client/account/customization": this.clientAccountCustomization,

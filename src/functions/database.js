@@ -170,17 +170,29 @@ function loadHideoutData() {
 }
 
 function loadQuestsData() {
-  _database.quests = fileIO.readParsed("./" + db.quests.quests);
-  if (typeof _database.quests.data != "undefined") _database.quests = _database.quests.data;
+  // _database.quests = fileIO.readParsed("./" + db.quests.quests);
+  // if (typeof _database.quests.data != "undefined") _database.quests = _database.quests.data;
+
+  _database.quests = [];
+  const oldQuests = fileIO.readParsed("./" + db.quests.quests);
 
   // - Convert Aki's working Quests to JETs quest array // 
-  const objectQData = fileIO.readParsed("./" + db.quests.quests2);
+  const objectQData = fileIO.readParsed("./" + db.quests["quests.0.12.12.30"]);
   if(objectQData !== undefined) {
-    _database.quests = [];
     for(const q in objectQData) {
-      _database.quests.push(objectQData[q]);
+      const quest = objectQData[q];
+      if(quest.conditions.AvailableForStart.length === 0) {
+        const oldQuest = oldQuests.find(x=>x._id === quest._id);
+        if(oldQuest && oldQuest.conditions.AvailableForStart.length > 0) {
+          quest.conditions.AvailableForStart = oldQuest.conditions.AvailableForStart;
+        }
+      }
+      _database.quests.push(quest);
     }
   }
+
+  _database.repeatableQuests = fileIO.readParsed("./" + db.quests.repeatableQuests);
+  
   // const objectQData = fileIO.readParsed("./" + db.quests.quests3);
   // if(objectQData !== undefined) {
   //   _database.quests = [];
@@ -395,9 +407,9 @@ function loadLocationData() {
       }
     }
     _database.locations[name] = _location;
-    if(name.includes("lighthouse")) {
-      console.log(_location);
-    }
+    // if(name.includes("lighthouse")) {
+    //   console.log(_location);
+    // }
   }
   _database.core.location_base = fileIO.readParsed("./" + db.base.locations);
   _database.locationConfigs = {};

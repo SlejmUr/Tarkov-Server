@@ -7,20 +7,21 @@
 	"discord": "",
 	"website": "",
 	"version": "",
-  "runSimpleHttpServer": false,
+	"runSimpleHttpServer": false,
+	"alwaysLoadModBundles": true,
 	"lootDebug": true,
 	"hideInfoLogs": false,
 	"debugTimer": true,
-  "showDebugLogs": false,
+	"showDebugLogs": false,
 	"translations": {
 		"alreadyInUse": "The nickname is already in use",
 		"tooShort": "The nickname is too short"
 	},
-  "serverIPs": {
-    "Enable": false,
-    "Trading": "https://127.0.0.1:443",
-    "Messaging": "https://127.0.0.1:443",
-    "Main": "https://127.0.0.1:443",
-    "RagFair": "https://127.0.0.1:443"
-  }
+	"serverIPs": {
+		"Enable": false,
+		"Trading": "https://127.0.0.1:443",
+		"Messaging": "https://127.0.0.1:443",
+		"Main": "https://127.0.0.1:443",
+		"RagFair": "https://127.0.0.1:443"
+	}
 }

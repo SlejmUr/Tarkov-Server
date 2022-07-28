@@ -35,6 +35,7 @@ user/configs/mods.json
 user/mods
 server.json*
 gameplay.json*
+quest.json*
 # user/profiles - profiles is already being done above
 
 AE-Server-*
