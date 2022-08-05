@@ -755,8 +755,7 @@ class Responses {
     return home_f.renderPage();
   }
   serverConfigServer(url, body, sessionID) {
-    home_f.processSaveServerData(body, db.user.configs.server);
-    return home_f.RenderServerConfigPage("/server/config/server");
+    return response_f.noBody(fileIO.readParsed("user/configs/server.json"));
   }
   serverSoftReset(url, body, sessionID) {
     global.server.softRestart();
